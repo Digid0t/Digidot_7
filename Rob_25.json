@@ -1,0 +1,1428 @@
+{
+  "ressourcen": [
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Was gibt es alles in der Robotik",
+      "beschreibung": "Ein umfassender Überblick über die verschiedenen Typen von Robotern und ihre Anwendungsgebiete: Industrieroboter, mobile Roboter, humanoide Systeme, Drohnen, Unterwasser-ROVs und medizinische Roboter. Hilft dabei, die Breite des Feldes zu verstehen und eigene Interessen zu identifizieren.",
+      "tags": [
+        "theorie",
+        "einführung",
+        "überblick"
+      ],
+      "links": [
+        {
+          "text": "▶️ What is ROBOTICS?",
+          "url": "https://www.youtube.com/watch?v=EuS_fvji0Lc"
+        },
+        {
+          "text": "▶️ Types Of Robots",
+          "url": "https://youtu.be/H_GWEQBZBcI"
+        }
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Mathematik hinter Roboterbewegung",
+      "beschreibung": "Fundamentale Mathematik für Robotik: Vektoren, Matrizen, Koordinatentransformationen, Forward/Inverse Kinematik, Jacobian-Matrizen, und wie diese Konzepte verwendet werden um Roboterbewegungen im 3D-Raum zu berechnen und zu planen.",
+      "tags": [
+        "theorie",
+        "mathematik",
+        "kinematik"
+      ],
+      "links": [
+        {
+          "text": "▶️ The Math Behind ROBOT MOVEMENT",
+          "url": "https://www.youtube.com/watch?v=8m70IocFiso"
+        }
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Umfassende Robotik-Einführung",
+      "beschreibung": "Umfassende Einführung in Robotik: Kinematik, Dynamik, Regelungstechnik, Sensoren, Aktoren, Pfadplanung und Koordinatensysteme. Mit weiterführendem Knowledge Hub für tiefere Themen.",
+      "tags": [
+        "theorie",
+        "einführung",
+        "kinematik",
+        "dynamik"
+      ],
+      "links": [
+        {
+          "text": "▶️ Introduction to Robotics",
+          "url": "https://www.youtube.com/watch?v=xgQqXRAkhUU"
+        },
+        {
+          "text": "🌐 Robotisim Knowledge Hub",
+          "url": "https://robotisim.com/knowledge-hub/"
+        }
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen des physischen Baus",
+      "beschreibung": "Konstruktions-Basics für Roboter: Material-Auswahl (Aluminium, Carbon, 3D-Druck), mechanische Verbindungen, Toleranzen, strukturelle Integrität, und wie man robuste Chassis designt.",
+      "tags": [
+        "theorie",
+        "konstruktion",
+        "hardware",
+        "mechanik"
+      ],
+      "links": [
+        {
+          "text": "▶️ Physical Build Fundamentals",
+          "url": "https://youtu.be/ABL7ctBbxxE"
+        }
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Mechanische Robotik ohne Strom",
+      "beschreibung": "Faszinierende rein mechanische Roboter-Mechanismen: Clockwork-Systeme, Cam-Follower, Linkages, und wie komplexe Bewegungen ganz ohne Elektronik möglich sind. Inspiration für energy-efficient Designs.",
+      "tags": [
+        "theorie",
+        "mechanik",
+        "inspiration"
+      ],
+      "links": [
+        {
+          "text": "▶️ Mechanical Robotics without Power",
+          "url": "https://youtu.be/heaZ_v8kB88"
+        }
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen der Humanoiden Fortbewegung",
+      "beschreibung": "Diese Videos tauchen tief in die Biomechanik und das Design von humanoiden Robotern ein. Sie behandeln, wie Ganganalysen helfen, menschenähnliche Bewegungen zu entwerfen und diskutieren verschiedene Designs für humanoide Fußgelenke, um Stabilität und Effizienz zu maximieren.",
+      "tags": [
+        "theorie",
+        "humanoid",
+        "biomechanik",
+        "gait-analysis",
+        "forschung"
+      ],
+      "links": [
+        {
+          "text": "▶️ Walk This Way: How Humanoid Gait Can Be Designed to Walk More Like Humans",
+          "url": "https://youtu.be/h_W4DfF_UpE"
+        },
+        {
+          "text": "▶️ Ankle Deep: What is the Best Design for a Humanoid Ankle?",
+          "url": "https://youtu.be/TSZvAPW5K-M"
+        }
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Einstieg & Installation",
+      "beschreibung": "Eine umfassende Sammlung von Ressourcen für den Start mit NVIDIA Isaac Sim. Beinhaltet Installationsanleitungen für verschiedene Versionen (inkl. 5.0) und Plattformen, eine grundlegende Einführung in das Ökosystem sowie eine Playlist, die die Beziehung zwischen Isaac Sim und Isaac Lab erklärt.",
+      "tags": [
+        "nvidia",
+        "isaac-sim",
+        "isaac-lab",
+        "omniverse",
+        "simulation",
+        "installation",
+        "tutorial"
+      ],
+      "links": [
+        {
+          "text": "▶️ Shane Reetz - Nvidia Issac Sim & Lab Playlist",
+          "url": "https://www.youtube.com/watch?v=NFcRirGuERI&list=PL2bKqBZg-pzWaX8H_Fk1GqzOBM9XOjGL9"
+        },
+        {
+          "text": "▶️ How isaac Sim relates to Isaac Lab",
+          "url": "https://youtu.be/NFcRirGuERI"
+        },
+        {
+          "text": "▶️ Getting Stared with Isaac Lab",
+          "url": "https://youtu.be/n3U8eF554vo"
+        },
+        {
+          "text": "▶️ Getting Started (Even Faster) With Isaac Sim and Isaac Lab",
+          "url": "https://youtu.be/FVr8YcHGLPw"
+        },
+        {
+          "text": "▶️ How to Install NVIDIA Isaac Sim",
+          "url": "https://youtu.be/SyrsAd8WbCo"
+        },
+        {
+          "text": "▶️ *NEW* Isaac Sim 5.0 | Installation & Changes",
+          "url": "https://youtu.be/axy1Ze8mJd8"
+        },
+        {
+          "text": "▶️ [Isaac Sim 4.5 & Isaac Lab 2 설치 - 1/4] #1 Isaac Sim 4.5 설치 (Windows 11)",
+          "url": "https://youtu.be/0y2OmwlEtjc"
+        },
+        {
+          "text": "▶️ [Isaac Sim 4.5 & Isaac Lab 2 설치 - 3/4] #3 Hub Workstation Cache 설치",
+          "url": "https://youtu.be/wuLu9bNzoI8"
+        },
+        {
+          "text": "▶️ Tutorial #1 – Installation of Isaac Sim (Option 1: Workstation Installation)",
+          "url": "https://youtu.be/Ej4zVyTCXkM"
+        },
+        {
+          "text": "🌐 Isaac Sim - lycheeai-hub",
+          "url": "https://lycheeai-hub.com/isaac-sim"
+        },
+        {
+          "text": "🌐 Isaac Sim Installation Guide",
+          "url": "https://lycheeai-hub.com/isaac-sim/installation-guide"
+        }
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Digitale Zwillinge & Simulation",
+      "beschreibung": "Eine Reihe von Tutorials, die den Prozess der Erstellung von 'Digital Twins' in NVIDIA Omniverse erläutern. Es wird gezeigt, wie man Python für die Skripterstellung nutzt, Hardware-in-the-Loop-Szenarien einrichtet und digitale Zwillinge interaktiv mit Gamepads steuert.",
+      "tags": [
+        "digital-twin",
+        "simulation",
+        "nvidia",
+        "omniverse",
+        "python",
+        "hardware-in-the-loop"
+      ],
+      "links": [
+        {
+          "text": "▶️ How To Build Digital Twins in Omniverse Tutorial",
+          "url": "https://youtu.be/-Va2sXIHtaQ"
+        },
+        {
+          "text": "▶️ How we build Digital Twins",
+          "url": "https://youtu.be/NGiNydrE8xU"
+        },
+        {
+          "text": "▶️ Get Hardware in the Loop",
+          "url": "https://youtu.be/NinARMVomnY"
+        },
+        {
+          "text": "▶️ How We Use Gamepads To Drive Digital Twins",
+          "url": "https://youtu.be/C8NnvSEqfJo"
+        },
+        {
+          "text": "▶️ Omniverse, Python, and You",
+          "url": "https://youtu.be/y5rMjnwqGZM"
+        }
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Anwendung & Workflow",
+      "beschreibung": "Diese Ressourcen bieten praktische Tipps und Anleitungen für den fortgeschrittenen Umgang mit der NVIDIA-Simulationsumgebung. Sie lernen, wie man mit Demo-Szenen arbeitet, externe Projekte in Isaac Lab erstellt und den Workflow durch nützliche Tricks optimiert.",
+      "tags": [
+        "nvidia",
+        "isaac-sim",
+        "omniverse",
+        "workflow",
+        "tutorial",
+        "tipps"
+      ],
+      "links": [
+        {
+          "text": "▶️ Get Set Up With Demo Scenes in NVIDIA Omniverse",
+          "url": "https://youtu.be/YEK10l19cAg"
+        },
+        {
+          "text": "▶️ One Useful Click in NVIDIA Omniverse / IsaacSim",
+          "url": "https://youtu.be/jBmM7d67gNA"
+        },
+        {
+          "text": "▶️ How to Create External Projects in Isaac Lab",
+          "url": "https://youtu.be/i51krqsk8ps"
+        },
+        {
+          "text": "▶️ I Tried To Build a Robot Like Boston Dynamics With Isaac Sim",
+          "url": "https://youtu.be/YDzHL2JSCHc"
+        }
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Vision-Language-Action (VLA) Modelle",
+      "beschreibung": "Eine tiefgehende Serie, die das Konzept der Vision-Language-Action (VLA) Modelle erklärt. Diese Modelle ermöglichen es Robotern, natürliche Sprache und visuelle Daten zu verarbeiten, um komplexe, mehrstufige Aufgaben auszuführen, was einen Paradigmenwechsel in der Mensch-Roboter-Interaktion darstellt.",
+      "tags": [
+        "ki",
+        "vla",
+        "llm",
+        "robotik",
+        "computer-vision",
+        "theorie"
+      ],
+      "links": [
+        {
+          "text": "▶️ LLMs Meet Robotics: What Are Vision-Language-Action Models? (VLA Series Ep.1)",
+          "url": "https://youtu.be/8dZUOo5xWFw"
+        },
+        {
+          "text": "▶️ Pi0 - generalist Vision Language Action policy for robots (VLA Series Ep.2)",
+          "url": "https://youtu.be/ejk6-ffDXFw"
+        },
+        {
+          "text": "▶️ Multimodality in Robotics. How to predict correct and diverse continuous robot actions",
+          "url": "https://youtu.be/6oZe_tKE3YA"
+        },
+        {
+          "text": "▶️ MCP server to let any LLM control your robot",
+          "url": "https://youtu.be/EmpQQd7jRqs"
+        }
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "LeRobot Framework & KI-gesteuerte Manipulation",
+      "beschreibung": "Diese Sammlung zeigt die praktische Anwendung des LeRobot-Frameworks von Hugging Face. Sie umfasst den Bau des 3D-druckbaren Roboterarms SO-ARM100 und demonstriert, wie man damit KI-Robotik-Experimente durchführt und Deep-Learning-Modelle für die Manipulation trainiert.",
+      "tags": [
+        "ki",
+        "lerobot",
+        "huggingface",
+        "diy",
+        "3d-druck",
+        "roboterarm",
+        "manipulation"
+      ],
+      "links": [
+        {
+          "text": "▶️ How I Made A Deep Learning Robot Lebot (huggingface bot)",
+          "url": "https://youtu.be/ZIXHwzermOw"
+        },
+        {
+          "text": "▶️ How to Utilize LeRobot, Isaac Sim and ROS2",
+          "url": "https://youtu.be/eO5wMzw9LeQ"
+        },
+        {
+          "text": "▶️ Tutorial + 3d print - The arm (SO-ARM100)",
+          "url": "https://www.youtube.com/watch?v=n32OmyoQkfs"
+        },
+        {
+          "text": "▶️ Running AI robotics experiments at home with LeRobot and SO-ARM100",
+          "url": "https://youtu.be/DeBLc2D6bvg"
+        }
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Entwicklungsumgebung für KI-Robotik",
+      "beschreibung": "Diese Tutorials bieten eine Roadmap und praktische Anleitungen zur Einrichtung einer kompletten Entwicklungsumgebung für VLA-Modelle und Roboter-Manipulation. Sie decken die Konfiguration von Visual Studio Code und die Grundlagen für Transformer-Modelle ab.",
+      "tags": [
+        "ki",
+        "vla",
+        "entwicklungsumgebung",
+        "vscode",
+        "python",
+        "tutorial"
+      ],
+      "links": [
+        {
+          "text": "▶️ 비전-언어-액션 모델 기반 로봇 매니퓰레이션 - #01 개발환경 구축 ROADMAP",
+          "url": "https://youtu.be/PiPvpO6lsxI"
+        },
+        {
+          "text": "▶️ 비전-언어-액션 모델 기반 로봇 매니퓰레이션 - #02 개발환경 구축 (VS Code 설정)",
+          "url": "https://youtu.be/_hKGtuwG29o"
+        }
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Reinforcement Learning & Fortgeschrittene Steuerung",
+      "beschreibung": "Eine Sammlung von Lehrvideos und Forschungspräsentationen zu Reinforcement Learning (RL) in der Robotik. Beinhaltet eine schnelle Einführung in RL und zeigt dessen Anwendung für komplexe Bewegungsabläufe wie das Springen bei vierbeinigen Robotern oder das Erlernen von Badmintonschlägen.",
+      "tags": [
+        "ki",
+        "reinforcement-learning",
+        "steuerung",
+        "theorie",
+        "forschung",
+        "simulation"
+      ],
+      "links": [
+        {
+          "text": "▶️ The FASTEST introduction to Reinforcement Learning on the internet",
+          "url": "https://youtu.be/VnpRp7ZglfA"
+        },
+        {
+          "text": "▶️ Guided Reinforcement Learning for Omnidirectional 3D Jumping in Quadruped Robots",
+          "url": "https://youtu.be/aSX_AapESPY"
+        },
+        {
+          "text": "▶️ AMOR: Adaptive Character Control through Multi-Objective Reinforcement Learning",
+          "url": "https://youtu.be/gQidYj-AKaA"
+        },
+        {
+          "text": "▶️ Learning coordinated badminton skills for legged manipulators",
+          "url": "https://youtu.be/zYuxOVQXVt8"
+        }
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "YOLOE: Zero-Shot Objekterkennung",
+      "beschreibung": "Einführung in YOLOE, eine Computer-Vision-Technik, die Objekterkennung ohne vorheriges Training auf spezifischen Objekten ermöglicht. Die Videos zeigen die Nutzung mit Ultralytics, auf einem Raspberry Pi und bieten eine Live-Coding-Session für tiefere Einblicke.",
+      "tags": [
+        "ki",
+        "computer-vision",
+        "object-detection",
+        "yolo",
+        "raspberry-pi",
+        "live-coding"
+      ],
+      "links": [
+        {
+          "text": "▶️ YOLOE: Next Gen Computer Vision - Zero Training Required!",
+          "url": "https://youtu.be/yNPwsKa52zs"
+        },
+        {
+          "text": "▶️ How to use YOLOE with Ultralytics: Open Vocabulary & Real-Time Seeing Anything",
+          "url": "https://youtu.be/HMOoM2NwFIQ"
+        },
+        {
+          "text": "▶️ YOLOE: Real-time Zero-shot Object Detection | Live Coding & Q&A",
+          "url": "https://www.youtube.com/live/eHAnIehnCt4"
+        }
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Praktische Computer Vision Anwendungen",
+      "beschreibung": "Tutorials, die zeigen, wie man die Größe von Objekten mit einer Webcam und OpenCV misst. Zusätzlich ein Anwendungsbeispiel, wie Computer Vision in der Fertigungsrobotik eingesetzt wird, um Prozesse zu automatisieren und die Qualität zu sichern.",
+      "tags": [
+        "computer-vision",
+        "opencv",
+        "python",
+        "tutorial",
+        "anwendung",
+        "industrie"
+      ],
+      "links": [
+        {
+          "text": "▶️ Measure the size of any object with a webcam | Python with Opencv Tutorial",
+          "url": "https://youtu.be/E2qGcviWXr4"
+        },
+        {
+          "text": "▶️ Measure Size of Object in Images ACCURATELY using OpenCV Python",
+          "url": "https://youtu.be/zitrZhXu-L4"
+        },
+        {
+          "text": "▶️ AI for Robotics: How Almond Uses Computer Vision with Manufacturing Robots",
+          "url": "https://youtu.be/SACrHsS_NMQ"
+        }
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Einstieg in ROS2 Robotik",
+      "beschreibung": "Eine komplette Serie zum Bau des ersten eigenen ROS2-Roboters. Die Videos führen durch alle wichtigen Schritte, von den grundlegenden Fähigkeiten über die Verkabelung der Elektronik bis hin zur Integration des Bordcomputers und dem Auslesen von Encoder-Daten.",
+      "tags": [
+        "ros2",
+        "robotik",
+        "software",
+        "tutorial",
+        "beginner",
+        "diy"
+      ],
+      "links": [
+        {
+          "text": "▶️ Building Your First ROS2 Robot Ep.1: 3 Key Skills Before All",
+          "url": "https://youtu.be/o8qYwTqQJ3Y"
+        },
+        {
+          "text": "▶️ Bauen Sie Ihren ersten ROS 2-Roboter, Ep. 2: 12 Anleitungsschritte",
+          "url": "https://youtu.be/Yfw8yvkbipw"
+        },
+        {
+          "text": "▶️ Bauen Sie Ihren ersten ROS 2-Roboter, Ep. 2: Motoren hinzufügen",
+          "url": "https://youtu.be/uJuC1zkUsZ8"
+        },
+        {
+          "text": "▶️ Building Your 1st ROS 2 Robot Ep.4: Wiring Up Electronics For Motor Control",
+          "url": "https://youtu.be/TcVHBLdkFWY"
+        },
+        {
+          "text": "▶️ Building Your 1st ROS 2 Robot Ep.4 Extra: How to Read a Robot’s Motor Encoder Data",
+          "url": "https://youtu.be/OAZg5jIt3pU"
+        },
+        {
+          "text": "▶️ Building Your 1st ROS 2 Robot Ep.5: Adding the Robot Computer",
+          "url": "https://youtu.be/UYElN6yPT9A"
+        }
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Isaac Sim & ROS2 Integration",
+      "beschreibung": "Fortgeschrittene Tutorials, die die Brücke zwischen der Isaac Sim Simulationsumgebung und dem ROS2-Ökosystem schlagen. Es werden praktische Übungen zur Navigation (Nav2), Manipulation (MoveIt2) und zur Ansteuerung von KI-Agenten gezeigt.",
+      "tags": [
+        "ros2",
+        "isaac-sim",
+        "simulation",
+        "navigation",
+        "manipulation",
+        "tutorial"
+      ],
+      "links": [
+        {
+          "text": "▶️ Isaac Sim/ROS2 강습회 - #01 Isaac Sim + MCP기반 Agentic AI 튜토리얼 1",
+          "url": "https://youtu.be/EVX-DQ3Bx0Y"
+        },
+        {
+          "text": "▶️ Isaac Sim/ROS2 강습회 - #04 Isaac Sim + ROS2 Moveit2 실습",
+          "url": "https://youtu.be/vPOMz2Dl_Kk"
+        },
+        {
+          "text": "▶️ Isaac Sim/ROS2 강습회 - #06 Isaac Sim + Nav2 실습 2",
+          "url": "https://youtu.be/40LXBED7bkY"
+        }
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Aktuatoren & Motoren",
+      "beschreibung": "Ein tiefer Einblick in die Welt der Roboter-Aktuatoren. Diese Ressourcen decken alles ab, von der Vorstellung spezifischer Motoren wie dem 30rpm Mimi, über den Test von 3D-gedruckten Aktuatoren bis hin zu einem Review der besten verfügbaren Aktuatoren auf dem Markt.",
+      "tags": [
+        "hardware",
+        "motor",
+        "actuator",
+        "mechanik",
+        "3d-druck",
+        "elektronik"
+      ],
+      "links": [
+        {
+          "text": "▶️ 30rpm Mimi Motor",
+          "url": "https://youtu.be/NX7GHqq28uU"
+        },
+        {
+          "text": "▶️ The LIGHTEST Robot Arm Actuator",
+          "url": "https://youtu.be/bjOHpGuhX7Q"
+        },
+        {
+          "text": "▶️ Best Robot Actuators ever: I reviewed tons of actuators, and decided to make my own",
+          "url": "https://youtu.be/hWqVQtLlfo4"
+        },
+        {
+          "text": "▶️ 3D-Printed Robotic Actuator & DIY ESC: Performance Test",
+          "url": "https://youtu.be/75OJa3ANKvQ"
+        },
+        {
+          "text": "▶️ ULN2003 with 28BYJ-48 Stepper Motor",
+          "url": "https://youtu.be/STCctT6JyPg"
+        }
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Motorcontroller & Ansteuerung",
+      "beschreibung": "Umfassende Anleitungen und Erklärungen zur Ansteuerung von Motoren. Beinhaltet ein grundlegendes Tutorial zu Transistoren/MOSFETs, Anleitungen zum Bau von Controllern für bürstenlose DC-Motoren (BLDC) und einen allgemeinen Leitfaden zur Motornutzung in der Robotik.",
+      "tags": [
+        "hardware",
+        "motor-controller",
+        "bldc",
+        "elektronik",
+        "diy",
+        "mosfet",
+        "tutorial"
+      ],
+      "links": [
+        {
+          "text": "▶️ Transistor / MOSFET tutorial",
+          "url": "https://youtu.be/Te5YYVZiOKs"
+        },
+        {
+          "text": "▶️ Brushless DC Speed Controller",
+          "url": "https://youtu.be/F8l9Z1HGYcU"
+        },
+        {
+          "text": "▶️ Wooow ! 12v to 36v 500w Brushless DC Motor Controller - Run BLDC Motors without Hall Sensor",
+          "url": "https://youtu.be/ZGBTyr51I7Q"
+        },
+        {
+          "text": "▶️ The Ultimate Guide to using Motors in Robotics (including ROS, Raspberry Pi)",
+          "url": "https://youtu.be/-PCuDnpgiew"
+        }
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Sensoren für Wahrnehmung & Navigation",
+      "beschreibung": "Eine breite Palette von Tutorials zu verschiedenen Sensortechnologien. Abgedeckt werden Time-of-Flight (ToF) 3D-Sensoren, LiDAR, mmWave-Radarsensoren zur Personenerkennung, PIR-Sensoren und viele mehr, inklusive Anwendungsbeispielen mit ESP32 und Raspberry Pi.",
+      "tags": [
+        "hardware",
+        "sensor",
+        "lidar",
+        "tof",
+        "radar",
+        "esp32",
+        "raspberry-pi"
+      ],
+      "links": [
+        {
+          "text": "▶️ This Tiny Sensor Sees in 3D! ToF Sensors w/ STM32, ESP32 & RP2350 Explained (VL53L7CX)",
+          "url": "https://youtu.be/PF1tqgICVBk"
+        },
+        {
+          "text": "▶️ TF Luna LiDAR Sensor with ESP32 & RPI Pico",
+          "url": "https://youtu.be/SJCnLY4onWc"
+        },
+        {
+          "text": "▶️ How To Use An Rd-03D mmwave Sensor To Create A Human Radar",
+          "url": "https://youtu.be/A0bIDhl02RU"
+        },
+        {
+          "text": "▶️ How To Use An mmWave Radar to Track Humans | Rd-03D and Raspberry Pi Pico",
+          "url": "https://youtu.be/r4xcSuhZol0"
+        },
+        {
+          "text": "▶️ ESP32 + RD-03D mmWave Radar | Real-Time Human Tracking",
+          "url": "https://youtu.be/ZSrtbVVP9iA"
+        },
+        {
+          "text": "▶️ LD2410 mmWave-Sensor zur Erkennung menschlicher Anwesenheit mit ESP32",
+          "url": "https://youtu.be/zGitX9XbR4Y"
+        },
+        {
+          "text": "▶️ Playlist: Sensors",
+          "url": "https://www.youtube.com/watch?v=MvnOMEiWJbk&list=PLaYBjrknT68APpqQJ7ErFUm10BCkhpxhH"
+        },
+        {
+          "text": "▶️ How to Connect Modbus RS485 Wind Speed Sensor to Arduino",
+          "url": "https://youtu.be/sZymWQSqxnI"
+        }
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Embedded Systems & Mikrocontroller",
+      "beschreibung": "Ressourcen für die Arbeit mit Mikrocontrollern wie ESP32 und STM32. Beinhaltet Anleitungen zum persistenten Speichern auf dem ESP32, Line-by-Line Debugging und ein Einsteiger-Tutorial für die Programmierung von STM32-Controllern.",
+      "tags": [
+        "esp32",
+        "stm32",
+        "mikrocontroller",
+        "embedded-systems",
+        "debugging",
+        "tutorial"
+      ],
+      "links": [
+        {
+          "text": "▶️ ESP32 Secrets: Persistent Memory with RTC & SPIFFS (No EEPROM!)",
+          "url": "https://youtu.be/FKRoAPKcvX4"
+        },
+        {
+          "text": "▶️ ESP32 Line-by-line Debugging - works with many ESP32 modules",
+          "url": "https://youtu.be/lOG8-mQHZTw"
+        },
+        {
+          "text": "▶️ C++ Debugging for the ESP32 in Visual Studio",
+          "url": "https://youtu.be/b1VkJODi_4w"
+        },
+        {
+          "text": "▶️ How to use the PlatformIO debugger on the ESP32 using an ESP-prog",
+          "url": "https://youtu.be/TivyIFF-dzw"
+        },
+        {
+          "text": "▶️ Debugging von ESP32(S3)-Projekten in Visual Studio Code",
+          "url": "https://youtu.be/F_ra9xTElpk"
+        },
+        {
+          "text": "▶️ Starting with STM32 - Programming Tutorial for Beginners",
+          "url": "https://youtu.be/dnfuNT1dPiM"
+        }
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY CNC & PCB Fertigung",
+      "beschreibung": "Eine umfassende Sammlung von Projekten zum Selbstbau von CNC-Maschinen für verschiedene Zwecke. Von einer Maschine zur Herstellung von Leiterplatten (PCBs) über einen Tintenplotter bis hin zu einer kleinen, 3D-gedruckten CNC, die Metall schneiden kann.",
+      "tags": [
+        "diy",
+        "cnc",
+        "3d-druck",
+        "pcb",
+        "hardware",
+        "projekt"
+      ],
+      "links": [
+        {
+          "text": "▶️ PCB Maschine DIY",
+          "url": "https://youtu.be/0vtCyUHz1Mo"
+        },
+        {
+          "text": "▶️ How to make GRBL+arduino based CNC plotter PCB ink plotter",
+          "url": "https://youtu.be/k1vzT-T8LJA"
+        },
+        {
+          "text": "▶️ DIY PCB Ink Plotter using Arduino and GRBL CNC",
+          "url": "https://youtu.be/oPVc9ixj0iU"
+        },
+        {
+          "text": "▶️ DIY Mini CNC Engraving Machine | Arduino based CNC Router machine",
+          "url": "https://youtu.be/EcmxOMBsX7A"
+        },
+        {
+          "text": "▶️ Arduino CNC Shield Tutorial - Control Stepper Motors using CNC Shield V3.0",
+          "url": "https://youtu.be/zUb8tiFCwmk"
+        },
+        {
+          "text": "▶️ Engineering an Automatic CNC Dust-Shoe",
+          "url": "https://youtu.be/IF8U8nd5oSM"
+        },
+        {
+          "text": "▶️ TINY 3D PRINTED CNC CUTS METAL (from scratch)",
+          "url": "https://youtu.be/dkvED8pTf0U"
+        }
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Drohnen & Flugsysteme",
+      "beschreibung": "Projekte und Anleitungen zum Bau eigener Drohnen für verschiedene Niveaus. Beinhaltet den Bau einer 3D-gedruckten Drohne, einer leichten autonomen Drohne (unter 250g) mit Ardupilot und einer sehr kleinen, per Telefon steuerbaren ESP32-Drohne (ESP-FLY).",
+      "tags": [
+        "diy",
+        "drohne",
+        "3d-druck",
+        "autonom",
+        "projekt",
+        "esp32",
+        "ardupilot"
+      ],
+      "links": [
+        {
+          "text": "▶️ D3 Druck Drohne",
+          "url": "https://youtu.be/7TicfvtfN7Q"
+        },
+        {
+          "text": "▶️ Building a sub 250g Autonomous Drone with Ardupilot",
+          "url": "https://youtu.be/u_ArriXbrR0"
+        },
+        {
+          "text": "▶️ Bauen Sie die kleinste ESP32-Drohne, die Sie mit Ihrem Telefon fliegen können! (ESP-FLY)",
+          "url": "https://youtu.be/V_mZsiZcy7s"
+        },
+        {
+          "text": "▶️ How I made a AR Drone Fly itself using Python, OpenCV and PS-Drone",
+          "url": "https://youtu.be/Vgv0OpEXAWI"
+        },
+        {
+          "text": "▶️ PixHawk/ArduCopter for Beginners (2023 series): 1. Flashing the PixHawk 6C",
+          "url": "https://youtu.be/_ketmb8u2UI"
+        }
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Self-Balancing Roboter",
+      "beschreibung": "Eine Sammlung faszinierender Projekte zum Bau selbstbalancierender Roboter. Diese eignen sich ideal, um Regelungstechnik und Sensordatenverarbeitung (IMU) zu lernen. Gezeigt werden klassische zweirädrige Modelle, ein balancierendes Fahrrad und sogar ein Roboter, der auf einem Ball balanciert.",
+      "tags": [
+        "diy",
+        "self-balancing",
+        "regelungstechnik",
+        "projekt",
+        "imu",
+        "arduino",
+        "esp32"
+      ],
+      "links": [
+        {
+          "text": "▶️ DIY Mobile Controlled Self Balancing Robot with Mecanum Wheels",
+          "url": "https://youtu.be/qR25pQkdtf0"
+        },
+        {
+          "text": "▶️ Diy projekt Arduino Based Self Balancing Robot | PROKNOW",
+          "url": "https://youtu.be/DlsZUFGkmaQ"
+        },
+        {
+          "text": "▶️ Wheeled-leg self balancing robot ver. 3",
+          "url": "https://youtu.be/gHynbYIm1Rg"
+        },
+        {
+          "text": "▶️ auf Ball roboter",
+          "url": "https://youtu.be/P4Ni7JJW_-U"
+        },
+        {
+          "text": "▶️ Self balancing bike",
+          "url": "https://youtu.be/Je9Y2WaRB6g"
+        }
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY 3D-gedruckter 6-Achsen Roboterarm",
+      "beschreibung": "Eine dreiteilige Videoserie, die Schritt für Schritt den Bau eines voll funktionsfähigen 6-Achsen-Roboterarms aus dem 3D-Drucker erklärt. Ein großartiges Projekt, um Mechanik, Kinematik und Elektronik zu verbinden.",
+      "tags": [
+        "diy",
+        "3d-druck",
+        "roboterarm",
+        "projekt",
+        "tutorial"
+      ],
+      "links": [
+        {
+          "text": "▶️ 3D-gedruckter Roboter zum nachbauen! | Teil 1 (1 Arm)",
+          "url": "https://www.youtube.com/watch?v=OdogQ8R_-rU"
+        },
+        {
+          "text": "▶️ 3D-gedruckter 6R-Roboter zum nachbauen! | Teil 2",
+          "url": "https://youtu.be/4jo3SjpnMyg"
+        },
+        {
+          "text": "▶️ 3D-gedruckter 6R-Roboter zum nachbauen! | Teil 3",
+          "url": "https://youtu.be/nymiFZTZi0M"
+        }
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Autonome mobile Roboter (DIY)",
+      "beschreibung": "Eine Auswahl an Projekten zum Bau autonomer mobiler Roboter. Diese reichen von einem ESP32-gesteuerten Mecanum-Rad-Roboter, über den Open-Source-Roboter MentorPi mit ROS2, bis hin zu selbstfahrenden Autos, die LiDAR und neuronale Netze nutzen.",
+      "tags": [
+        "diy",
+        "projekt",
+        "autonomes-fahren",
+        "ros2",
+        "raspberry-pi",
+        "lidar"
+      ],
+      "links": [
+        {
+          "text": "▶️ ESP32 WiFi Mecanum Wheel Robot – Full Build & Web Control Tutorial",
+          "url": "https://youtu.be/nbYb-EFjuI0"
+        },
+        {
+          "text": "▶️ projekt, MentorPi Open Source Robot Car: ROS2 & Raspberry Pi 5",
+          "url": "https://youtu.be/cUjPJp_xUIc"
+        },
+        {
+          "text": "▶️ projekt, Self-driving car with Lidar, RaspberryPi and Machine Learning",
+          "url": "https://youtu.be/uuslVHPjWS8"
+        },
+        {
+          "text": "▶️ projekt, Self-Driving Car Demo (Without ROS) | Raspberry Pi + Neural Net",
+          "url": "https://youtu.be/-pQ6_amvasg"
+        }
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Open Source Roboterhände & Manipulatoren",
+      "beschreibung": "Vorstellung von Open-Source-Projekten im Bereich der geschickten Manipulation. Beinhaltet die NYU RUKA Hand, den LeKiwi mobilen Manipulator, die Wuji Hand und einen motorisierten XYZ-Mikromanipulator für präzise Bewegungen.",
+      "tags": [
+        "open-source",
+        "hardware",
+        "roboterhand",
+        "manipulation",
+        "forschung",
+        "3d-druck"
+      ],
+      "links": [
+        {
+          "text": "▶️ 3D-Printable Open-Source Robotic Arm with AI",
+          "url": "https://youtu.be/n32OmyoQkfs"
+        },
+        {
+          "text": "▶️ Open-source dexterous hand 2 | NYU RUKA hand",
+          "url": "https://youtu.be/BlTn5EKXpDE"
+        },
+        {
+          "text": "▶️ LeKiwi: 3D-Printed Mobile Manipulator Robot | Teleoperate, Train Policies, and Control with AI",
+          "url": "https://youtu.be/lJ6PH--el54"
+        },
+        {
+          "text": "▶️ Hand, Wuji Robotic Hand Design (Actuators, Mechanisms, DOF)",
+          "url": "https://youtu.be/lkdAfwSKdVY"
+        },
+        {
+          "text": "▶️ An Open Source Motorized XYZ Micro-Manipulator - Affordable sub µm Motion Control",
+          "url": "https://youtu.be/MgQbPdiuUTw"
+        },
+        {
+          "text": "▶️ A 3D-Printed Compliant Micro-Manipulator - XYZ Positioning down to 1µm",
+          "url": "https://youtu.be/-mgqq0qdDRM"
+        }
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Open Source Humanoide Roboter & Exoskelette",
+      "beschreibung": "Einblicke in die akademische Forschung und Entwicklung von Open-Source-Hardware für humanoide Systeme. Vorgestellt werden der Stanford ToddlerBot, das NAU OpenExo Exoskelett-Projekt und der aus E-Commerce-Komponenten aufgebaute MEVITA Roboter.",
+      "tags": [
+        "open-source",
+        "hardware",
+        "humanoid",
+        "exoskelett",
+        "forschung"
+      ],
+      "links": [
+        {
+          "text": "▶️ Open-source exoskeleton | NAU OpenExo",
+          "url": "https://youtu.be/oY4tZl75kxk"
+        },
+        {
+          "text": "▶️ Open-source humanoid robot 2 | Stanford ToddlerBot",
+          "url": "https://youtu.be/6u70gDeqta0"
+        },
+        {
+          "text": "▶️ MEVITA: Open-Source Bipedal Robot Assembled from E-Commerce Components",
+          "url": "https://youtu.be/_akfHkCne0s"
+        }
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Open Source Industrieroboter-Controller",
+      "beschreibung": "Eine mehrteilige Serie, die den Bau eines eigenen Open-Source-Controllers für einen 1,5 Tonnen schweren Industrieroboter von Grund auf dokumentiert. Ein tiefgreifendes Projekt, das die Grundlagen der Robotersteuerung bis ins Detail beleuchtet.",
+      "tags": [
+        "open-source",
+        "hardware",
+        "roboterarm",
+        "steuerung",
+        "industrie",
+        "diy"
+      ],
+      "links": [
+        {
+          "text": "▶️ Running a 1.5 ton Industrial Robot With a Custom Open-source Controller part 1",
+          "url": "https://youtu.be/P2O8KCmVjU0"
+        },
+        {
+          "text": "▶️ Building A Robot Controller From Scratch: Open-source Robot Controller Part 2",
+          "url": "https://youtu.be/Li40gHcwU-8"
+        },
+        {
+          "text": "▶️ Building A Robot Controller From Scratch: Open-source Robot Controller Part 3",
+          "url": "https://youtu.be/BB_o6EhmoqU"
+        }
+      ]
+    },
+    {
+      "kategorie": "Kommerzielle Roboter & Webseiten",
+      "thema": "Kommerzielle Roboter-Plattformen",
+      "beschreibung": "Eine Liste von käuflichen Roboter-Plattformen, die sich gut für Forschung, Entwicklung und als Hobby eignen. Die Roboter sind oft ROS-kompatibel und mit fortschrittlichen Sensoren und Computern wie NVIDIA Jetson ausgestattet.",
+      "tags": [
+        "kommerziell",
+        "hardware",
+        "ros2",
+        "jetson",
+        "roboter"
+      ],
+      "links": [
+        {
+          "text": "🌐 ROS2 CAR SLAM mapping",
+          "url": "https://www.amazon.de/dp/B0FT3V3T9Y"
+        },
+        {
+          "text": "🌐 hiwonder Tonybot humanuid",
+          "url": "https://www.hiwonder.com/products/tonybot"
+        },
+        {
+          "text": "🌐 ROS2 Rover",
+          "url": "https://eu.robotshop.com/de/products/waveshare-ugv-rover-ros-2-open-source-6-rader-4wd-ai-roboter-jetson-orin-series-board"
+        },
+        {
+          "text": "🌐 Dog mit arm (Dogzilla)",
+          "url": "https://category.yahboom.net/products/dogzilla-lite"
+        },
+        {
+          "text": "🌐 wow: Roboworks Rosbot Plus",
+          "url": "https://eu.robotshop.com/de/products/roboworks-rosbot-plus-ts-orin-nx-touch-screen"
+        },
+        {
+          "text": "🌐 TurtleBot",
+          "url": "https://www.turtlebot.com/"
+        }
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Visualisierung mechanischer Bewegungen",
+      "beschreibung": "Eine Serie von ästhetischen Videos, die komplexe mechanische Baugruppen und Bewegungen visualisieren. Dient als Inspiration und zum besseren Verständnis mechanischer Prinzipien, oft untermalt mit klassischer Musik.",
+      "tags": [
+        "mechanik",
+        "visualisierung",
+        "inspiration",
+        "asmr"
+      ],
+      "links": [
+        {
+          "text": "▶️ Deep Groove Ball Bearing Parts: A Mechanical Showcase with Bach",
+          "url": "https://youtu.be/LZhDGWiplnw"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 1",
+          "url": "https://youtu.be/smYxGuzwHeg"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 2",
+          "url": "https://youtu.be/CrexH-owqnk"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 3",
+          "url": "https://youtu.be/ahFrHYJrorE"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 4",
+          "url": "https://youtu.be/l18psfs1384"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 5",
+          "url": "https://youtu.be/a6md8YJK53A"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 6",
+          "url": "https://youtu.be/raPrDE8cr8I"
+        },
+        {
+          "text": "▶️ Mechanical Movement Part 7",
+          "url": "https://youtu.be/XmVqgGDjIXc"
+        }
+      ]
+    },
+    {
+      "kategorie": "Sonstiges & Spezialthemen",
+      "thema": "Radar-Systeme & Tracking",
+      "beschreibung": "Eine mehrteilige Serie, die den Aufbau eines eigenen Drohnen-Tracking-Radars von Grund auf erklärt. Die Videos behandeln die Theorie und Praxis von CW-, FMCW-Radar, Chirp-Synchronisation und CFAR-Targeting.",
+      "tags": [
+        "radar",
+        "tracking",
+        "diy",
+        "elektronik",
+        "hf-technik"
+      ],
+      "links": [
+        {
+          "text": "▶️ Build Your Own Drone Tracking Radar: Part 1",
+          "url": "https://youtu.be/igrN_wd_g74"
+        },
+        {
+          "text": "▶️ Build Your Own Drone Tracking Radar: Part 2 CW Radar",
+          "url": "https://youtu.be/5VSIIFKK6Ck"
+        },
+        {
+          "text": "▶️ Drone Tracking Radar: Part 3 FMCW Radar",
+          "url": "https://youtu.be/lFach2NxAIM"
+        },
+        {
+          "text": "▶️ Drone Tracking Radar: Part 4 Chirp Synchronization",
+          "url": "https://youtu.be/KBFYzVOuhmI"
+        },
+        {
+          "text": "▶️ Drone Tracking Radar: Part 5 CFAR Targeting",
+          "url": "https://youtu.be/wzrfgTOhXLA"
+        },
+        {
+          "text": "▶️ Drone Tracking Radar: Part 6 Range Doppler",
+          "url": "https://youtu.be/xnaaD9Um3K8"
+        }
+      ]
+    },
+    {
+      "kategorie": "Sonstiges & Spezialthemen",
+      "thema": "Robotik mit Raspberry Pi & No-Code",
+      "beschreibung": "Dieses Projekt der Cambridge University für die Raspberry Pi Foundation stellt FlowBlocks vor, eine No-Code-Plattform zur Steuerung von Robotik-Hardware. Ideal für Einsteiger und den Bildungsbereich.",
+      "tags": [
+        "raspberry-pi",
+        "no-code",
+        "bildung",
+        "beginner",
+        "software"
+      ],
+      "links": [
+        {
+          "text": "▶️ Robotik mit Raspberry PI & no code, FlowBlocks",
+          "url": "https://youtu.be/7U-25yO93R4"
+        }
+      ]
+    }
+  ],
+  "autoren": [
+    {
+      "name": "0x23",
+      "autor": null,
+      "url": "https://www.youtube.com/@0x23"
+    },
+    {
+      "name": "ACROBOTIC",
+      "autor": null,
+      "url": "https://www.youtube.com/@ACROBOTIC"
+    },
+    {
+      "name": "All About Electronics",
+      "autor": null,
+      "url": "https://www.youtube.com/@AllAboutElectronics"
+    },
+    {
+      "name": "Almond",
+      "autor": null,
+      "url": "https://www.youtube.com/@Almond-Manufacturing"
+    },
+    {
+      "name": "Andreas Spiess",
+      "autor": "Andreas Spiess",
+      "url": "https://www.youtube.com/@AndreasSpiess"
+    },
+    {
+      "name": "Andy Nguyen",
+      "autor": "Andy Nguyen",
+      "url": "https://www.youtube.com/@andynguyencoding"
+    },
+    {
+      "name": "AngelLM",
+      "autor": null,
+      "url": "https://www.youtube.com/@AngelLM"
+    },
+    {
+      "name": "Art of Engineering",
+      "autor": null,
+      "url": "https://www.youtube.com/@ArtofEngineering"
+    },
+    {
+      "name": "Articulated Robotics",
+      "autor": null,
+      "url": "https://www.youtube.com/@ArticulatedRobotics"
+    },
+    {
+      "name": "AT-CZ",
+      "autor": null,
+      "url": "https://www.youtube.com/@ATCZ"
+    },
+    {
+      "name": "Attrag Lab",
+      "autor": null,
+      "url": "https://www.youtube.com/@attraclab"
+    },
+    {
+      "name": "Basement Creations",
+      "autor": null,
+      "url": "https://www.youtube.com/@basementcreations."
+    },
+    {
+      "name": "Bitluni's Lab",
+      "autor": "Stefan Wagner",
+      "url": "https://www.youtube.com/@bitluni"
+    },
+    {
+      "name": "Blender",
+      "autor": null,
+      "url": "https://www.youtube.com/@BlenderOfficial"
+    },
+    {
+      "name": "Boston Dynamics",
+      "autor": null,
+      "url": "https://www.youtube.com/@BostonDynamics"
+    },
+    {
+      "name": "Brian Douglas",
+      "autor": "Brian Douglas",
+      "url": "https://www.youtube.com/@BrianDouglas"
+    },
+    {
+      "name": "Circuit Digest",
+      "autor": null,
+      "url": "https://www.youtube.com/@CircuitDigest"
+    },
+    {
+      "name": "Core Electronics",
+      "autor": null,
+      "url": "https://www.youtube.com/@Core-Electronics"
+    },
+    {
+      "name": "Creative Duck",
+      "autor": null,
+      "url": "https://www.youtube.com/@CreativeDuck"
+    },
+    {
+      "name": "Creator incredible",
+      "autor": null,
+      "url": "https://www.youtube.com/@creatorincredible"
+    },
+    {
+      "name": "Dejan",
+      "autor": "Dejan",
+      "url": "https://www.youtube.com/@dejankg"
+    },
+    {
+      "name": "Electric DIY",
+      "autor": null,
+      "url": "https://www.youtube.com/@ElectricDIY"
+    },
+    {
+      "name": "electronoobs",
+      "autor": null,
+      "url": "https://www.youtube.com/@electronoobs"
+    },
+    {
+      "name": "Engineering Explained",
+      "autor": null,
+      "url": "https://www.youtube.com/@EngineeringExplained"
+    },
+    {
+      "name": "Equilibrium Engineering",
+      "autor": null,
+      "url": "https://www.youtube.com/@EquilibriumEngineering"
+    },
+    {
+      "name": "Fiddy Engineering",
+      "autor": null,
+      "url": "https://www.youtube.com/@Fiddy"
+    },
+    {
+      "name": "Florian Model",
+      "autor": null,
+      "url": "https://www.youtube.com/@florianmodell"
+    },
+    {
+      "name": "Greidi Ajalik",
+      "autor": "Greidi Ajalik",
+      "url": "https://www.youtube.com/@greidiajalik"
+    },
+    {
+      "name": "Harsh Dethe",
+      "autor": "Harsh Dethe",
+      "url": "https://www.youtube.com/@harshdethe19"
+    },
+    {
+      "name": "How To Mechatronics",
+      "autor": null,
+      "url": "https://www.youtube.com/@HowToMechatronics"
+    },
+    {
+      "name": "i know roger",
+      "autor": null,
+      "url": "https://www.youtube.com/@iknowroger"
+    },
+    {
+      "name": "Ilia Larchenko",
+      "autor": "Ilia Larchenko",
+      "url": "https://www.youtube.com/@IliaLarchenko"
+    },
+    {
+      "name": "Indystry",
+      "autor": null,
+      "url": "https://www.youtube.com/@indystry"
+    },
+    {
+      "name": "INTERESTING ENGINEERING",
+      "autor": null,
+      "url": "https://www.youtube.com/@InterestingEngineering"
+    },
+    {
+      "name": "InvertedNormals",
+      "autor": null,
+      "url": "https://www.youtube.com/@InvertedNormals"
+    },
+    {
+      "name": "James Bruton",
+      "autor": "James Bruton",
+      "url": "https://www.youtube.com/@jamesbruton"
+    },
+    {
+      "name": "John Reyer",
+      "autor": "John Reyer",
+      "url": "https://www.youtube.com/@JohnReyer"
+    },
+    {
+      "name": "Josh Newans",
+      "autor": "Josh Newans",
+      "url": "https://www.youtube.com/@JoshNewans"
+    },
+    {
+      "name": "Joshua V",
+      "autor": "Joshua V",
+      "url": "https://www.youtube.com/@Joshua_V"
+    },
+    {
+      "name": "Kris's Workshop",
+      "autor": null,
+      "url": "https://www.youtube.com/@Krisis"
+    },
+    {
+      "name": "Koshiro",
+      "autor": null,
+      "url": "https://www.youtube.com/@Koshiro3"
+    },
+    {
+      "name": "LEGO-Technic-Master",
+      "autor": null,
+      "url": "https://www.youtube.com/@LEGO-Technic-Master"
+    },
+    {
+      "name": "Let's Print",
+      "autor": null,
+      "url": "https://www.youtube.com/@LetsPrint"
+    },
+    {
+      "name": "Lewis Gardner",
+      "autor": "Lewis Gardner",
+      "url": "https://www.youtube.com/@lewisgardner"
+    },
+    {
+      "name": "Lychee AI Hub",
+      "autor": null,
+      "url": "https://www.youtube.com/@LycheeAIHub"
+    },
+    {
+      "name": "Maker's Muse",
+      "autor": null,
+      "url": "https://www.youtube.com/@MakersMuse"
+    },
+    {
+      "name": "Maker NOOB",
+      "autor": null,
+      "url": "https://www.youtube.com/@MakerNoob"
+    },
+    {
+      "name": "Michael Rechtin",
+      "autor": "Michael Rechtin",
+      "url": "https://www.youtube.com/@MichaelRechtin"
+    },
+    {
+      "name": "Murtaza's Workshop - Robotics and AI",
+      "autor": null,
+      "url": "https://www.youtube.com/@murtazasworkshop"
+    },
+    {
+      "name": "Mr Innovative",
+      "autor": null,
+      "url": "https://www.youtube.com/@MrInnovative"
+    },
+    {
+      "name": "Nikodem Bartnik",
+      "autor": "Nikodem Bartnik",
+      "url": "https://www.youtube.com/@NikodemBartnik"
+    },
+    {
+      "name": "NVIDIA On-Demand",
+      "autor": null,
+      "url": "https://www.youtube.com/@NVIDIAOnDemand"
+    },
+    {
+      "name": "PiSugar",
+      "autor": null,
+      "url": "https://www.youtube.com/@PiSugar"
+    },
+    {
+      "name": "PROKNOW",
+      "autor": null,
+      "url": "https://www.youtube.com/@PROKNOW"
+    },
+    {
+      "name": "Project AIR",
+      "autor": null,
+      "url": "https://www.youtube.com/@ProjectAir"
+    },
+    {
+      "name": "Project Leo",
+      "autor": null,
+      "url": "https://www.youtube.com/@projectleo2023"
+    },
+    {
+      "name": "Rem RC",
+      "autor": null,
+      "url": "https://www.youtube.com/@remrc"
+    },
+    {
+      "name": "Retia Model",
+      "autor": null,
+      "url": "https://www.youtube.com/@RetiaModel"
+    },
+    {
+      "name": "Revolution Robotics",
+      "autor": null,
+      "url": "https://www.youtube.com/@RevolutionRobotics"
+    },
+    {
+      "name": "Robert Cowan",
+      "autor": "Robert Cowan",
+      "url": "https://www.youtube.com/@RobertCowan"
+    },
+    {
+      "name": "Robot Cantina",
+      "autor": null,
+      "url": "https://www.youtube.com/@SAMEERK"
+    },
+    {
+      "name": "Sameer Kamran",
+      "autor": "Sameer Kamran",
+      "url": "https://www.youtube.com/@SAMEERK"
+    },
+    {
+      "name": "Sci κάμερα",
+      "autor": null,
+      "url": "https://www.youtube.com/@scicamera"
+    },
+    {
+      "name": "Scott Walter",
+      "autor": "Scott Walter",
+      "url": "https://www.youtube.com/@ScottWalter"
+    },
+    {
+      "name": "Shane Reetz",
+      "autor": "Shane Reetz",
+      "url": "https://www.youtube.com/@ShaneReetz"
+    },
+    {
+      "name": "Simplilearn",
+      "autor": null,
+      "url": "https://www.youtube.com/@SimplilearnOfficial"
+    },
+    {
+      "name": "sieuwe",
+      "autor": null,
+      "url": "https://www.youtube.com/@sieuwe1"
+    },
+    {
+      "name": "Teaching Tech",
+      "autor": null,
+      "url": "https://www.youtube.com/@TeachingTech"
+    },
+    {
+      "name": "Tech Rule",
+      "autor": null,
+      "url": "https://www.youtube.com/@TechRule"
+    },
+    {
+      "name": "The Doge of Drones",
+      "autor": null,
+      "url": "https://www.youtube.com/@TheDogeofDrones"
+    },
+    {
+      "name": "The Institute of Human-Centered Design",
+      "autor": null,
+      "url": "https://www.youtube.com/@TheInstituteofHuman-CenteredDesign"
+    },
+    {
+      "name": "Thomas Messmer",
+      "autor": "Thomas Messmer",
+      "url": "https://www.youtube.com/@ThomasMessmer"
+    },
+    {
+      "name": "Thomas Schwenke",
+      "autor": "Thomas Schwenke",
+      "url": "https://www.youtube.com/@ThomasSchwenke"
+    },
+    {
+      "name": "Thang010146",
+      "autor": null,
+      "url": "https://www.youtube.com/@Thang010146"
+    },
+    {
+      "name": "Two Minute Papers",
+      "autor": null,
+      "url": "https://www.youtube.com/@TwoMinutePapers"
+    },
+    {
+      "name": "Ultralytics",
+      "autor": null,
+      "url": "https://www.youtube.com/@ultralytics"
+    },
+    {
+      "name": "Volkan Barut",
+      "autor": "Volkan Barut",
+      "url": "https://www.youtube.com/@volkanbarut"
+    },
+    {
+      "name": "Volos Projects",
+      "autor": null,
+      "url": "https://www.youtube.com/@VolosProjects"
+    }
+  ]
+}
