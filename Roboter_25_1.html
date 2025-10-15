@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stand der Robotik 2025 - Wissensdatenbank</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2563eb; --primary-dark: #1e40af; --secondary: #8b5cf6;
+            --dark: #1e293b; --dark-light: #334155; --gray: #64748b;
+            --gray-light: #e2e8f0; --bg: #f8fafc; --white: #ffffff;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: var(--dark); background: var(--bg); }
+        h1, h2, h3 { font-weight: 700; line-height: 1.2; }
+        a { color: var(--primary); text-decoration: none; transition: all 0.3s; }
+        a:hover { color: var(--primary-dark); }
+
+        .video-thumbnail { width: 80px; height: 60px; object-fit: cover; border-radius: 6px; margin-right: 0.5rem; flex-shrink: 0; }
+        .author-avatar { width: 32px; height: 32px; border-radius: 50%; margin-right: 0.5rem; vertical-align: middle; }
+
+        .header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: var(--white); padding: 2rem 1rem; text-align: center; }
+        .header h1 { margin-bottom: 0.5rem; font-size: clamp(1.75rem, 4vw, 2.5rem); }
+        .header p { opacity: 0.95; font-size: 1rem; }
+
+        .update-section { background: var(--white); padding: 1.5rem; margin: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .update-section h3 { text-align: center; margin-bottom: 1rem; }
+        .update-btn { padding: 0.75rem 1.5rem; font-size: 0.95rem; font-weight: 600; border: none; border-radius: 8px; background: var(--primary); color: var(--white); cursor: pointer; margin: 0.25rem; transition: all 0.3s; }
+        .update-btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
+        .update-btn:disabled { background: var(--gray); cursor: not-allowed; transform: none; }
+        .status { margin-top: 1rem; padding: 0.75rem; border-radius: 6px; display: none; }
+        .status.show { display: block; }
+        .status.info { background: #dbeafe; color: #1e40af; }
+        .status.success { background: #d1fae5; color: #065f46; }
+        .status.error { background: #fee2e2; color: #991b1b; }
+
+        .url-input { margin: 1rem auto; max-width: 700px; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .url-input input { flex: 1; min-width: 250px; padding: 0.75rem; border: 2px solid var(--gray-light); border-radius: 8px; font-size: 0.95rem; }
+        .url-input button { padding: 0.75rem 1.5rem; }
+
+        .quick-actions { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+        .random-btn { background: linear-gradient(135deg, #f97316, #ea580c); }
+        .random-btn:hover { background: linear-gradient(135deg, #ea580c, #c2410c); }
+
+        .stats { background: var(--white); padding: 1rem; display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin: 1rem; border-radius: 8px; font-size: 0.9rem; }
+        .stat-item { text-align: center; padding: 0.5rem 1rem; border-radius: 6px; background: var(--bg); }
+        .stat-number { font-size: 1.5rem; font-weight: 700; color: var(--primary); display: block; }
+        .stat-label { color: var(--gray); font-size: 0.75rem; text-transform: uppercase; }
+
+        .controls { padding: 2rem 1rem; max-width: 1400px; margin: 0 auto; }
+        .search-box { position: relative; max-width: 600px; margin: 0 auto 2rem; }
+        .search-input { width: 100%; padding: 1rem 3rem 1rem 1.5rem; font-size: 1rem; border: 2px solid var(--gray-light); border-radius: 50px; }
+        .search-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+        .search-icon { position: absolute; right: 1.5rem; top: 50%; transform: translateY(-50%); pointer-events: none; }
+
+        .filter-section { margin-bottom: 2rem; }
+        .filter-section h3 { text-align: center; margin-bottom: 1rem; cursor: pointer; user-select: none; }
+        .filter-section h3:hover { color: var(--primary); }
+        .filter-section h3::after { content: ' ▼'; font-size: 0.8em; transition: transform 0.3s; display: inline-block; }
+        .filter-section.collapsed h3::after { transform: rotate(-90deg); }
+        .filter-section.collapsed .filter-buttons { display: none; }
+        .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+        .filter-btn, .tag-btn { padding: 0.5rem 1rem; border: 2px solid var(--gray-light); background: var(--white); border-radius: 50px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; }
+        .filter-btn:hover, .tag-btn:hover { border-color: var(--primary); color: var(--primary); }
+        .filter-btn.active, .tag-btn.active { background: var(--primary); color: var(--white); border-color: var(--primary); }
+        .reset-btn { background: #ef4444; color: white; border-color: #ef4444; }
+        .reset-btn:hover { background: #dc2626; }
+
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 1rem 4rem; }
+        .category { background: var(--white); border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
+        .category.hidden { display: none; }
+        .category-header { background: linear-gradient(135deg, var(--dark), var(--dark-light)); color: var(--white); padding: 1.5rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .category-header:hover { background: linear-gradient(135deg, var(--dark-light), var(--dark)); }
+        .toggle-icon { transition: transform 0.3s; }
+        .category.collapsed .toggle-icon { transform: rotate(-90deg); }
+        .category-content { max-height: 50000px; transition: max-height 0.5s ease; overflow: hidden; }
+        .category.collapsed .category-content { max-height: 0; }
+
+        .table-wrapper { padding: 1.5rem; overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        thead { background: var(--bg); position: sticky; top: 0; z-index: 10; }
+        th { padding: 1rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--gray-light); }
+        tbody tr { border-bottom: 1px solid var(--gray-light); transition: background 0.2s; }
+        tbody tr.hidden { display: none; }
+        tbody tr:hover { background: #eff6ff; }
+        td { padding: 1rem; vertical-align: top; }
+        td:first-child { font-weight: 600; min-width: 150px; }
+        .links { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: flex-start; }
+        .link-item { display: flex; align-items: center; padding: 0.5rem; background: var(--bg); border-radius: 6px; transition: all 0.3s; flex: 1 1 calc(50% - 0.25rem); min-width: 200px; max-width: 100%; }
+        .link-item:hover { background: var(--primary); color: var(--white); transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .link-item:hover .video-thumbnail { opacity: 0.9; }
+        .link-text { flex: 1; overflow: hidden; text-overflow: ellipsis; font-size: 0.9rem; line-height: 1.4; }
+
+        .no-results { text-align: center; padding: 3rem; display: none; }
+        .no-results.visible { display: block; }
+        .loading { text-align: center; padding: 4rem; }
+        .spinner { border: 4px solid var(--gray-light); border-top: 4px solid var(--primary); border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin: 0 auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        @media (max-width: 768px) {
+            .url-input { flex-direction: column; }
+            .url-input input { min-width: 100%; }
+            .stats { grid-template-columns: repeat(2, 1fr); }
+            table, thead, tbody, tr, td { display: block; }
+            thead { display: none; }
+            tr { margin-bottom: 1rem; border: 1px solid var(--gray-light); border-radius: 8px; padding: 1rem; }
+            td { padding: 0.5rem 0; border: none; }
+            td:before { content: attr(data-label); font-weight: 600; display: block; color: var(--gray); margin-bottom: 0.25rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🤖 Stand der Robotik 2025</h1>
+        <p>Deine interaktive Wissensdatenbank für schnelles Lernen</p>
+    </header>
+
+    <div class="update-section">
+        <h3>🔄 Datenquelle Konfigurieren</h3>
+        <div class="url-input">
+            <input type="text" id="externalUrl" placeholder="GitHub Raw URL oder eigene JSON-Quelle" value="https://raw.githubusercontent.com/Digid0t/DigiDot_7/main/Rob_25.json">
+            <button class="update-btn" onclick="app.loadFromUrl()">🌐 Von URL Laden</button>
+            <button class="update-btn" onclick="app.resetToEmbedded()">🔄 Standard Wiederherstellen</button>
+        </div>
+        <div class="quick-actions">
+            <button class="update-btn random-btn" onclick="app.playRandomLearning()">🎲 Zufällig: Grundlagen & Lernen</button>
+            <button class="update-btn random-btn" onclick="app.playRandomProject()">🎲 Zufällig: Projekte & Umsetzung</button>
+        </div>
+        <div class="status" id="status"></div>
+        <div style="margin-top: 1rem; text-align: center; font-size: 0.875rem; color: var(--gray);">
+            Letzte Aktualisierung: <span id="lastUpdate">Gerade eben</span> |
+            Einträge: <span id="dbCount">0</span>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div class="stat-item"><span class="stat-number" id="totalCount">0</span><span class="stat-label">Einträge</span></div>
+        <div class="stat-item"><span class="stat-number" id="totalLinks">0</span><span class="stat-label">Links</span></div>
+        <div class="stat-item"><span class="stat-number" id="categoryCount">0</span><span class="stat-label">Kategorien</span></div>
+        <div class="stat-item"><span class="stat-number" id="authorCount">0</span><span class="stat-label">Autoren</span></div>
+        <div class="stat-item"><span class="stat-number" id="visibleCount">0</span><span class="stat-label">Sichtbar</span></div>
+    </div>
+
+    <div class="controls">
+        <div class="search-box">
+            <input type="text" class="search-input" id="searchInput" placeholder="🔍 Durchsuche alle Ressourcen (Titel, Beschreibung, Tags, Autoren)...">
+        </div>
+        <div class="filter-section">
+            <h3>Kategorien</h3>
+            <div class="filter-buttons" id="categoryFilters"></div>
+        </div>
+        <div class="filter-section">
+            <h3>🎥 Autoren / Kanäle</h3>
+            <div class="filter-buttons" id="authorFilters"></div>
+        </div>
+        <div class="filter-section collapsed" id="tagsSection">
+            <h3>🏷️ Tags (Klicken zum Ein-/Ausklappen)</h3>
+            <div class="filter-buttons" id="tagFilters"></div>
+        </div>
+        <div style="text-align: center; margin-top: 1rem;">
+            <button class="filter-btn reset-btn" onclick="app.resetFilters()">✖️ Alle Filter Zurücksetzen</button>
+        </div>
+    </div>
+
+    <div class="container" id="dataContainer">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 1rem;">Lade Daten...</p>
+        </div>
+    </div>
+
+    <div class="no-results" id="noResults">
+        <div style="font-size: 4rem; margin-bottom: 1rem;">🕳️</div>
+        <h3>Keine Ergebnisse gefunden</h3>
+        <p>Versuche eine andere Suche oder entferne Filter</p>
+    </div>
+
+    <script>
+        const app = {
+            db: null,
+            data: [],
+            authors: [],
+            activeTags: new Set(),
+            activeAuthors: new Set(),
+
+            async init() {
+                await this.initDB();
+                const stored = await this.loadFromDB();
+
+                if (stored && stored.data && stored.data.length > 0) {
+                    this.data = stored.data;
+                    this.authors = stored.authors || [];
+                    this.render();
+                } else {
+                    await this.loadFromUrl();
+                }
+
+                this.setupEvents();
+                this.setupCollapsible();
+            },
+
+            initDB() {
+                return new Promise((resolve, reject) => {
+                    const request = indexedDB.open('RobotikDB', 2);
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => {
+                        this.db = request.result;
+                        resolve();
+                    };
+                    request.onupgradeneeded = (e) => {
+                        const db = e.target.result;
+                        if (!db.objectStoreNames.contains('data')) {
+                            db.createObjectStore('data', { keyPath: 'id' });
+                        }
+                    };
+                });
+            },
+
+            async loadFromDB() {
+                if (!this.db) return null;
+                const tx = this.db.transaction(['data'], 'readonly');
+                const store = tx.objectStore('data');
+                const request = store.get('current');
+
+                return new Promise((resolve) => {
+                    request.onsuccess = () => resolve(request.result || null);
+                    request.onerror = () => resolve(null);
+                });
+            },
+
+            async saveToDB(data, authors) {
+                if (!this.db) return;
+                const tx = this.db.transaction(['data'], 'readwrite');
+                const store = tx.objectStore('data');
+                store.put({
+                    id: 'current',
+                    data,
+                    authors,
+                    lastUpdate: new Date().toISOString()
+                });
+            },
+
+            async loadFromUrl() {
+                const url = document.getElementById('externalUrl').value.trim();
+                if (!url) {
+                    this.showStatus('Bitte URL eingeben', 'error');
+                    return;
+                }
+
+                this.showStatus('🌐 Lade Daten von URL...', 'info');
+
+                try {
+                    const response = await fetch(url, {
+                        cache: 'no-cache',
+                        headers: { 'Accept': 'application/json' }
+                    });
+
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                    const jsonData = await response.json();
+
+                    // Parse die JSON-Struktur
+                    this.data = jsonData.ressourcen || jsonData || [];
+                    this.authors = jsonData.autoren || [];
+
+                    if (!Array.isArray(this.data) || this.data.length === 0) {
+                        throw new Error('Keine Einträge gefunden');
+                    }
+
+                    await this.saveToDB(this.data, this.authors);
+                    this.render();
+                    this.showStatus(`✅ ${this.data.length} Einträge + ${this.authors.length} Autoren geladen!`, 'success');
+                    document.getElementById('lastUpdate').textContent = new Date().toLocaleString('de-DE');
+                    document.getElementById('dbCount').textContent = this.data.length;
+                } catch (error) {
+                    console.error('Ladefehler:', error);
+                    this.showStatus(`❌ Fehler beim Laden: ${error.message}`, 'error');
+                }
+            },
+
+            async resetToEmbedded() {
+                this.showStatus('🔄 Setze auf Standard zurück...', 'info');
+                document.getElementById('externalUrl').value = 'https://raw.githubusercontent.com/Digid0t/DigiDot_7/main/Rob_25.json';
+                await this.loadFromUrl();
+            },
+
+            render() {
+                const container = document.getElementById('dataContainer');
+                const categories = this.groupByCategory();
+
+                container.innerHTML = '';
+
+                for (const [catName, entries] of Object.entries(categories)) {
+                    const section = this.createCategorySection(catName, entries);
+                    container.appendChild(section);
+                }
+
+                this.generateFilters();
+                this.updateStats();
+                document.querySelector('.loading')?.remove();
+            },
+
+            groupByCategory() {
+                const groups = {};
+                this.data.forEach(entry => {
+                    const cat = entry.kategorie || 'Sonstiges';
+                    if (!groups[cat]) groups[cat] = [];
+                    groups[cat].push(entry);
+                });
+                return groups;
+            },
+
+            createCategorySection(categoryName, entries) {
+                const section = document.createElement('section');
+                section.className = 'category';
+                section.dataset.category = categoryName;
+
+                const icon = this.getCategoryIcon(categoryName);
+
+                section.innerHTML = `
+                    <div class="category-header">
+                        <h2>${icon} ${categoryName}</h2>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="category-content">
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Thema</th>
+                                        <th>Beschreibung</th>
+                                        <th>Links</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${entries.map(e => this.createRow(e)).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+
+                section.querySelector('.category-header').addEventListener('click', () => {
+                    section.classList.toggle('collapsed');
+                });
+
+                return section;
+            },
+
+            getCategoryIcon(name) {
+                const icons = {
+                    'Grundlagen & Theorie': '📚',
+                    'NVIDIA Isaac Sim & Omniverse': '🎮',
+                    'KI, Computer Vision & Machine Learning': '🧠',
+                    'ROS & Softwareentwicklung': '⚙️',
+                    'Hardware, Elektronik & Motoren': '🔧',
+                    'DIY Projekte & 3D-Druck': '🛠️',
+                    'Open Source Hardware & Forschung': '🔬',
+                    'Kommerzielle Roboter & Webseiten': '🏭',
+                    'Mechanik & Inspiration': '⚡',
+                    'Sonstiges & Spezialthemen': '🌟'
+                };
+                return icons[name] || '📦';
+            },
+
+            extractYouTubeId(url) {
+                const patterns = [
+                    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\?\/]+)/,
+                    /youtube\.com\/live\/([^&\?\/]+)/,
+                    /youtube\.com\/shorts\/([^&\?\/]+)/
+                ];
+
+                for (const pattern of patterns) {
+                    const match = url.match(pattern);
+                    if (match) return match[1];
+                }
+                return null;
+            },
+
+            createRow(entry) {
+                const links = (entry.links || []).map(l => {
+                    const videoId = this.extractYouTubeId(l.url);
+                    const thumbnail = videoId ?
+                        `<img src="https://img.youtube.com/vi/${videoId}/mqdefault.jpg" class="video-thumbnail" alt="Video" onerror="this.style.display='none'">` : '';
+                    return `<a href="${l.url}" target="_blank" class="link-item">${thumbnail}<span class="link-text">${this.esc(l.text)}</span></a>`;
+                }).join('');
+
+                const tags = (entry.tags || []).join(' ');
+
+                return `
+                    <tr data-tags="${tags}" data-kategorie="${this.esc(entry.kategorie)}" data-searchtext="${this.esc(entry.thema + ' ' + entry.beschreibung + ' ' + tags).toLowerCase()}">
+                        <td data-label="Thema">${this.esc(entry.thema)}</td>
+                        <td data-label="Beschreibung">${this.esc(entry.beschreibung)}</td>
+                        <td data-label="Links"><div class="links">${links}</div></td>
+                    </tr>
+                `;
+            },
+
+            generateFilters() {
+                const categories = new Set();
+                const tags = new Set();
+
+                this.data.forEach(e => {
+                    categories.add(e.kategorie || 'Sonstiges');
+                    (e.tags || []).forEach(t => {
+                        if (t && t.trim()) tags.add(t.trim().toLowerCase());
+                    });
+                });
+
+                // Kategorien
+                const catContainer = document.getElementById('categoryFilters');
+                catContainer.innerHTML = '<button class="filter-btn active" data-filter="all">🌐 Alle</button>';
+                Array.from(categories).sort().forEach(c => {
+                    const icon = this.getCategoryIcon(c);
+                    catContainer.innerHTML += `<button class="filter-btn" data-filter="${this.esc(c)}">${icon} ${this.esc(c)}</button>`;
+                });
+
+                // Autoren
+                const authorContainer = document.getElementById('authorFilters');
+                authorContainer.innerHTML = '<button class="filter-btn active" data-filter="all">👥 Alle Autoren</button>';
+                this.authors.sort((a, b) => a.name.localeCompare(b.name)).forEach(author => {
+                    authorContainer.innerHTML += `<button class="filter-btn" data-author="${this.esc(author.name)}" title="${this.esc(author.url)}">${this.esc(author.name)}</button>`;
+                });
+
+                // Tags
+                const tagContainer = document.getElementById('tagFilters');
+                tagContainer.innerHTML = '';
+                Array.from(tags).sort().forEach(t => {
+                    tagContainer.innerHTML += `<button class="tag-btn" data-tag="${t}">${t}</button>`;
+                });
+            },
+
+            setupEvents() {
+                document.getElementById('searchInput').addEventListener('input', () => this.applyFilters());
+
+                document.getElementById('categoryFilters').addEventListener('click', (e) => {
+                    if (e.target.classList.contains('filter-btn')) {
+                        document.querySelectorAll('#categoryFilters .filter-btn').forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        this.applyFilters();
+                    }
+                });
+
+                document.getElementById('authorFilters').addEventListener('click', (e) => {
+                    if (e.target.classList.contains('filter-btn')) {
+                        if (e.target.dataset.filter === 'all') {
+                            document.querySelectorAll('#authorFilters .filter-btn').forEach(b => b.classList.remove('active'));
+                            e.target.classList.add('active');
+                            this.activeAuthors.clear();
+                        } else {
+                            document.querySelector('#authorFilters .filter-btn[data-filter="all"]').classList.remove('active');
+                            e.target.classList.toggle('active');
+                            const author = e.target.dataset.author;
+                            this.activeAuthors.has(author) ? this.activeAuthors.delete(author) : this.activeAuthors.add(author);
+                        }
+                        this.applyFilters();
+                    }
+                });
+
+                document.getElementById('tagFilters').addEventListener('click', (e) => {
+                    if (e.target.classList.contains('tag-btn')) {
+                        e.target.classList.toggle('active');
+                        const tag = e.target.dataset.tag;
+                        this.activeTags.has(tag) ? this.activeTags.delete(tag) : this.activeTags.add(tag);
+                        this.applyFilters();
+                    }
+                });
+            },
+
+            setupCollapsible() {
+                const sections = document.querySelectorAll('.filter-section h3');
+                sections.forEach(h3 => {
+                    h3.addEventListener('click', () => {
+                        h3.parentElement.classList.toggle('collapsed');
+                    });
+                });
+            },
+
+            applyFilters() {
+                const query = document.getElementById('searchInput').value.toLowerCase().trim();
+                const activeCat = document.querySelector('#categoryFilters .filter-btn.active')?.dataset.filter || 'all';
+
+                let visible = 0;
+
+                document.querySelectorAll('tbody tr').forEach(row => {
+                    const cat = row.dataset.kategorie;
+                    const tags = new Set(row.dataset.tags.toLowerCase().split(' '));
+                    const searchText = row.dataset.searchtext || '';
+
+                    // Autoren-Filter: Prüfe ob irgendein Link zu einem aktiven Autor gehört
+                    let matchesAuthor = this.activeAuthors.size === 0; // Wenn keine Autoren ausgewählt, passen alle
+                    if (this.activeAuthors.size > 0) {
+                        const rowLinks = Array.from(row.querySelectorAll('a')).map(a => a.href);
+                        matchesAuthor = this.authors.some(author =>
+                            this.activeAuthors.has(author.name) &&
+                            rowLinks.some(link => link.includes(author.url.split('@')[1] || author.url))
+                        );
+                    }
+
+                    const matchesCat = activeCat === 'all' || activeCat === cat;
+                    const matchesSearch = !query || searchText.includes(query);
+                    const matchesTags = Array.from(this.activeTags).every(t => tags.has(t));
+
+                    const isVisible = matchesCat && matchesSearch && matchesTags && matchesAuthor;
+                    row.classList.toggle('hidden', !isVisible);
+                    if (isVisible) visible++;
+                });
+
+                document.querySelectorAll('.category').forEach(cat => {
+                    const hasVisible = cat.querySelectorAll('tbody tr:not(.hidden)').length > 0;
+                    cat.style.display = hasVisible ? '' : 'none';
+                });
+
+                document.getElementById('visibleCount').textContent = visible;
+                document.getElementById('noResults').classList.toggle('visible', visible === 0);
+            },
+
+            resetFilters() {
+                document.getElementById('searchInput').value = '';
+                this.activeTags.clear();
+                this.activeAuthors.clear();
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                document.querySelector('#categoryFilters .filter-btn[data-filter="all"]').classList.add('active');
+                document.querySelector('#authorFilters .filter-btn[data-filter="all"]').classList.add('active');
+                document.querySelectorAll('.tag-btn.active').forEach(b => b.classList.remove('active'));
+                this.applyFilters();
+            },
+
+            playRandomLearning() {
+                const learningCategories = [
+                    'Grundlagen & Theorie',
+                    'NVIDIA Isaac Sim & Omniverse',
+                    'KI, Computer Vision & Machine Learning',
+                    'ROS & Softwareentwicklung'
+                ];
+                this.playRandomFromCategories(learningCategories);
+            },
+
+            playRandomProject() {
+                const projectCategories = [
+                    'DIY Projekte & 3D-Druck',
+                    'Hardware, Elektronik & Motoren',
+                    'Open Source Hardware & Forschung'
+                ];
+                this.playRandomFromCategories(projectCategories);
+            },
+
+            playRandomFromCategories(categories) {
+                const matching = this.data.filter(e =>
+                    categories.some(cat => e.kategorie && e.kategorie.includes(cat))
+                );
+
+                if (matching.length === 0) {
+                    this.showStatus('⚠️ Keine passenden Einträge gefunden', 'error');
+                    return;
+                }
+
+                const random = matching[Math.floor(Math.random() * matching.length)];
+
+                if (random.links && random.links.length > 0) {
+                    const firstLink = random.links[0];
+                    this.showStatus(`🎲 Zufällig: ${random.thema}`, 'success');
+                    window.open(firstLink.url, '_blank');
+
+                    // Scrolle zum Eintrag
+                    setTimeout(() => {
+                        const rows = document.querySelectorAll('tbody tr');
+                        for (const row of rows) {
+                            if (row.textContent.includes(random.thema)) {
+                                row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                row.style.background = '#fef3c7';
+                                setTimeout(() => row.style.background = '', 2000);
+                                break;
+                            }
+                        }
+                    }, 500);
+                } else {
+                    this.showStatus('⚠️ Kein Link verfügbar', 'error');
+                }
+            },
+
+            updateStats() {
+                const rows = document.querySelectorAll('tbody tr');
+                const categories = new Set();
+                this.data.forEach(e => categories.add(e.kategorie));
+
+                document.getElementById('totalCount').textContent = rows.length;
+                document.getElementById('totalLinks').textContent = document.querySelectorAll('.link-item').length;
+                document.getElementById('categoryCount').textContent = categories.size;
+                document.getElementById('authorCount').textContent = this.authors.length;
+                document.getElementById('visibleCount').textContent = rows.length;
+                document.getElementById('dbCount').textContent = this.data.length;
+            },
+
+            showStatus(msg, type) {
+                const el = document.getElementById('status');
+                el.textContent = msg;
+                el.className = `status ${type} show`;
+                if (type !== 'info') {
+                    setTimeout(() => el.classList.remove('show'), 5000);
+                }
+            },
+
+            esc(str) {
+                const p = document.createElement('p');
+                p.textContent = str || '';
+                return p.innerHTML;
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', () => app.init());
+    </script>
+</body>
+</html>
