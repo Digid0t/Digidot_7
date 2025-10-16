@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stand der Robotik 2025 - Wissensdatenbank</title>
+    <title>Robotik Wissensdatenbank 2025</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
@@ -17,7 +17,6 @@
         a:hover { color: var(--primary-dark); }
 
         .video-thumbnail { width: 80px; height: 60px; object-fit: cover; border-radius: 6px; margin-right: 0.5rem; flex-shrink: 0; }
-        .author-avatar { width: 32px; height: 32px; border-radius: 50%; margin-right: 0.5rem; vertical-align: middle; }
 
         .header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: var(--white); padding: 2rem 1rem; text-align: center; }
         .header h1 { margin-bottom: 0.5rem; font-size: clamp(1.75rem, 4vw, 2.5rem); }
@@ -27,7 +26,6 @@
         .update-section h3 { text-align: center; margin-bottom: 1rem; }
         .update-btn { padding: 0.75rem 1.5rem; font-size: 0.95rem; font-weight: 600; border: none; border-radius: 8px; background: var(--primary); color: var(--white); cursor: pointer; margin: 0.25rem; transition: all 0.3s; }
         .update-btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
-        .update-btn:disabled { background: var(--gray); cursor: not-allowed; transform: none; }
         .status { margin-top: 1rem; padding: 0.75rem; border-radius: 6px; display: none; }
         .status.show { display: block; }
         .status.info { background: #dbeafe; color: #1e40af; }
@@ -36,7 +34,6 @@
 
         .url-input { margin: 1rem auto; max-width: 700px; display: flex; gap: 0.5rem; flex-wrap: wrap; }
         .url-input input { flex: 1; min-width: 250px; padding: 0.75rem; border: 2px solid var(--gray-light); border-radius: 8px; font-size: 0.95rem; }
-        .url-input button { padding: 0.75rem 1.5rem; }
 
         .quick-actions { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
         .random-btn { background: linear-gradient(135deg, #f97316, #ea580c); }
@@ -49,16 +46,16 @@
 
         .controls { padding: 2rem 1rem; max-width: 1400px; margin: 0 auto; }
         .search-box { position: relative; max-width: 600px; margin: 0 auto 2rem; }
-        .search-input { width: 100%; padding: 1rem 3rem 1rem 1.5rem; font-size: 1rem; border: 2px solid var(--gray-light); border-radius: 50px; }
+        .search-input { width: 100%; padding: 1rem 1.5rem; font-size: 1rem; border: 2px solid var(--gray-light); border-radius: 50px; }
         .search-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
-        .search-icon { position: absolute; right: 1.5rem; top: 50%; transform: translateY(-50%); pointer-events: none; }
 
         .filter-section { margin-bottom: 2rem; }
         .filter-section h3 { text-align: center; margin-bottom: 1rem; cursor: pointer; user-select: none; }
         .filter-section h3:hover { color: var(--primary); }
         .filter-section h3::after { content: ' ▼'; font-size: 0.8em; transition: transform 0.3s; display: inline-block; }
         .filter-section.collapsed h3::after { transform: rotate(-90deg); }
-        .filter-section.collapsed .filter-buttons { display: none; }
+        .filter-section.collapsed .filter-content { display: none; }
+        .filter-content { }
         .filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
         .filter-btn, .tag-btn { padding: 0.5rem 1rem; border: 2px solid var(--gray-light); background: var(--white); border-radius: 50px; cursor: pointer; font-weight: 600; font-size: 0.9rem; transition: all 0.3s; }
         .filter-btn:hover, .tag-btn:hover { border-color: var(--primary); color: var(--primary); }
@@ -66,9 +63,19 @@
         .reset-btn { background: #ef4444; color: white; border-color: #ef4444; }
         .reset-btn:hover { background: #dc2626; }
 
+        .tag-count { display: inline-block; margin-left: 0.35rem; padding: 0.15rem 0.5rem; background: rgba(0,0,0,0.08); border-radius: 12px; font-size: 0.8rem; font-weight: 700; }
+        .tag-btn.active .tag-count { background: rgba(255,255,255,0.25); }
+
+        .tag-controls { text-align: center; margin-bottom: 1rem; padding: 1rem; background: linear-gradient(135deg, #f0f9ff, #e0f2fe); border-radius: 8px; }
+        .tag-controls label { font-weight: 600; margin-right: 0.5rem; }
+        .threshold-slider { width: 200px; margin: 0 0.5rem; vertical-align: middle; }
+        .threshold-value { display: inline-block; min-width: 30px; font-weight: 700; color: var(--primary); }
+        .show-all-tags-btn { margin-left: 1rem; padding: 0.5rem 1rem; background: var(--secondary); color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; }
+        .show-all-tags-btn:hover { background: #7c3aed; }
+
         .container { max-width: 1400px; margin: 0 auto; padding: 0 1rem 4rem; }
         .category { background: var(--white); border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; }
-        .category.hidden { display: none; }
+        .category.force-hidden { display: none !important; }
         .category-header { background: linear-gradient(135deg, var(--dark), var(--dark-light)); color: var(--white); padding: 1.5rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
         .category-header:hover { background: linear-gradient(135deg, var(--dark-light), var(--dark)); }
         .toggle-icon { transition: transform 0.3s; }
@@ -81,7 +88,7 @@
         thead { background: var(--bg); position: sticky; top: 0; z-index: 10; }
         th { padding: 1rem; text-align: left; font-weight: 600; border-bottom: 2px solid var(--gray-light); }
         tbody tr { border-bottom: 1px solid var(--gray-light); transition: background 0.2s; }
-        tbody tr.hidden { display: none; }
+        tbody tr.row-hidden { display: none; }
         tbody tr:hover { background: #eff6ff; }
         td { padding: 1rem; vertical-align: top; }
         td:first-child { font-weight: 600; min-width: 150px; }
@@ -100,7 +107,6 @@
         @media (max-width: 768px) {
             .url-input { flex-direction: column; }
             .url-input input { min-width: 100%; }
-            .stats { grid-template-columns: repeat(2, 1fr); }
             table, thead, tbody, tr, td { display: block; }
             thead { display: none; }
             tr { margin-bottom: 1rem; border: 1px solid var(--gray-light); border-radius: 8px; padding: 1rem; }
@@ -111,25 +117,24 @@
 </head>
 <body>
     <header class="header">
-        <h1>🤖 Stand der Robotik 2025</h1>
+        <h1>🤖 Robotik Wissensdatenbank 2025</h1>
         <p>Deine interaktive Wissensdatenbank für schnelles Lernen</p>
     </header>
 
     <div class="update-section">
-        <h3>🔄 Datenquelle Konfigurieren</h3>
+        <h3>🔄 Datenquelle</h3>
         <div class="url-input">
-            <input type="text" id="externalUrl" placeholder="GitHub Raw URL oder eigene JSON-Quelle" value="https://raw.githubusercontent.com/Digid0t/DigiDot_7/main/Rob_25.json">
-            <button class="update-btn" onclick="app.loadFromUrl()">🌐 Von URL Laden</button>
-            <button class="update-btn" onclick="app.resetToEmbedded()">🔄 Standard Wiederherstellen</button>
+            <input type="text" id="externalUrl" placeholder="GitHub Raw URL" value="https://raw.githubusercontent.com/Digid0t/DigiDot_7/main/Rob_25.json">
+            <button class="update-btn" onclick="app.loadFromUrl()">🌐 Laden</button>
+            <button class="update-btn" onclick="app.resetToEmbedded()">🔄 Reset</button>
         </div>
         <div class="quick-actions">
-            <button class="update-btn random-btn" onclick="app.playRandomLearning()">🎲 Zufällig: Grundlagen & Lernen</button>
-            <button class="update-btn random-btn" onclick="app.playRandomProject()">🎲 Zufällig: Projekte & Umsetzung</button>
+            <button class="update-btn random-btn" onclick="app.playRandomLearning()">🎲 Random: Lernen</button>
+            <button class="update-btn random-btn" onclick="app.playRandomProject()">🎲 Random: Projekte</button>
         </div>
         <div class="status" id="status"></div>
         <div style="margin-top: 1rem; text-align: center; font-size: 0.875rem; color: var(--gray);">
-            Letzte Aktualisierung: <span id="lastUpdate">Gerade eben</span> |
-            Einträge: <span id="dbCount">0</span>
+            Aktualisiert: <span id="lastUpdate">-</span> | Einträge: <span id="dbCount">0</span>
         </div>
     </div>
 
@@ -138,25 +143,42 @@
         <div class="stat-item"><span class="stat-number" id="totalLinks">0</span><span class="stat-label">Links</span></div>
         <div class="stat-item"><span class="stat-number" id="categoryCount">0</span><span class="stat-label">Kategorien</span></div>
         <div class="stat-item"><span class="stat-number" id="authorCount">0</span><span class="stat-label">Autoren</span></div>
+        <div class="stat-item"><span class="stat-number" id="visibleTagCount">0</span><span class="stat-label">Tags</span></div>
         <div class="stat-item"><span class="stat-number" id="visibleCount">0</span><span class="stat-label">Sichtbar</span></div>
     </div>
 
     <div class="controls">
         <div class="search-box">
-            <input type="text" class="search-input" id="searchInput" placeholder="🔍 Durchsuche alle Ressourcen (Titel, Beschreibung, Tags, Autoren)...">
+            <input type="text" class="search-input" id="searchInput" placeholder="🔍 Durchsuche alle Ressourcen...">
         </div>
+
         <div class="filter-section">
-            <h3>Kategorien</h3>
-            <div class="filter-buttons" id="categoryFilters"></div>
+            <h3>📁 Kategorien</h3>
+            <div class="filter-content">
+                <div class="filter-buttons" id="categoryFilters"></div>
+            </div>
         </div>
+
         <div class="filter-section">
             <h3>🎥 Autoren / Kanäle</h3>
-            <div class="filter-buttons" id="authorFilters"></div>
+            <div class="filter-content">
+                <div class="filter-buttons" id="authorFilters"></div>
+            </div>
         </div>
+
         <div class="filter-section collapsed" id="tagsSection">
             <h3>🏷️ Tags (Klicken zum Ein-/Ausklappen)</h3>
-            <div class="filter-buttons" id="tagFilters"></div>
+            <div class="filter-content">
+                <div class="tag-controls">
+                    <label>Mindestanzahl:</label>
+                    <input type="range" class="threshold-slider" id="tagThreshold" min="1" max="10" value="3" oninput="app.updateTagThreshold(this.value)">
+                    <span class="threshold-value" id="thresholdValue">3</span>
+                    <button class="show-all-tags-btn" onclick="app.toggleAllTags()">Alle anzeigen</button>
+                </div>
+                <div class="filter-buttons" id="tagFilters"></div>
+            </div>
         </div>
+
         <div style="text-align: center; margin-top: 1rem;">
             <button class="filter-btn reset-btn" onclick="app.resetFilters()">✖️ Alle Filter Zurücksetzen</button>
         </div>
@@ -180,18 +202,24 @@
             db: null,
             data: [],
             authors: [],
+            allTags: new Map(),
             activeTags: new Set(),
             activeAuthors: new Set(),
+            tagThreshold: 3,
+            showAllTags: false,
 
             async init() {
+                console.log('🚀 App-Initialisierung...');
                 await this.initDB();
                 const stored = await this.loadFromDB();
 
                 if (stored && stored.data && stored.data.length > 0) {
+                    console.log('✅ Daten aus IndexedDB:', stored.data.length);
                     this.data = stored.data;
                     this.authors = stored.authors || [];
                     this.render();
                 } else {
+                    console.log('⚠️ Keine DB-Daten, lade von URL...');
                     await this.loadFromUrl();
                 }
 
@@ -221,7 +249,6 @@
                 const tx = this.db.transaction(['data'], 'readonly');
                 const store = tx.objectStore('data');
                 const request = store.get('current');
-
                 return new Promise((resolve) => {
                     request.onsuccess = () => resolve(request.result || null);
                     request.onerror = () => resolve(null);
@@ -243,61 +270,84 @@
             async loadFromUrl() {
                 const url = document.getElementById('externalUrl').value.trim();
                 if (!url) {
-                    this.showStatus('Bitte URL eingeben', 'error');
+                    this.showStatus('⚠️ Bitte URL eingeben', 'error');
                     return;
                 }
 
-                this.showStatus('🌐 Lade Daten von URL...', 'info');
+                this.showStatus('🌐 Lade Daten...', 'info');
 
                 try {
-                    const response = await fetch(url, {
-                        cache: 'no-cache',
-                        headers: { 'Accept': 'application/json' }
-                    });
-
+                    const response = await fetch(url, { cache: 'no-cache' });
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
                     const jsonData = await response.json();
+                    console.log('📦 JSON empfangen:', jsonData);
 
-                    // Parse die JSON-Struktur
                     this.data = jsonData.ressourcen || jsonData || [];
                     this.authors = jsonData.autoren || [];
 
+                    console.log('✅ Verarbeitet:', this.data.length, 'Einträge,', this.authors.length, 'Autoren');
+
                     if (!Array.isArray(this.data) || this.data.length === 0) {
-                        throw new Error('Keine Einträge gefunden');
+                        throw new Error('Keine gültigen Daten');
                     }
 
                     await this.saveToDB(this.data, this.authors);
                     this.render();
-                    this.showStatus(`✅ ${this.data.length} Einträge + ${this.authors.length} Autoren geladen!`, 'success');
-                    document.getElementById('lastUpdate').textContent = new Date().toLocaleString('de-DE');
+                    this.showStatus(`✅ ${this.data.length} Einträge geladen!`, 'success');
+                    document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('de-DE');
                     document.getElementById('dbCount').textContent = this.data.length;
                 } catch (error) {
-                    console.error('Ladefehler:', error);
-                    this.showStatus(`❌ Fehler beim Laden: ${error.message}`, 'error');
+                    console.error('❌ Fehler:', error);
+                    this.showStatus(`❌ Fehler: ${error.message}`, 'error');
                 }
             },
 
             async resetToEmbedded() {
-                this.showStatus('🔄 Setze auf Standard zurück...', 'info');
                 document.getElementById('externalUrl').value = 'https://raw.githubusercontent.com/Digid0t/DigiDot_7/main/Rob_25.json';
                 await this.loadFromUrl();
             },
 
             render() {
+                console.log('🎨 Rendering', this.data.length, 'Einträge...');
+                this.allTags.clear();
+
+                // Tags sammeln
+                this.data.forEach(entry => {
+                    if (Array.isArray(entry.tags)) {
+                        entry.tags.forEach(tag => {
+                            if (tag && typeof tag === 'string') {
+                                const normalized = tag.trim().toLowerCase();
+                                if (normalized.length > 0) {
+                                    this.allTags.set(normalized, (this.allTags.get(normalized) || 0) + 1);
+                                }
+                            }
+                        });
+                    }
+                });
+
+                console.log('🏷️ Tags:', this.allTags.size);
+
                 const container = document.getElementById('dataContainer');
                 const categories = this.groupByCategory();
 
                 container.innerHTML = '';
 
-                for (const [catName, entries] of Object.entries(categories)) {
+                Object.entries(categories).forEach(([catName, entries]) => {
                     const section = this.createCategorySection(catName, entries);
                     container.appendChild(section);
-                }
+                });
 
                 this.generateFilters();
                 this.updateStats();
                 document.querySelector('.loading')?.remove();
+
+                // Initial alle Zeilen sichtbar
+                document.querySelectorAll('tbody tr').forEach(row => row.classList.remove('row-hidden'));
+                document.querySelectorAll('.category').forEach(cat => cat.classList.remove('force-hidden'));
+
+                this.applyFilters();
+                console.log('✅ Rendering fertig');
             },
 
             groupByCategory() {
@@ -312,7 +362,7 @@
 
             createCategorySection(categoryName, entries) {
                 const section = document.createElement('section');
-                section.className = 'category';
+                section.className = 'category collapsed';
                 section.dataset.category = categoryName;
 
                 const icon = this.getCategoryIcon(categoryName);
@@ -369,7 +419,6 @@
                     /youtube\.com\/live\/([^&\?\/]+)/,
                     /youtube\.com\/shorts\/([^&\?\/]+)/
                 ];
-
                 for (const pattern of patterns) {
                     const match = url.match(pattern);
                     if (match) return match[1];
@@ -385,10 +434,23 @@
                     return `<a href="${l.url}" target="_blank" class="link-item">${thumbnail}<span class="link-text">${this.esc(l.text)}</span></a>`;
                 }).join('');
 
-                const tags = (entry.tags || []).join(' ');
+                const tags = (entry.tags || [])
+                    .filter(t => t && typeof t === 'string')
+                    .map(t => t.trim().toLowerCase())
+                    .filter(t => t.length > 0);
+
+                const tagsStr = tags.join('§§§');
+
+                const searchText = [
+                    entry.thema || '',
+                    entry.beschreibung || '',
+                    entry.kategorie || '',
+                    ...tags,
+                    ...(entry.links || []).map(l => l.text || '')
+                ].join(' ').toLowerCase();
 
                 return `
-                    <tr data-tags="${tags}" data-kategorie="${this.esc(entry.kategorie)}" data-searchtext="${this.esc(entry.thema + ' ' + entry.beschreibung + ' ' + tags).toLowerCase()}">
+                    <tr data-tags="${this.esc(tagsStr)}" data-kategorie="${this.esc(entry.kategorie)}" data-search="${this.esc(searchText)}">
                         <td data-label="Thema">${this.esc(entry.thema)}</td>
                         <td data-label="Beschreibung">${this.esc(entry.beschreibung)}</td>
                         <td data-label="Links"><div class="links">${links}</div></td>
@@ -398,40 +460,98 @@
 
             generateFilters() {
                 const categories = new Set();
-                const tags = new Set();
-
-                this.data.forEach(e => {
-                    categories.add(e.kategorie || 'Sonstiges');
-                    (e.tags || []).forEach(t => {
-                        if (t && t.trim()) tags.add(t.trim().toLowerCase());
-                    });
-                });
+                this.data.forEach(e => categories.add(e.kategorie || 'Sonstiges'));
 
                 // Kategorien
                 const catContainer = document.getElementById('categoryFilters');
-                catContainer.innerHTML = '<button class="filter-btn active" data-filter="all">🌐 Alle</button>';
+                catContainer.innerHTML = '<button class="filter-btn active" data-filter="all">🌍 Alle</button>';
                 Array.from(categories).sort().forEach(c => {
                     const icon = this.getCategoryIcon(c);
                     catContainer.innerHTML += `<button class="filter-btn" data-filter="${this.esc(c)}">${icon} ${this.esc(c)}</button>`;
                 });
 
-                // Autoren
+                // Autoren - NUR mit Videos
                 const authorContainer = document.getElementById('authorFilters');
-                authorContainer.innerHTML = '<button class="filter-btn active" data-filter="all">👥 Alle Autoren</button>';
-                this.authors.sort((a, b) => a.name.localeCompare(b.name)).forEach(author => {
-                    authorContainer.innerHTML += `<button class="filter-btn" data-author="${this.esc(author.name)}" title="${this.esc(author.url)}">${this.esc(author.name)}</button>`;
-                });
+                authorContainer.innerHTML = '<button class="filter-btn active" data-filter="all">👥 Alle</button>';
 
-                // Tags
+                if (Array.isArray(this.authors) && this.authors.length > 0) {
+                    // Sammle alle Video-URLs
+                    const allVideoUrls = new Set();
+                    this.data.forEach(entry => {
+                        if (Array.isArray(entry.links)) {
+                            entry.links.forEach(link => {
+                                if (link && link.url) {
+                                    allVideoUrls.add(link.url.toLowerCase());
+                                }
+                            });
+                        }
+                    });
+
+                    // Filtere Autoren
+                    const authorsWithVideos = this.authors.filter(author => {
+                        if (!author || !author.name || !author.url) return false;
+
+                        const authorId = author.url.toLowerCase()
+                            .replace(/https?:\/\/(www\.)?/, '')
+                            .replace(/youtube\.com\/@/, '')
+                            .replace(/\/$/, '');
+
+                        return Array.from(allVideoUrls).some(videoUrl =>
+                            videoUrl.includes(authorId)
+                        );
+                    });
+
+                    console.log('👥 Autoren MIT Videos:', authorsWithVideos.length);
+
+                    authorsWithVideos.sort((a, b) => a.name.localeCompare(b.name)).forEach(author => {
+                        authorContainer.innerHTML += `<button class="filter-btn" data-author="${this.esc(author.name)}">${this.esc(author.name)}</button>`;
+                    });
+
+                    // Update Author Count in Stats
+                    document.getElementById('authorCount').textContent = authorsWithVideos.length;
+                }
+
+                this.renderTagFilters();
+            },
+
+            renderTagFilters() {
                 const tagContainer = document.getElementById('tagFilters');
-                tagContainer.innerHTML = '';
-                Array.from(tags).sort().forEach(t => {
-                    tagContainer.innerHTML += `<button class="tag-btn" data-tag="${t}">${t}</button>`;
-                });
+                const threshold = this.showAllTags ? 1 : this.tagThreshold;
+
+                const filteredTags = Array.from(this.allTags.entries())
+                    .filter(([tag, count]) => count >= threshold)
+                    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+
+                if (filteredTags.length > 0) {
+                    tagContainer.innerHTML = filteredTags.map(([tag, count]) =>
+                        `<button class="tag-btn" data-tag="${this.esc(tag)}">${this.esc(tag)} <span class="tag-count">${count}</span></button>`
+                    ).join('');
+                } else {
+                    tagContainer.innerHTML = '<p style="color: var(--gray); padding: 1rem;">Keine Tags gefunden</p>';
+                }
+
+                document.getElementById('visibleTagCount').textContent = filteredTags.length;
+            },
+
+            updateTagThreshold(value) {
+                this.tagThreshold = parseInt(value);
+                this.showAllTags = false;
+                document.getElementById('thresholdValue').textContent = value;
+                this.renderTagFilters();
+            },
+
+            toggleAllTags() {
+                this.showAllTags = !this.showAllTags;
+                document.querySelector('.show-all-tags-btn').textContent = this.showAllTags ? 'Gefiltert' : 'Alle anzeigen';
+                this.renderTagFilters();
             },
 
             setupEvents() {
-                document.getElementById('searchInput').addEventListener('input', () => this.applyFilters());
+                let searchTimeout;
+                document.getElementById('searchInput').addEventListener('input', () => {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => this.applyFilters(), 200);
+                });
 
                 document.getElementById('categoryFilters').addEventListener('click', (e) => {
                     if (e.target.classList.contains('filter-btn')) {
@@ -442,34 +562,46 @@
                 });
 
                 document.getElementById('authorFilters').addEventListener('click', (e) => {
-                    if (e.target.classList.contains('filter-btn')) {
-                        if (e.target.dataset.filter === 'all') {
-                            document.querySelectorAll('#authorFilters .filter-btn').forEach(b => b.classList.remove('active'));
-                            e.target.classList.add('active');
-                            this.activeAuthors.clear();
+                    if (!e.target.classList.contains('filter-btn')) return;
+                    const isAll = e.target.dataset.filter === 'all';
+
+                    if (isAll) {
+                        document.querySelectorAll('#authorFilters .filter-btn').forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        this.activeAuthors.clear();
+                    } else {
+                        document.querySelector('#authorFilters .filter-btn[data-filter="all"]').classList.remove('active');
+                        e.target.classList.toggle('active');
+                        const author = e.target.dataset.author;
+                        if (e.target.classList.contains('active')) {
+                            this.activeAuthors.add(author);
                         } else {
-                            document.querySelector('#authorFilters .filter-btn[data-filter="all"]').classList.remove('active');
-                            e.target.classList.toggle('active');
-                            const author = e.target.dataset.author;
-                            this.activeAuthors.has(author) ? this.activeAuthors.delete(author) : this.activeAuthors.add(author);
+                            this.activeAuthors.delete(author);
                         }
-                        this.applyFilters();
+                        if (this.activeAuthors.size === 0) {
+                            document.querySelector('#authorFilters .filter-btn[data-filter="all"]').classList.add('active');
+                        }
                     }
+                    this.applyFilters();
                 });
 
                 document.getElementById('tagFilters').addEventListener('click', (e) => {
-                    if (e.target.classList.contains('tag-btn')) {
-                        e.target.classList.toggle('active');
-                        const tag = e.target.dataset.tag;
-                        this.activeTags.has(tag) ? this.activeTags.delete(tag) : this.activeTags.add(tag);
+                    const btn = e.target.closest('.tag-btn');
+                    if (btn) {
+                        btn.classList.toggle('active');
+                        const tag = btn.dataset.tag;
+                        if (btn.classList.contains('active')) {
+                            this.activeTags.add(tag);
+                        } else {
+                            this.activeTags.delete(tag);
+                        }
                         this.applyFilters();
                     }
                 });
             },
 
             setupCollapsible() {
-                const sections = document.querySelectorAll('.filter-section h3');
-                sections.forEach(h3 => {
+                document.querySelectorAll('.filter-section h3').forEach(h3 => {
                     h3.addEventListener('click', () => {
                         h3.parentElement.classList.toggle('collapsed');
                     });
@@ -480,39 +612,56 @@
                 const query = document.getElementById('searchInput').value.toLowerCase().trim();
                 const activeCat = document.querySelector('#categoryFilters .filter-btn.active')?.dataset.filter || 'all';
 
-                let visible = 0;
+                let visibleCount = 0;
+                const categoriesWithContent = new Set();
 
                 document.querySelectorAll('tbody tr').forEach(row => {
-                    const cat = row.dataset.kategorie;
-                    const tags = new Set(row.dataset.tags.toLowerCase().split(' '));
-                    const searchText = row.dataset.searchtext || '';
+                    const cat = row.dataset.kategorie || '';
+                    const tagsStr = row.dataset.tags || '';
+                    const searchText = row.dataset.search || '';
 
-                    // Autoren-Filter: Prüfe ob irgendein Link zu einem aktiven Autor gehört
-                    let matchesAuthor = this.activeAuthors.size === 0; // Wenn keine Autoren ausgewählt, passen alle
-                    if (this.activeAuthors.size > 0) {
-                        const rowLinks = Array.from(row.querySelectorAll('a')).map(a => a.href);
-                        matchesAuthor = this.authors.some(author =>
-                            this.activeAuthors.has(author.name) &&
-                            rowLinks.some(link => link.includes(author.url.split('@')[1] || author.url))
-                        );
-                    }
+                    const rowTags = new Set(tagsStr.split('§§§').filter(t => t.length > 0));
 
                     const matchesCat = activeCat === 'all' || activeCat === cat;
-                    const matchesSearch = !query || searchText.includes(query);
-                    const matchesTags = Array.from(this.activeTags).every(t => tags.has(t));
+                    const matchesSearch = query.length === 0 || searchText.includes(query);
+                    const matchesTags = this.activeTags.size === 0 ||
+                        Array.from(this.activeTags).every(tag => rowTags.has(tag));
+
+                    let matchesAuthor = this.activeAuthors.size === 0;
+                    if (this.activeAuthors.size > 0) {
+                        const rowLinks = Array.from(row.querySelectorAll('a')).map(a => a.href.toLowerCase());
+                        matchesAuthor = this.authors.some(author => {
+                            if (!this.activeAuthors.has(author.name) || !author.url) return false;
+                            const authorId = author.url.toLowerCase()
+                                .replace(/https?:\/\/(www\.)?/, '')
+                                .replace(/youtube\.com\/@/, '')
+                                .replace(/\/$/, '');
+                            return rowLinks.some(link => link.includes(authorId));
+                        });
+                    }
 
                     const isVisible = matchesCat && matchesSearch && matchesTags && matchesAuthor;
-                    row.classList.toggle('hidden', !isVisible);
-                    if (isVisible) visible++;
+
+                    if (isVisible) {
+                        row.classList.remove('row-hidden');
+                        visibleCount++;
+                        categoriesWithContent.add(cat);
+                    } else {
+                        row.classList.add('row-hidden');
+                    }
                 });
 
                 document.querySelectorAll('.category').forEach(cat => {
-                    const hasVisible = cat.querySelectorAll('tbody tr:not(.hidden)').length > 0;
-                    cat.style.display = hasVisible ? '' : 'none';
+                    const catName = cat.dataset.category;
+                    if (categoriesWithContent.has(catName)) {
+                        cat.classList.remove('force-hidden');
+                    } else {
+                        cat.classList.add('force-hidden');
+                    }
                 });
 
-                document.getElementById('visibleCount').textContent = visible;
-                document.getElementById('noResults').classList.toggle('visible', visible === 0);
+                document.getElementById('visibleCount').textContent = visibleCount;
+                document.getElementById('noResults').classList.toggle('visible', visibleCount === 0);
             },
 
             resetFilters() {
@@ -522,73 +671,55 @@
                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                 document.querySelector('#categoryFilters .filter-btn[data-filter="all"]').classList.add('active');
                 document.querySelector('#authorFilters .filter-btn[data-filter="all"]').classList.add('active');
-                document.querySelectorAll('.tag-btn.active').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
                 this.applyFilters();
             },
 
             playRandomLearning() {
-                const learningCategories = [
+                this.playRandomFromCategories([
                     'Grundlagen & Theorie',
                     'NVIDIA Isaac Sim & Omniverse',
                     'KI, Computer Vision & Machine Learning',
                     'ROS & Softwareentwicklung'
-                ];
-                this.playRandomFromCategories(learningCategories);
+                ]);
             },
 
             playRandomProject() {
-                const projectCategories = [
+                this.playRandomFromCategories([
                     'DIY Projekte & 3D-Druck',
                     'Hardware, Elektronik & Motoren',
                     'Open Source Hardware & Forschung'
-                ];
-                this.playRandomFromCategories(projectCategories);
+                ]);
             },
 
             playRandomFromCategories(categories) {
                 const matching = this.data.filter(e =>
-                    categories.some(cat => e.kategorie && e.kategorie.includes(cat))
+                    e.kategorie && categories.some(cat => e.kategorie.includes(cat))
                 );
 
                 if (matching.length === 0) {
-                    this.showStatus('⚠️ Keine passenden Einträge gefunden', 'error');
+                    this.showStatus('⚠️ Keine passenden Einträge', 'error');
                     return;
                 }
 
                 const random = matching[Math.floor(Math.random() * matching.length)];
 
-                if (random.links && random.links.length > 0) {
-                    const firstLink = random.links[0];
-                    this.showStatus(`🎲 Zufällig: ${random.thema}`, 'success');
-                    window.open(firstLink.url, '_blank');
-
-                    // Scrolle zum Eintrag
-                    setTimeout(() => {
-                        const rows = document.querySelectorAll('tbody tr');
-                        for (const row of rows) {
-                            if (row.textContent.includes(random.thema)) {
-                                row.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                row.style.background = '#fef3c7';
-                                setTimeout(() => row.style.background = '', 2000);
-                                break;
-                            }
-                        }
-                    }, 500);
-                } else {
-                    this.showStatus('⚠️ Kein Link verfügbar', 'error');
+                if (random.links?.[0]?.url) {
+                    this.showStatus(`🎲 ${random.thema}`, 'success');
+                    window.open(random.links[0].url, '_blank');
                 }
             },
 
             updateStats() {
-                const rows = document.querySelectorAll('tbody tr');
                 const categories = new Set();
-                this.data.forEach(e => categories.add(e.kategorie));
+                this.data.forEach(e => { if (e.kategorie) categories.add(e.kategorie); });
 
-                document.getElementById('totalCount').textContent = rows.length;
+                const visibleRows = document.querySelectorAll('tbody tr:not(.row-hidden)').length;
+
+                document.getElementById('totalCount').textContent = this.data.length;
                 document.getElementById('totalLinks').textContent = document.querySelectorAll('.link-item').length;
                 document.getElementById('categoryCount').textContent = categories.size;
-                document.getElementById('authorCount').textContent = this.authors.length;
-                document.getElementById('visibleCount').textContent = rows.length;
+                document.getElementById('visibleCount').textContent = visibleRows;
                 document.getElementById('dbCount').textContent = this.data.length;
             },
 
@@ -597,7 +728,7 @@
                 el.textContent = msg;
                 el.className = `status ${type} show`;
                 if (type !== 'info') {
-                    setTimeout(() => el.classList.remove('show'), 5000);
+                    setTimeout(() => el.classList.remove('show'), 4000);
                 }
             },
 
