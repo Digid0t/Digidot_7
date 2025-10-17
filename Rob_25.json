@@ -1096,10 +1096,10 @@
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Radar-Systeme & Tracking",
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Radar-Systeme & Drohnen-Tracking",
       "beschreibung": "Eine mehrteilige Serie, die den Aufbau eines eigenen Drohnen-Tracking-Radars von Grund auf erklärt. Die Videos behandeln die Theorie und Praxis von CW-, FMCW-Radar, Chirp-Synchronisation und CFAR-Targeting.",
-      "tags": ["radar", "fmcw", "tracking", "rf-engineering", "signal-processing", "drone-detection", "advanced"],
+      "tags": ["radar", "fmcw", "tracking", "rf-engineering", "signal-processing", "drone-detection", "diy", "advanced"],
       "links": [
         {"text": "▶️ Build Your Own Drone Tracking Radar: Part 1", "url": "https://youtu.be/igrN_wd_g74"},
         {"text": "▶️ Build Your Own Drone Tracking Radar: Part 2 CW Radar", "url": "https://youtu.be/5VSIIFKK6Ck"},
@@ -1110,19 +1110,19 @@
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Robotik mit Raspberry Pi & No-Code",
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Robotik mit Raspberry Pi & No-Code (FlowBlocks)",
       "beschreibung": "Dieses Projekt der Cambridge University für die Raspberry Pi Foundation stellt FlowBlocks vor, eine No-Code-Plattform zur Steuerung von Robotik-Hardware. Ideal für Einsteiger und den Bildungsbereich.",
-      "tags": ["raspberry-pi", "no-code", "education", "beginner", "visual-programming"],
+      "tags": ["raspberry-pi", "no-code", "education", "beginner", "visual-programming", "flowblocks"],
       "links": [
         {"text": "▶️ Robotik mit Raspberry PI & no code, FlowBlocks", "url": "https://youtu.be/7U-25yO93R4"}
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Phased Array & HF-Technik",
-      "beschreibung": "Fortgeschrittene HF-Technik für Radar und Phased Array Systeme.",
-      "tags": ["phased-array", "rf-engineering", "radar", "antenna-design", "advanced", "wireless"],
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Phased Array & HF-Technik für Radar",
+      "beschreibung": "Fortgeschrittene HF-Technik für Radar und Phased Array Systeme. Inklusive ESP32-basierter Antenna-Arrays.",
+      "tags": ["phased-array", "rf-engineering", "radar", "antenna-design", "esp32", "advanced", "wireless"],
       "links": [
         {"text": "▶️ Rapid Phased Array prototyping with Analog Devices and X-Microwave", "url": "https://youtu.be/B_icccUpxV0"},
         {"text": "▶️ Introducing the Phaser!", "url": "https://youtu.be/B66JHcZMq_Q"},
@@ -1130,20 +1130,20 @@
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Raketen & Kommunikation",
-      "beschreibung": "Projekte zu Raketen, Überschallraketen und drahtloser Kommunikation.",
-      "tags": ["rocket", "radio-communication", "telemetry", "diy", "advanced", "aerospace"],
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Raketen & Telemetrie-Kommunikation",
+      "beschreibung": "Projekte zu Modellraketen, Überschallraketen und drahtloser Telemetrie-Kommunikation.",
+      "tags": ["rocket", "model-rocketry", "radio-communication", "telemetry", "diy", "advanced", "aerospace"],
       "links": [
         {"text": "▶️ Commanding a Rocket Via Radio - Homemade Two-Way Datalink", "url": "https://youtu.be/2o6qZ-UWxr8"},
         {"text": "▶️ Überschallrakete", "url": "https://youtu.be/HU3YnVzqExA"}
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Meshtastic & Kommunikationsnetze",
-      "beschreibung": "Ressourcen zu Meshtastic, ATAK und dezentralen Kommunikationsnetzen.",
-      "tags": ["meshtastic", "lora", "mesh-network", "atak", "communication", "iot", "intermediate"],
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Meshtastic & LoRa Mesh-Netzwerke",
+      "beschreibung": "Ressourcen zu Meshtastic, ATAK und dezentralen LoRa-Kommunikationsnetzen für Robotik-Anwendungen.",
+      "tags": ["meshtastic", "lora", "mesh-network", "atak", "communication", "iot", "raspberry-pi", "intermediate"],
       "links": [
         {"text": "▶️ Meshtastic Solar Board", "url": "https://youtu.be/7tmJ3wd4ikc"},
         {"text": "🌐 Cheap Outdoor Meshtastic Nodes", "url": "https://www.zerofox3d.com/collections/meshtastic/"},
@@ -1158,10 +1158,10 @@
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Alternative Antriebe",
-      "beschreibung": "Innovative Antriebskonzepte wie Ionic Plasma Thruster für Fluggeräte.",
-      "tags": ["propulsion", "ionic-thruster", "plasma", "experimental", "advanced", "aerospace"],
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Alternative Antriebe - Ionic Plasma Thruster",
+      "beschreibung": "Innovative Antriebskonzepte wie Ionic Plasma Thruster für Fluggeräte. Experimentelle Projekte für fortgeschrittene Maker.",
+      "tags": ["propulsion", "ionic-thruster", "plasma", "experimental", "diy", "advanced", "aerospace"],
       "links": [
         {"text": "▶️ Effektiv Ionic Plasma Thruster", "url": "https://youtu.be/mnCmvxt2jn8"},
         {"text": "▶️ Ionic Plasma Engine", "url": "https://youtu.be/gc2pbgdcCkw"},
@@ -1169,19 +1169,110 @@
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Blender für Robotik",
-      "beschreibung": "Verwendung von Blender 5.0 für Robotik-Visualisierungen und Animationen.",
-      "tags": ["blender", "3d-modeling", "visualization", "animation", "intermediate", "software"],
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Blender für Robotik-Visualisierung",
+      "beschreibung": "Verwendung von Blender 5.0 für Robotik-Visualisierungen, Animationen und 3D-Modellierung.",
+      "tags": ["blender", "3d-modeling", "visualization", "animation", "urdf", "intermediate", "software"],
       "links": [
         {"text": "▶️ How Blender 5.0 changes nodes", "url": "https://youtu.be/4kKR891KTvQ"}
       ]
     },
     {
-      "kategorie": "Sonstiges & Spezialthemen",
-      "thema": "Showcase & Inspiration - Drohnen",
-      "beschreibung": "Beeindruckende Drohnen-Demonstrationen und inspirierende Projekte aus verschiedenen Kategorien.",
-      "tags": ["showcase", "inspiration", "drone", "uav", "demo", "various"],
+      "kategorie": "Showcase & Inspiration",
+      "thema": "Fortschrittliche Drohnenkonzepte & -fähigkeiten",
+      "beschreibung": "Eine Sammlung von Videos, die den aktuellen Stand der Drohnentechnologie und zukünftige Konzepte demonstrieren. Beinhaltet multimodale Roboter, die fliegen, laufen und schwimmen können, sowie inspirierte Drohnenschwärme und einen allgemeinen Überblick über aktuelle Trends.",
+      "tags": ["drone", "showcase", "inspiration", "research", "multimodal", "swarm"],
+      "links": [
+        {"text": "▶️ Flug, Lauf und Schwimm", "url": "https://youtu.be/A_uxQD-7bH8"},
+        {"text": "▶️ ATTENTION DROHNEN", "url": "https://youtu.be/IGK0wYXebmc"},
+        {"text": "▶️ Was es grad gibt an Drohnen", "url": "https://www.youtube.com/watch?v=m1FNcNvboSg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Experimentelle & Hybride DIY-Fluggeräte",
+      "beschreibung": "Inspirierende DIY-Projekte mit unkonventionellen Designs. Beinhaltet einen Transformer, der sich von einem RC-Auto in eine Drohne verwandelt, sowie Fluggeräte mit nur zwei oder drei Motoren, die eine hohe Wendigkeit aufweisen.",
+      "tags": ["diy", "drone", "hybrid", "experimental", "rc-car", "transformer", "intermediate"],
+      "links": [
+        {"text": "▶️ RC-Car und Drohne Hybrid", "url": "https://youtu.be/f1GSzysrYtw"},
+        {"text": "▶️ 2 Motor Drohne", "url": "https://youtu.be/55G-mwT9uCE"},
+        {"text": "▶️ 3 Motor Drohne super wendig", "url": "https://youtu.be/7JH1_ZKV7t4"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Starrflügler & FPV-Drohnen",
+      "beschreibung": "Eine Sammlung von Projekten zum Bau von Starrflügler-Drohnen (Wings) und FPV-Racern. Beinhaltet Anleitungen für den Modellbau, günstige Builds und eine Schritt-für-Schritt-Anleitung für den ersten FPV-Copter.",
+      "tags": ["diy", "drone", "fpv", "fixed-wing", "racing", "model-building", "intermediate"],
+      "links": [
+        {"text": "▶️ Modellbau Flügel Drohne", "url": "https://youtu.be/3OrBk4XSexw"},
+        {"text": "▶️ FPV Drohne Step by Step", "url": "https://youtu.be/S9dvDU5RmQU"},
+        {"text": "▶️ Super Cheap Flügel Drohne", "url": "https://youtu.be/aQIA9T_S-1Y"},
+        {"text": "▶️ Hammer DIY Drohne (Wing)", "url": "https://youtu.be/LGt_8F4e5r8"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY ESP32 Mini-Drohnen",
+      "beschreibung": "Ressourcen und Projekte zum Bau von sehr kleinen und kostengünstigen Drohnen auf Basis des ESP32-Mikrocontrollers. Die Videos zeigen komplette Builds, spezielle Platinen und verschiedene Miniaturisierungsansätze.",
+      "tags": ["diy", "drone", "esp32", "miniature", "low-cost", "beginner", "electronics"],
+      "links": [
+        {"text": "▶️ Cheap ESP32 Drohne", "url": "https://youtu.be/uzZjk0TQKtU"},
+        {"text": "▶️ ESP32 Drohnen Board", "url": "https://youtu.be/X3m5shEr6eY"},
+        {"text": "▶️ Mini Mini Drohne", "url": "https://youtu.be/wZlViCPCWJw"},
+        {"text": "▶️ Mini ESP32 Drohne", "url": "https://youtu.be/V_mZsiZcy7s"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Budget-Drohnen (bis 150$)",
+      "beschreibung": "Eine Auswahl an Projekten, die zeigen, wie man mit einem begrenzten Budget leistungsfähige Drohnen selbst bauen kann. Beinhaltet einen sehr günstigen Build für unter 20$ mit Personenerkennung, einen 100$-Allrounder und eine 150$-Drohne mit erweiterter Funktionalität wie Mesh-Kommunikation.",
+      "tags": ["diy", "drone", "low-cost", "budget", "computer-vision", "mesh-network", "beginner"],
+      "links": [
+        {"text": "▶️ Open Source Drohne im Raum mit Personenerkennung 20$", "url": "https://youtu.be/0ql20JKrscQ"},
+        {"text": "▶️ 100$ Drohne DIY", "url": "https://youtu.be/MxG22nbBNvQ"},
+        {"text": "▶️ 150$ Drohne mit Power", "url": "https://youtu.be/uC9hVyqGvDE"},
+        {"text": "▶️ 150$ Drohne mit Mesh und ATAK", "url": "https://youtu.be/bmLE9BT76Pc"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Autonome DIY-Drohnen & Navigation",
+      "beschreibung": "Projekte, die sich auf die autonome Navigation von selbstgebauten Drohnen konzentrieren. Die Videos zeigen verschiedene Ansätze für autonomes Fliegen, die Implementierung von GPS-Funktionen und beeindruckende Demonstrationen von autonomen Missionen.",
+      "tags": ["diy", "drone", "autonomous", "navigation", "gps", "intermediate", "waypoint"],
+      "links": [
+        {"text": "▶️ Autonome Drohne", "url": "https://youtu.be/p8frNNYQNV4"},
+        {"text": "▶️ Sehr coole autonome Drohne", "url": "https://youtu.be/B96JGoWQOsE"},
+        {"text": "▶️ GPS Drohne DIY", "url": "https://youtu.be/3G3Igag0jdo"}
+      ]
+    },
+    {
+      "kategorie": "Showcase & Inspiration",
+      "thema": "Kreative & unkonventionelle Fluggeräte",
+      "beschreibung": "Eine Sammlung von inspirierenden und ungewöhnlichen Flugobjekten. Von einer Drohne, die als Papierflugzeug getarnt ist, über einen fliegenden Regenschirm bis hin zu einer beeindruckenden Drohnen-Lichtshow und einem riesigen DIY-Build.",
+      "tags": ["inspiration", "showcase", "drone", "creative", "lightshow", "unusual"],
+      "links": [
+        {"text": "▶️ Papierflugzeug Drohne", "url": "https://youtu.be/KV4Q9epoRac"},
+        {"text": "▶️ Fliegender Regenschirm", "url": "https://youtu.be/0A5TBlqWess"},
+        {"text": "▶️ BIG Drohne", "url": "https://youtu.be/X-Q08HQq7fM"},
+        {"text": "▶️ Drohnen Lightshow", "url": "https://youtu.be/MRbBhBAv2dM"}
+      ]
+    },
+    {
+      "kategorie": "Showcase & Inspiration",
+      "thema": "Bio-inspirierte Drohnen (Ornithopter)",
+      "beschreibung": "Inspirierende Videos von vogelartigen Drohnen, sogenannten Ornithoptern, die den Flügelschlag von Vögeln nachahmen. Diese Showcases demonstrieren die Komplexität und Eleganz der bio-inspirierten Flugmechanik.",
+      "tags": ["showcase", "inspiration", "drone", "bio-inspired", "ornithopter", "biomechanics", "research"],
+      "links": [
+        {"text": "▶️ Vogel Drohnen", "url": "https://youtu.be/al-PRRAs2vI"},
+        {"text": "▶️ Vogelartige Drohne", "url": "https://youtu.be/angnUj0-yhQ"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Drohnen-Showcase & Inspiration",
+      "beschreibung": "Beeindruckende Drohnen-Demonstrationen und inspirierende Projekte: FPV-Drohnen, autonome Systeme, Lightshows, Budget-Builds, experimentelle Designs und bio-inspirierte Fluggeräte.",
+      "tags": ["drone", "uav", "showcase", "inspiration", "fpv", "autonomous", "diy", "various"],
       "links": [
         {"text": "▶️ Flug, Lauf und Schwimm", "url": "https://youtu.be/A_uxQD-7bH8"},
         {"text": "▶️ ATTENTION DROHNEN", "url": "https://youtu.be/IGK0wYXebmc"},
@@ -1215,12 +1306,13 @@
     }
   ],
   "meta": {
-    "version": "2.0",
+    "version": "2.2",
     "last_updated": "2025-01-17",
-    "total_resources": 165,
-    "categories": 11,
+    "total_resources": 172,
+    "categories": 10,
     "tag_system": "hierarchical-multilevel",
     "language": "de-descriptions-en-tags",
-    "description": "Umfassende Robotik-Ressourcen-Datenbank mit systematisch überarbeiteten Tags für optimale Durchsuchbarkeit und Filterung"
+    "description": "Umfassende Robotik-Ressourcen-Datenbank mit systematisch überarbeiteten Tags, detailliert aufgeteilten Drohnen-Projekten und logisch organisierten Kategorien",
+    "changes": "Drohnen-Ressourcen detailliert kategorisiert, 'Showcase & Inspiration' als eigene Kategorie hinzugefügt, 'Sonstiges' aufgelöst"
   }
 }
