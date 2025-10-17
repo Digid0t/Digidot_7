@@ -1556,7 +1556,11 @@
       "kategorie": "Sonstiges & Spezialthemen",
       "thema": "Alternative Antriebe",
       "beschreibung": "Innovative Antriebskonzepte wie Ionic Plasma Thruster für Fluggeräte.",
-      "tags": ["antrieb", "plasma", "innovation"],
+      "tags": [
+        "antrieb",
+        "plasma",
+        "innovation"
+      ],
       "links": [
         {
           "text": "▶️ Effektiv Ionic Plasma Thruster",
@@ -1570,6 +1574,802 @@
           "text": "▶️ Ionic Plasma in Flugzeugen, als Flügel",
           "url": "https://youtu.be/5lDSSgHG4q0"
         }
+      ]
+     },
+      {
+    "kategorie": "Kommerzielle Roboter & Webseiten",
+    "thema": "PUDU D9 - Multifunktionaler humanoider Roboter",
+    "beschreibung": "Vorstellung des PUDU D9, eines kommerziellen humanoiden Roboters für Logistik und Dienstleistungen aus Rumänien.",
+    "tags": ["kommerziell", "humanoid", "logistik", "showcase"],
+    "links": [
+      {
+        "text": "▶️ PUDU D9 - Robot umanoid",
+        "url": "https://youtu.be/uonb_ZBw57A"
+      },
+      {
+        "text": "🌐 PUDU D9 - EUROFIT Produktseite",
+        "url": "https://www.eurofit.ro/ro/automatizare-depozite/"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "DIY Open Source Roboter (MakerForgeTech)",
+    "beschreibung": "Projektvorstellung eines intelligenten, 3D-druckbaren Open-Source-Roboters. Inklusive Thingiverse-Link für die 3D-Modelle.",
+    "tags": ["diy", "open-source", "3d-druck", "projekt"],
+    "links": [
+      {
+        "text": "▶️ My Smartest DIY Robot Yet",
+        "url": "https://youtu.be/t_Gqqu0ZZ2I"
+      },
+      {
+        "text": "🌐 Thingiverse: Smartest DIY Robot",
+        "url": "https://www.thingiverse.com/thing:7052627"
+      }
+    ]
+  },
+  {
+    "kategorie": "Open Source Hardware & Forschung",
+    "thema": "Open Source Companion Robot (Raspberry Pi & Arduino)",
+    "beschreibung": "Anleitung zum Bau eines modularen, zweibeinigen Begleitroboters mit Raspberry Pi und Arduino. Das Projekt ist Open Source mit einer detaillierten Wiki auf GitHub.",
+    "tags": ["open-source", "diy", "raspberry-pi", "arduino", "humanoid", "bipedal"],
+    "links": [
+      {
+        "text": "▶️ Building a Companion Robot",
+        "url": "https://youtu.be/Nqp4vuDWgpw"
+      },
+      {
+        "text": "🌐 GitHub Wiki: modular-biped",
+        "url": "https://github.com/makerforgetech/modular-biped/wiki"
+      }
+    ]
+  },
+  {
+    "kategorie": "ROS & Softwareentwicklung",
+    "thema": "Open Vehicle Control System (OVCS)",
+    "beschreibung": "Ein Open-Source-Fahrzeugsteuerungssystem, das mit der Programmiersprache Elixir entwickelt wurde.",
+    "tags": ["open-source", "software", "fahrzeugsteuerung", "elixir"],
+    "links": [
+      {
+        "text": "🌐 GitHub: Open Vehicle Control System",
+        "url": "https://github.com/open-vehicle-control-system/ovcs"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "DIY Smart Coop - KI-gesteuerter Hühnerstall",
+    "beschreibung": "Ein DIY-Projekt für einen intelligenten Hühnerstall, der KI nutzt, um verschiedene Funktionen zu automatisieren.",
+    "tags": ["diy", "projekt", "ki", "iot", "hausautomation"],
+    "links": [
+      {
+        "text": "▶️ $50 DIY Smart Coop | AI Powered",
+        "url": "https://youtu.be/dbEeGJjQNNE"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "IoT Hausautomation mit ESP8266 & Firebase",
+    "beschreibung": "Tutorial zur Steuerung von Relais in Echtzeit über ein Web-Dashboard mit ESP8266 und Firebase, inklusive manueller Schalterintegration.",
+    "tags": ["iot", "esp8266", "firebase", "hausautomation", "nodemcu", "tutorial"],
+    "links": [
+      {
+        "text": "▶️ ESP8266 Firebase IoT Home Automation",
+        "url": "https://youtu.be/Bs4ktu9PIcY"
+      },
+      {
+        "text": "🌐 Playlist: NodeMCU Projects",
+        "url": "https://www.youtube.com/watch?v=Bs4ktu9PIcY&list=PLlBmS9EKFydcv9ffXm72-cU9_EusicIjO"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "BUD-E: Der emotionale Tisch-Roboter",
+    "beschreibung": "Ein Tischroboter, der die 'Gesundheit' eines Raumes (z.B. Luftqualität) durch Emotionen anzeigt. Ein kreatives Projekt, das Sensorik und Interaktion verbindet.",
+    "tags": ["diy", "projekt", "tischroboter", "iot", "sensoren", "interaktion"],
+    "links": [
+      {
+        "text": "▶️ I Built a Robot That MONITORS Room Health Through Emotions",
+        "url": "https://youtu.be/7ENqXEEsdDk"
+      },
+      {
+        "text": "🌐 Hackaday.io Projektseite",
+        "url": "https://hackaday.io/project/202409-a-robot-that-uses-emotions-to-indicate-room-health"
+      }
+    ]
+  },
+  {
+    "kategorie": "KI, Computer Vision & Machine Learning",
+    "thema": "Echtzeit-Konversations-KI auf ESP32",
+    "beschreibung": "Anleitung zum Aufbau eines sprachgesteuerten KI-Assistenten auf einem ESP32, der LiveKit und WebRTC für Echtzeitkommunikation nutzt.",
+    "tags": ["ki", "esp32", "sprachsteuerung", "webrtc", "diy", "open-source"],
+    "links": [
+      {
+        "text": "▶️ Building real-time conversational AI on ESP32",
+        "url": "https://youtu.be/4yU82_r0l0c"
+      },
+      {
+        "text": "🌐 GitHub: wheatley-ai",
+        "url": "https://github.com/pham-tuan-binh/wheatley-ai"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "StaccaToe - Einbeiniger Roboter mit CubeMars Aktuatoren",
+    "beschreibung": "Showcase des einbeinigen Roboters 'StaccaToe', der von den leistungsstarken CubeMars AK-Serien Aktuatoren angetrieben wird, um dynamische Sprung- und Balancebewegungen zu demonstrieren.",
+    "tags": ["hardware", "actuator", "motor", "dynamik", "showcase", "roboterbein"],
+    "links": [
+      {
+        "text": "▶️ StaccaToe, the Single-Leg Robot powered by CubeMars AK series",
+        "url": "https://youtu.be/CMAtwhYHYeg"
+      }
+    ]
+  },
+  {
+    "kategorie": "KI, Computer Vision & Machine Learning",
+    "thema": "Personalisierter KI-Chatbot mit Raspberry Pi",
+    "beschreibung": "Tutorial zur Erstellung eines personalisierten KI-Chatbots ('Pomo') mit einem Raspberry Pi und dem Deepseek R1 Sprachmodell unter Verwendung der Viam-Plattform.",
+    "tags": ["ki", "chatbot", "raspberry-pi", "llm", "viam", "diy", "tutorial"],
+    "links": [
+      {
+        "text": "▶️ Hey Pomo! Create a Personalized AI Chatbot with Raspberry Pi",
+        "url": "https://youtu.be/PwDoYDCD_g0"
+      },
+      {
+        "text": "🌐 Codelabs Tutorial V1",
+        "url": "https://codelabs.viam.com/guide/pomodoro-bot/index.html#0"
+      },
+      {
+        "text": "🌐 Codelabs Tutorial V2",
+        "url": "https://codelabs.viam.com/guide/pomodoro-bot-v2/index.html#0"
+      }
+    ]
+  },
+  {
+    "kategorie": "ROS & Softwareentwicklung",
+    "thema": "Nerves - Embedded Systems mit Elixir",
+    "beschreibung": "Einführung in das Nerves-Projekt, eine Open-Source-Plattform, die Elixir und die BEAM-VM nutzt, um robuste und wartbare Embedded Systems zu erstellen. Ideal für IoT und Robotik.",
+    "tags": ["software", "embedded-systems", "elixir", "nerves", "iot", "open-source"],
+    "links": [
+      {
+        "text": "▶️ Why Elixir/Nerves is the Perfect Language for Robotics & IoT",
+        "url": "https://youtu.be/WyjksrTxWP0"
+      },
+      {
+        "text": "🌐 Nerves Projekt-Homepage",
+        "url": "https://nerves-project.org/"
+      },
+      {
+        "text": "🌐 GitHub: nerves-project",
+        "url": "https://github.com/nerves-project/nerves"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "Design-Prozess eines humanoiden Roboters (NIX)",
+    "beschreibung": "Videos, die den Entstehungsprozess und das Design des humanoiden Roboter-Prototypen 'NIX' zeigen.",
+    "tags": ["diy", "design", "humanoid", "cad", "projekt"],
+    "links": [
+      {
+        "text": "▶️ How the Robot was Created",
+        "url": "https://youtu.be/626CDyniKwM"
+      },
+      {
+        "text": "▶️ Domestic Robots Prototype: Preliminary Design",
+        "url": "https://youtu.be/WKAMOd-cjK4"
+      },
+      {
+        "text": "🌐 GrabCAD Modell: NIX Robot",
+        "url": "https://grabcad.com/library/nix-robot-1"
+      }
+    ]
+  },
+  {
+    "kategorie": "Mechanik & Inspiration",
+    "thema": "Pneumatische Logik: Robotergehirn aus Luft",
+    "beschreibung": "Ein faszinierender Einblick in die Forschung zu 'Soft Robotics', bei der logische Schaltungen und Steuerungen nicht elektronisch, sondern rein pneumatisch (mit Luftdruck) realisiert werden.",
+    "tags": ["mechanik", "pneumatik", "soft-robotics", "forschung", "inspiration"],
+    "links": [
+      {
+        "text": "▶️ Can You 3D Print a Robot’s Brain Out of Air?",
+        "url": "https://youtu.be/Cn7jC6YamGE"
+      },
+      {
+        "text": "🌐 Fachartikel: Soft Pneumatic Logic",
+        "url": "https://www.intechopen.com/chapters/61556"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Verbesserungspotential bei Hobby-Servomotoren",
+    "beschreibung": "Eine kritische Analyse der Schwächen von herkömmlichen Hobby-Servos und Diskussion möglicher Verbesserungen in Bezug auf Präzision, Zuverlässigkeit und Steuerung.",
+    "tags": ["hardware", "motor", "servo", "elektronik", "kritik", "theorie"],
+    "links": [
+      {
+        "text": "▶️ Hobby Servomotors Could Be Much Better",
+        "url": "https://youtu.be/DDDD7iGMljw"
+      }
+    ]
+  },
+  {
+    "kategorie": "Open Source Hardware & Forschung",
+    "thema": "Open Source RC-Rennwagen nach gescheitertem Kickstarter",
+    "beschreibung": "Die Geschichte eines RC-Rennwagens, dessen Kickstarter-Kampagne scheiterte, und der daraufhin als Open-Source-Projekt auf GitHub veröffentlicht wurde.",
+    "tags": ["open-source", "hardware", "projekt", "rc-car", "diy"],
+    "links": [
+      {
+        "text": "▶️ My Kickstarter failed, so I open sourced it",
+        "url": "https://youtu.be/6jzG-BMannc"
+      },
+      {
+        "text": "🌐 GitHub: Racer",
+        "url": "https://github.com/StuckAtPrototype/Racer"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "DIY interner Zykloidgetriebe-Aktuator",
+    "beschreibung": "Anleitung zum Bau eines hochpräzisen und leistungsstarken Roboter-Aktuators mit internem Zykloidgetriebe. Ideal für Anwendungen, die hohe Drehmomente erfordern.",
+    "tags": ["diy", "hardware", "actuator", "motor", "getriebe", "mechanik", "open-source"],
+    "links": [
+      {
+        "text": "▶️ Building an Internal Cycloidal Robotic Actuator",
+        "url": "https://youtu.be/RyLNtzoW58U"
+      },
+      {
+        "text": "🌐 GitHub: Internal-Cycloidal-Robotic-Actuator",
+        "url": "https://github.com/KoshiroRobot/Internal-Cycloidal-Robotic-Actuator"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "DIY Ball-Balancing Roboter",
+    "beschreibung": "Projekt eines Roboters, der eine Platte so steuert, dass ein Ball darauf balanciert wird. Beinhaltet Erklärungen zur inversen Kinematik und die GitHub-Ressourcen.",
+    "tags": ["diy", "projekt", "regelungstechnik", "self-balancing", "kinematik", "open-source"],
+    "links": [
+      {
+        "text": "▶️ I built a Ball Balancing Robot",
+        "url": "https://youtu.be/KnYSuQEBGHc"
+      },
+      {
+        "text": "▶️ Inverse kinematics of a ball balancing robot",
+        "url": "https://youtu.be/-1pX518wlu8"
+      },
+      {
+        "text": "🌐 GitHub: Ball-Balancing-Robot",
+        "url": "https://github.com/KoshiroRobot/Ball-Balancing-Robot"
+      }
+    ]
+  },
+  {
+    "kategorie": "Grundlagen & Theorie",
+    "thema": "Inverse Kinematik: FABRIK & Hexapod",
+    "beschreibung": "Tutorials und Erklärungen zur inversen Kinematik. Beinhaltet eine Vorstellung des einfachen FABRIK-Algorithmus und eine praktische Anwendung an einem Hexapod-Bein.",
+    "tags": ["theorie", "mathematik", "kinematik", "hexapod", "tutorial"],
+    "links": [
+      {
+        "text": "▶️ FABRIK - A simple algorithm for Inverse Kinematics",
+        "url": "https://youtu.be/Ihp6tOCYHug"
+      },
+      {
+        "text": "▶️ Robot Inverse Kinematics With A Hexapod Leg",
+        "url": "https://youtu.be/HjmIOKSp7v4"
+      },
+      {
+        "text": "🌐 GitHub: InverseKinematicsExample",
+        "url": "https://github.com/JustAnotherMakerChannel/InverseKinematicsExample"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "Design & Bau von Hexapod- und Fuch-Robotern",
+    "beschreibung": "Projekte, die den Design- und Bauprozess von mehrbeinigen Robotern zeigen. Beinhaltet das Redesign eines Hexapods in Fusion 360 und den Bau eines Roboter-Fuchses.",
+    "tags": ["diy", "projekt", "hexapod", "fusion360", "3d-druck", "arduino"],
+    "links": [
+      {
+        "text": "▶️ I Redesigned My Hexapod In Fusion 360",
+        "url": "https://youtu.be/o-uw_I2aIUM"
+      },
+      {
+        "text": "🌐 GitHub: Aecerts_Hexapod_V1",
+        "url": "https://github.com/Ryan-Mirch/Aecerts_Hexapod_V1"
+      },
+      {
+        "text": "▶️ Building a Robotic Fox with 3D Printing, Arduino and Fusion 360",
+        "url": "https://youtu.be/iXmrPoqd8gs"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Optimierung & Vergleich von 3D-gedruckten Aktuatoren",
+    "beschreibung": "Videos, die die Optimierung eines 3D-gedruckten Roboter-Aktuators zeigen und einen Einblick in den Wert und die Leistung von High-Performance-Robotik-Komponenten geben.",
+    "tags": ["hardware", "actuator", "3d-druck", "optimierung", "mechanik"],
+    "links": [
+      {
+        "text": "▶️ Optimising a 3D Printed Robotic Actuator",
+        "url": "https://youtu.be/v3g2VdduawI"
+      },
+      {
+        "text": "▶️ 3D Printed Actuator | Unparalleled Value High-Performance Robots",
+        "url": "https://youtu.be/Gr7Adz8FPIM"
+      },
+      {
+        "text": "🌐 Rbotic Labs Produktseite",
+        "url": "https://rboticlabs.com/products/RLA-23-12-Actuator-CAD-BoM-p554702270"
+      }
+    ]
+  },
+  {
+    "kategorie": "ROS & Softwareentwicklung",
+    "thema": "ORB-SLAM3 ROS2 Wrapper",
+    "beschreibung": "Ein ROS2-Wrapper für ORB-SLAM3, eine vielseitige und genaue Monocular-, Stereo- und RGB-D-SLAM-Bibliothek.",
+    "tags": ["ros2", "slam", "computer-vision", "open-source", "software"],
+    "links": [
+      {
+        "text": "🌐 GitHub: orb_slam3_ros2",
+        "url": "https://github.com/csenler/orb_slam3_ros2"
+      }
+    ]
+  },
+  {
+    "kategorie": "NVIDIA Isaac Sim & Omniverse",
+    "thema": "Einfache ROS2-Sensor-Einrichtung in Isaac Sim",
+    "beschreibung": "Ein Tutorial, das zeigt, wie man in der neueren Version von Isaac Sim (4.5) schnell und einfach einen ROS2-fähigen Sensor einrichtet und konfiguriert.",
+    "tags": ["nvidia", "isaac-sim", "ros2", "simulation", "tutorial", "sensoren"],
+    "links": [
+      {
+        "text": "▶️ IsaacSim+ROS2 Just Got MUCH Easier",
+        "url": "https://youtu.be/NV2hqw8wu3U"
+      }
+    ]
+  },
+  {
+    "kategorie": "Grundlagen & Theorie",
+    "thema": "Wie man in die Robotik einsteigt",
+    "beschreibung": "Ein Leitfaden mit praktischen Schritten und Ratschlägen für Anfänger, die in das Feld der Robotik einsteigen möchten.",
+    "tags": ["einführung", "beginner", "karriere", "lernen"],
+    "links": [
+      {
+        "text": "▶️ How To Get Started in Robotics (Steps You Can Take TODAY)",
+        "url": "https://youtu.be/8VLGCQK5SQw"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Grundlagen und Vergleich von Servo- & Schrittmotoren",
+    "beschreibung": "Eine Sammlung von Videos, die die Funktionsweise, Unterschiede und Anwendungsbereiche von Servomotoren und Schrittmotoren erklären. Beinhaltet Vergleiche von Geschwindigkeit, Drehmoment und Genauigkeit sowie Tests von Closed-Loop-Systemen.",
+    "tags": ["hardware", "motor", "servo", "stepper-motor", "grundlagen", "theorie", "closed-loop"],
+    "links": [
+      {
+        "text": "▶️ MKS SERVO42C Closed-Loop Stepper: Tests",
+        "url": "https://youtu.be/ecmG-Qz5V3g"
+      },
+      {
+        "text": "▶️ Servo vs. Schrittmotor: Geschwindigkeit, Drehmoment und Genauigkeit",
+        "url": "https://youtu.be/H-nO1F-AO9I"
+      },
+      {
+        "text": "▶️ Technische Animation: Wie funktioniert ein Servomotor",
+        "url": "https://youtu.be/hg3TIFIxWCo"
+      },
+      {
+        "text": "▶️ What is a Servo Motor and What Does It Do?",
+        "url": "https://youtu.be/tHOH-bYjR4k"
+      },
+      {
+        "text": "▶️ Servomotor erklärt",
+        "url": "https://youtu.be/1WnGv-DPexc"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Motor-Treiber im Detail (H-Brücke)",
+    "beschreibung": "Ein tiefgehendes Tutorial über verschiedene Motor-Treiber-ICs wie L293D, L298N, TB6612FNG und VNH2SP30, das die Funktionsweise von H-Brücken erklärt.",
+    "tags": ["hardware", "motor-controller", "h-bridge", "elektronik", "tutorial", "grundlagen"],
+    "links": [
+      {
+        "text": "▶️ Motor Driver in depth | H-Bridge",
+        "url": "https://youtu.be/PVyAcgYkzDs"
+      }
+    ]
+  },
+  {
+    "kategorie": "ROS & Softwareentwicklung",
+    "thema": "Webots - Open Source Robotik Simulator",
+    "beschreibung": "Webots ist ein professioneller, quelloffener Roboter-Simulator, der eine schnelle Prototypenerstellung und Simulation von Robotern ermöglicht.",
+    "tags": ["software", "simulation", "open-source", "robotik"],
+    "links": [
+      {
+        "text": "🌐 Webots Homepage",
+        "url": "https://cyberbotics.com/"
+      }
+    ]
+  },
+  {
+    "kategorie": "ROS & Softwareentwicklung",
+    "thema": "URDF für Roboterbeschreibung",
+    "beschreibung": "Ressourcen zur Erstellung von URDF (Unified Robot Description Format) Dateien. Beinhaltet eine allgemeine Einführung, Tutorial-Playlists und Anleitungen zum Export aus Fusion 360 und Blender (mit Phobos).",
+    "tags": ["ros", "urdf", "simulation", "fusion360", "blender", "tutorial", "software"],
+    "links": [
+      {
+        "text": "▶️ How do we describe a robot? With URDF!",
+        "url": "https://youtu.be/CwdbsvcpOHM"
+      },
+      {
+        "text": "▶️ ArmBot Fusion360 to URDF in ROS2 | Part 1",
+        "url": "https://youtu.be/_ZFo6wPXjeQ"
+      },
+      {
+        "text": "▶️ From Blender to URDF with Phobos - Installing Phobos (Part 1)",
+        "url": "https://youtu.be/JGPyNxzVlYA"
+      },
+      {
+        "text": "▶️ Introduction to the series on Solidworks to URDF conversion",
+        "url": "https://youtu.be/p9g-5OLhynA"
+      },
+      {
+        "text": "🌐 Playlist: Solidworks to URDF",
+        "url": "https://www.youtube.com/watch?v=p9g-5OLhynA&list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12"
+      },
+      {
+        "text": "🌐 GitHub: fusion2urdf Exporter",
+        "url": "https://github.com/syuntoku14/fusion2urdf"
+      },
+      {
+        "text": "🌐 GitHub: Phobos (Blender to URDF)",
+        "url": "https://github.com/dfki-ric/phobos"
+      }
+    ]
+  },
+  {
+    "kategorie": "NVIDIA Isaac Sim & Omniverse",
+    "thema": "Isaac ROS: VSLAM & Navigation",
+    "beschreibung": "Eine Sammlung von Tutorials und Demonstrationen zur Verwendung von NVIDIA Isaac ROS für visuelles SLAM (VSLAM) und Navigation mit nvblox. Zeigt die Einrichtung auf Jetson-Hardware (Orin, Nova) mit verschiedenen Kameras (Orbbec Gemini) und die Anwendung in Drohnen und Rovern.",
+    "tags": ["nvidia", "isaac-ros", "vslam", "slam", "navigation", "jetson", "ros2", "tutorial", "nvblox"],
+    "links": [
+      {
+        "text": "▶️ Visual Navigation (Isaac ROS VSLAM)",
+        "url": "https://youtu.be/X7kAB2d0PGs"
+      },
+      {
+        "text": "▶️ Orbbec Gemini 335L on NVIDIA Jetson AGX Orin with Isaac ROS",
+        "url": "https://youtu.be/jpbjC_9eQEI"
+      },
+      {
+        "text": "▶️ Isaac ROS 3.2 Vslam by Orin Nova Developer",
+        "url": "https://youtu.be/DUl8mcM-CCc"
+      },
+      {
+        "text": "▶️ GPS-Denied UAV Demo: Isaac ROS Visual SLAM, MAVROS, and PX4",
+        "url": "https://youtu.be/ImaltGOlEDc"
+      },
+      {
+        "text": "▶️ ARK Jetson Rover Running NVIDIA Isaac ROS VSLAM and Nvblox",
+        "url": "https://youtu.be/AXW4YMK_TrU"
+      },
+      {
+        "text": "▶️ Exploring Autonomous Navigation with Isaac SIM and NVIDIA Carter",
+        "url": "https://youtu.be/2LDMub6-v5M"
+      },
+      {
+        "text": "🌐 GitHub: orbbec/isaac_ros-dev",
+        "url": "https://github.com/orbbec/isaac_ros-dev"
+      }
+    ]
+  },
+  {
+    "kategorie": "NVIDIA Isaac Sim & Omniverse",
+    "thema": "Isaac ROS & MoveIt mit cuMotion",
+    "beschreibung": "Anleitung zur Verwendung von Isaac ROS cuMotion, um die Bewegungsplanung mit MoveIt in Isaac Sim und auf realer Hardware zu beschleunigen.",
+    "tags": ["nvidia", "isaac-ros", "isaac-sim", "moveit", "cumotion", "manipulation", "ros2"],
+    "links": [
+      {
+        "text": "▶️ How to Use Isaac ROS cuMotion with MoveIt",
+        "url": "https://youtu.be/aqWOY3CzWfQ"
+      },
+      {
+        "text": "🌐 Begleitmaterialien (Google Drive)",
+        "url": "https://drive.google.com/drive/folders/1uogiVGL1U1z7M6N2sCYNuYZJ2ki5VJvn"
+      }
+    ]
+  },
+  {
+    "kategorie": "Open Source Hardware & Forschung",
+    "thema": "Nützliche Open Source Computer Vision Tools",
+    "beschreibung": "Eine Sammlung von nützlichen Open-Source-Tools und Bibliotheken von adujardin, die Themen wie ZED-Kamera-Integration in ROS, OCHuman Dataset-API, COCO-Viewer und tiny-tensorrt abdecken.",
+    "tags": ["open-source", "computer-vision", "ros", "dataset", "tensorrt", "software"],
+    "links": [
+      {
+        "text": "🌐 GitHub: zed-ros-wrapper",
+        "url": "https://github.com/adujardin/zed-ros-wrapper"
+      },
+      {
+        "text": "🌐 GitHub: OCHumanApi",
+        "url": "https://github.com/adujardin/OCHumanApi"
+      },
+      {
+        "text": "🌐 GitHub: coco-viewer",
+        "url": "https://github.com/adujardin/coco-viewer"
+      },
+      {
+        "text": "🌐 GitHub: tiny-tensorrt",
+        "url": "https://github.com/adujardin/tiny-tensorrt"
+      },
+      {
+        "text": "🌐 GitHub: OpenPose ZED",
+        "url": "https://github.com/adujardin/zed-openpose"
+      },
+      {
+        "text": "🌐 GitHub: Web_Terminal",
+        "url": "https://github.com/adujardin/web-terminal"
+      },
+      {
+        "text": "🌐 GitHub: COCO-to-YOLO",
+        "url": "https://github.com/adujardin/COCO-to-YOLO"
+      }
+    ]
+  },
+  {
+    "kategorie": "ROS & Softwareentwicklung",
+    "thema": "Einführung in ROS (Tutorial-Serien)",
+    "beschreibung": "Umfassende Tutorial-Serien für ROS-Anfänger. Beinhaltet die DigiKey-Serie zu ROS2 (Nodes, Topics in Python/C++) und eine weitere grundlegende Einführung in das Robot Operating System.",
+    "tags": ["ros", "ros2", "tutorial", "einführung", "beginner", "python", "cpp"],
+    "links": [
+      {
+        "text": "▶️ What is ROS | Introduction (2021)",
+        "url": "https://youtu.be/N6K2LWG2kRI"
+      },
+      {
+        "text": "🌐 Playlist: ROS Introduction",
+        "url": "https://www.youtube.com/watch?v=N6K2LWG2kRI&list=PLuteWQUGtU9BU0sQIVqRQa24p-pSBCYNv"
+      },
+      {
+        "text": "▶️ DigiKey: Introduction to ROS Part 1",
+        "url": "https://youtu.be/mjrxf8EFSb8"
+      },
+      {
+        "text": "▶️ DigiKey: Introduction to ROS Part 2 (Services & Topics)",
+        "url": "https://youtu.be/HTIcxrauU8U"
+      },
+      {
+        "text": "▶️ DigiKey: Introduction to ROS Part 3 (Python)",
+        "url": "https://youtu.be/9_AahxDsV6I"
+      },
+      {
+        "text": "▶️ DigiKey: Introduction to ROS Part 4 (C++)",
+        "url": "https://youtu.be/g4iY2EZ1KR8"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Tutorial-Serien: 3D-Druck, Zephyr, KiCad, FPGA",
+    "beschreibung": "Eine Sammlung von Einsteiger-Tutorial-Playlists von DigiKey zu essenziellen Maker-Themen: 3D-Druck, das Zephyr RTOS, PCB-Design mit KiCad 9.0 und die Grundlagen von FPGAs.",
+    "tags": ["3d-druck", "zephyr", "rtos", "kicad", "pcb", "fpga", "tutorial", "beginner"],
+    "links": [
+      {
+        "text": "🌐 Playlist: Beginner’s Guide to 3D Printing",
+        "url": "https://www.youtube.com/watch?v=rbe8otH8vMs&list=PLEBQazB0HUyTQkRkbD02DZqnlV6oBMhHB"
+      },
+      {
+        "text": "🌐 Playlist: Introduction to Zephyr",
+        "url": "https://www.youtube.com/watch?v=mTJ_vKlMS_4&list=PLEBQazB0HUyTmK2zdwhaf8bLwuEaDH-52"
+      },
+      {
+        "text": "🌐 Playlist: KiCad 9.0 tutorial",
+        "url": "https://www.youtube.com/watch?v=0WCi1rhueH4&list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm"
+      },
+      {
+        "text": "🌐 Playlist: Introduction to FPGA",
+        "url": "https://www.youtube.com/watch?v=lLg1AgA2Xoo&list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "Autonome mobile Roboter mit SLAM & Navigation",
+    "beschreibung": "Eine Sammlung von Projekten zum Bau autonomer mobiler Roboter. Beinhaltet Anleitungen für SLAM-Mapping, robuste Odometrie mit FAST-LIO, Sensorfusion mit Kalman-Filtern und die Anwendung von ROS Navigation2 auf realer Hardware.",
+    "tags": ["diy", "projekt", "autonomes-fahren", "slam", "navigation", "ros", "kalman-filter", "odometrie"],
+    "links": [
+      {
+        "text": "▶️ How to Make an Autonomous Mapping Robot Using SLAM",
+        "url": "https://youtu.be/xqjVTE7QvOg"
+      },
+      {
+        "text": "▶️ Robust Odometry and Fully Autonomous Driving Robot (FAST-LIO)",
+        "url": "https://youtu.be/0oBHPxRycTk"
+      },
+      {
+        "text": "▶️ Sensor Fusion in Mobile Autonomous Robot (Kalman Fliter)",
+        "url": "https://youtu.be/0yICGqriN3g"
+      },
+      {
+        "text": "▶️ Using ROS SLAM on the REAL ROBOT like ATCart!",
+        "url": "https://youtu.be/Ng54fg8k8JE"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Hardware-Plattformen für mobile Roboter",
+    "beschreibung": "Vorstellung von spezialisierten Hardware-Plattformen, die den Bau von mobilen Robotern erleichtern, wie z.B. AT_ZMOAB_ROS, und der ATCrawler, ein Inspektionsroboter mit Ardupilot.",
+    "tags": ["hardware", "ros", "ardupilot", "roboter-plattform", "diy"],
+    "links": [
+      {
+        "text": "▶️ This Board Makes Your Robot Project A LOT Easier | AT_ZMOAB_ROS",
+        "url": "https://youtu.be/memUij2uV5g"
+      },
+      {
+        "text": "▶️ ATCrawler | The Ground Inpection Robot with Ardupilot",
+        "url": "https://youtu.be/xLXybAtq6uA"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "DIY Self-Balancing & mobile Roboter",
+    "beschreibung": "Eine Sammlung verschiedener DIY-Projekte: ein selbstbalancierender ESP32-Roboter (Wheelies), ein Open-Source ROS2 SLAM-Roboter (ROSBOT) und ein industrieller mobiler Roboter als Design-Inspiration.",
+    "tags": ["diy", "self-balancing", "esp32", "ros2", "slam", "open-source", "projekt"],
+    "links": [
+      {
+        "text": "▶️ Wheelies-Robot | Self-Balancing ESP32 Mobile Robot",
+        "url": "https://youtu.be/iRNMMqZn5v8"
+      },
+      {
+        "text": "▶️ ROSBOT - ROS2 open source SLAM robot",
+        "url": "https://youtu.be/t-1GAfGHRLs"
+      },
+      {
+        "text": "▶️ Industrial Mobile Robot Design (Inspiration)",
+        "url": "https://youtu.be/kvzGse4z7uw"
+      },
+      {
+        "text": "🌐 GitHub: ROSBOT",
+        "url": "https://github.com/kallaspriit/rosbot"
+      }
+    ]
+  },
+  {
+    "kategorie": "KI, Computer Vision & Machine Learning",
+    "thema": "Personenverfolgungs-Roboter mit Jetson",
+    "beschreibung": "Ein Tutorial, das zeigt, wie man einen Roboter baut, der Personen mithilfe von KI und der NVIDIA Jetson Plattform autonom verfolgen kann.",
+    "tags": ["ki", "computer-vision", "person-tracking", "jetson", "diy", "projekt"],
+    "links": [
+      {
+        "text": "▶️ Making a Human-Following Robot!",
+        "url": "https://youtu.be/LCDS8LHg4m8"
+      },
+      {
+        "text": "🌐 GitHub: jetson-inference",
+        "url": "https://github.com/dusty-nv/jetson-inference"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Fortgeschrittene Aktuatoren & Ansteuerung (QDD, ODrive)",
+    "beschreibung": "Einblicke in High-End-Aktuatoren für Humanoide (K-Scale Labs, T-Motor AK70-10) und Anleitungen zur präzisen Ansteuerung von BLDC-Motoren mit ODrive, inklusive Kalibrierung und ROS2_Control-Integration.",
+    "tags": ["hardware", "actuator", "motor", "bldc", "qdd", "odrive", "ros2", "humanoid"],
+    "links": [
+      {
+        "text": "▶️ K-Scale Labs K-Bot Actuators for Humanoid Robot (QDD)",
+        "url": "https://youtu.be/qIEj6IRXJt4"
+      },
+      {
+        "text": "▶️ AK70-10 Robotic Actuator for Humanoid & Quadruped Robots",
+        "url": "https://youtu.be/D1m4K3A1z7Y"
+      },
+      {
+        "text": "▶️ ODrive Micro-Handbuch: Kalibrierung & Steuerung",
+        "url": "https://youtu.be/SnIyTdrlP2k"
+      },
+      {
+        "text": "▶️ ODrive Micro Introduction",
+        "url": "https://youtu.be/AbhxFcNjiBU"
+      },
+      {
+        "text": "▶️ ROS2_Control for ANY Brushless (BLDC) Motor on REAL Hardware",
+        "url": "https://youtu.be/8qX_uhlGi-I"
+      }
+    ]
+  },
+  {
+    "kategorie": "DIY Projekte & 3D-Druck",
+    "thema": "DIY RoboDog Projekt (Quadruped)",
+    "beschreibung": "Umfassende Videoserie zum Bau eines vierbeinigen Roboters (RoboDog) von Grund auf. Behandelt Design in Fusion 360, 3D-Druck, Verwendung von Hoverboard-Motoren, ODrive-Controller und die Entwicklung eines eigenen Betriebssystems mit Yocto.",
+    "tags": ["diy", "quadruped", "dog", "3d-druck", "fusion360", "odrive", "hoverboard-hack", "projekt", "tutorial", "yocto"],
+    "links": [
+      {
+        "text": "▶️ RoboDog Part 1 | Making a Robotic Quadruped",
+        "url": "https://youtu.be/aFG4bIaGiU4"
+      },
+      {
+        "text": "▶️ RoboDog Part 2 | Using Fusion 360",
+        "url": "https://youtu.be/219cZQ-nKZ0"
+      },
+      {
+        "text": "▶️ RoboDog Part 3 | Using Hoverboard Motors",
+        "url": "https://youtu.be/_VUtfK4bCl8"
+      },
+      {
+        "text": "▶️ RoboDog Part 4 | 3D Printing Prototype Parts",
+        "url": "https://youtu.be/AAB022XkPfY"
+      },
+      {
+        "text": "▶️ RoboDog Part 5 | Designing Parts in Fusion 360",
+        "url": "https://youtu.be/BJI9Ptwc86Q"
+      },
+      {
+        "text": "▶️ RoboDog Part 6 | How to Use ODrive",
+        "url": "https://youtu.be/9UxTPxgvOAA"
+      },
+      {
+        "text": "▶️ RoboDog Part 7-9 | How to Make Your Own OS (Yocto)",
+        "url": "https://youtu.be/LaXdJpswYt0"
+      },
+      {
+        "text": "▶️ RoboDog Part 10 | Dual BLDC ODrive Calibration",
+        "url": "https://youtu.be/iEb5yLLYhkE"
+      },
+      {
+        "text": "🌐 GitHub: RoboDog Project",
+        "url": "https://github.com/AustinOwens/robodog"
+      }
+    ]
+  },
+  {
+    "kategorie": "Hardware, Elektronik & Motoren",
+    "thema": "Hoverboard Hacking & Motoransteuerung",
+    "beschreibung": "Eine Sammlung von Ressourcen zum Hacken von Hoverboards, um deren Motoren und Controller für DIY-Roboterprojekte zu nutzen. Beinhaltet Firmware-Hacks, Anleitungen zum Bau einer Roboterbasis und das Aktivieren von Anti-Cogging bei ODrive für eine sanftere Motorsteuerung.",
+    "tags": ["diy", "hoverboard-hack", "motor", "bldc", "firmware", "odrive", "hardware"],
+    "links": [
+      {
+        "text": "▶️ Hacking a Hoverboard",
+        "url": "https://youtu.be/M7QxaVmQiFE"
+      },
+      {
+        "text": "▶️ HOVERBOARD HACK - Firmware change - ALL STEPS",
+        "url": "https://youtu.be/VGFn5jXRnlM"
+      },
+      {
+        "text": "▶️ DIY robot base from broken Hoverboard",
+        "url": "https://youtu.be/RZAt1Hm5knc"
+      },
+      {
+        "text": "▶️ Activating Anti-Cogging on the ODrive Robotics Controller",
+        "url": "https://youtu.be/CWzuBoYLISY"
+      },
+      {
+        "text": "🌐 GitHub: hoverboard-firmware-hack-FOC",
+        "url": "https://github.com/EFeru/hoverboard-firmware-hack-FOC"
+      }
+    ]
+  },
+  {
+    "kategorie": "NVIDIA Isaac Sim & Omniverse",
+    "thema": "Workflow: Isaac Sim, Docker, ROS2 & Octomap",
+    "beschreibung": "Ein Tutorial für fortgeschrittene Nutzer, das einen kompletten Workflow für die Robotik-Forschung zeigt. Es kombiniert Isaac Sim für die Simulation, Docker für die Kapselung, ROS2 für die Kommunikation und Octomap für die 3D-Umgebungsdarstellung.",
+    "tags": ["nvidia", "isaac-sim", "docker", "ros2", "octomap", "workflow", "simulation", "forschung"],
+    "links": [
+      {
+        "text": "▶️ [Tutorial] How I Use IsaacSim with Docker, ROS2, & Octomap",
+        "url": "https://youtu.be/9EkkdjW4N54"
+      },
+      {
+        "text": "🌐 GitHub: isaacsim-ros2-docker",
+        "url": "https://github.com/CodeMechanicsLLC/isaacsim-ros2-docker"
+      }
       ]
     },
     {
