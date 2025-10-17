@@ -1180,7 +1180,7 @@
     {
       "kategorie": "Showcase & Inspiration",
       "thema": "Fortschrittliche Drohnenkonzepte & -fähigkeiten",
-      "beschreibung": "Eine Sammlung von Videos, die den aktuellen Stand der Drohnentechnologie und zukünftige Konzepte demonstrieren. Beinhaltet multimodale Roboter, die fliegen, laufen und schwimmen können, sowie inspirierte Drohnenschwärme und einen allgemeinen Überblick über aktuelle Trends.",
+      "beschreibung": "Eine Sammlung von Videos, die den aktuellen Stand der Drohnentechnologie und zukünftige Konzepte demonstrieren. Beinhaltet multimodale Roboter, die fliegen, laufen und schwimmen können, sowie militärisch inspirierte Drohnenschwärme und einen allgemeinen Überblick über aktuelle Trends.",
       "tags": ["drone", "showcase", "inspiration", "research", "multimodal", "swarm"],
       "links": [
         {"text": "▶️ Flug, Lauf und Schwimm", "url": "https://youtu.be/A_uxQD-7bH8"},
@@ -1234,6 +1234,725 @@
         {"text": "▶️ 150$ Drohne mit Power", "url": "https://youtu.be/uC9hVyqGvDE"},
         {"text": "▶️ 150$ Drohne mit Mesh und ATAK", "url": "https://youtu.be/bmLE9BT76Pc"}
       ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Arduino Mecanum Wheels Robot",
+      "beschreibung": "Ein DIY-Roboterprojekt, das zeigt, wie man einen mobilen Roboter mit 3D-gedruckten Mecanum-Rädern baut. Die Steuerung erfolgt über einen Arduino, was omnidirektionale Bewegungen ermöglicht.",
+      "tags": ["diy", "3d-printing", "mecanum-wheels", "arduino", "mobile-robot", "robotics"],
+      "links": [
+        {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/83tVkgT89dM"},
+        {"text": "🌐 HowToMechatronics Anleitung", "url": "https://howtomechatronics.com/projects/arduino-mecanum-wheels-robot/"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Kinder trainieren ihren eigenen KI-Roboter (ALOHA)",
+      "beschreibung": "Ein Projekt, das demonstriert, wie Kinder durch Teleoperation einen KI-Roboter trainieren können. Verwendet werden die LeRobot-Bibliothek und das ALOHA-Setup, um dem Roboter beizubringen, Aufgaben wie das Kochen zu imitieren.",
+      "tags": ["ai", "machine-learning", "robot-arm", "lerobot", "education", "kids", "teleoperation", "imitation-learning"],
+      "links": [
+        {"text": "▶️ YouTube Video", "url": "https://youtu.be/kKCU3DM8PT0"},
+        {"text": "🌐 Koch Arms Kits", "url": "https://bit.ly/3VBR72i"},
+        {"text": "🌐 LeRobot Framework", "url": "https://bit.ly/3ZD8Is1"},
+        {"text": "🌐 ALOHA Projektseite", "url": "https://tonyzhaozh.github.io/aloha"},
+        {"text": "🌐 Paper", "url": "https://huggingface.co/papers/2304.13705"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Annin Robotics AR4 - Open Source Roboterarm",
+      "beschreibung": "Der Annin Robotics AR4 ist ein Open-Source 6-Achsen-Roboterarm für den Desktop. Er kann für Bildungszwecke, Forschung und kleine Automatisierungsaufgaben eingesetzt werden. Die Bauanleitungen und Software sind frei verfügbar.",
+      "tags": ["open-source", "robot-arm", "6-axis", "diy", "education", "industrial-robot"],
+      "links": [
+        {"text": "▶️ YouTube Showcase", "url": "https://youtu.be/nLgWjLQca08"},
+        {"text": "🌐 Annin Robotics Downloads", "url": "https://anninrobotics.com/downloads/"}
+      ]
+    },
+    {
+      "kategorie": "Kommerzielle Roboter & Webseiten",
+      "thema": "Makeblock 10-in-1 Ultimate Robot Kit",
+      "beschreibung": "Ein vielseitiges Robotik-Baukastensystem für Kinder und Einsteiger, das den Bau von 10 verschiedenen Robotermodellen ermöglicht und den Einstieg in Programmierung und STEM-Fächer fördert.",
+      "tags": ["robot-kit", "stem", "education", "kids", "makeblock", "coding"],
+      "links": [
+        {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/GC7-8qxtcVs"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "How to start in robotics? The BEST intro to robotics!",
+      "beschreibung": "Ein umfassendes Einführungsvideo für absolute Anfänger, das die grundlegenden Schritte und Konzepte erklärt, um mit der Robotik zu beginnen. Inklusive Link zu Open-Source-Projekten.",
+      "tags": ["beginner", "introduction", "learning-path", "robotics-overview", "guide"],
+      "links": [
+        {"text": "▶️ YouTube Einführung", "url": "https://youtu.be/EAyzRmAKueE"},
+        {"text": "🌐 GitHub: Every-Flavor-Robotics", "url": "https://github.com/Every-Flavor-Robotics"}
+      ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "Elektrisches Skateboard reparieren und hacken",
+        "beschreibung": "Ein Projekt, das den Prozess der Fehlersuche, Reparatur und Modifikation eines defekten elektrischen Skateboards dokumentiert, um es wieder funktionstüchtig zu machen.",
+        "tags": ["diy", "e-skateboard", "repair", "electronics", "hacking", "troubleshooting"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/PmvN4CGXOQw"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY E-Skateboard mit Drohnenmotor im Budget",
+        "beschreibung": "Anleitung zum Bau eines leistungsstarken, aber kostengünstigen elektrischen Skateboards unter Verwendung eines bürstenlosen Drohnenmotors und 3D-gedruckter Teile.",
+        "tags": ["diy", "e-skateboard", "3d-printing", "budget-project", "drone-motor", "bldc"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/yXioR4JjeHM"},
+            {"text": "🌐 Cults3D Modell & Anleitung", "url": "https://cults3d.com/de/modell-3d/gadget/3d-printed-electric-skateboard-using-drone-motor-3d-file-pcb-diagram-code"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Kamera-Slider Roboter",
+        "beschreibung": "Vorstellung eines erfolgreichen DIY-Projekts zum Bau eines motorisierten Kameragleiters (Camera Slider), der für professionelle, flüssige Videoaufnahmen verwendet wird.",
+        "tags": ["diy", "camera-slider", "robotics", "filmmaking", "open-source", "automation"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/6p8_KJ2i-_E"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/Every-Flavor-Robotics/camera-slider"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Reparatur eines gefundenen Roboters",
+        "beschreibung": "Ein Reparaturprojekt, bei dem ein komplexer Roboter, der andernfalls entsorgt worden wäre, untersucht und repariert wird.",
+        "tags": ["robot-repair", "electronics", "troubleshooting", "robot-arm", "maker"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/w8Q2ippCiVI"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "ESP32 Startmenü - Options-Framework",
+        "beschreibung": "Ein Open-Source-Software-Framework, das ein flexibles 'Startmenü' für den ESP32-Mikrocontroller bereitstellt, um verschiedene Konfigurationen und Modi beim Gerätestart einfach zu verwalten.",
+        "tags": ["esp32", "software", "firmware", "open-source", "microcontroller", "framework"],
+        "links": [
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/Every-Flavor-Robotics/esp-options"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY SpinLaunch-Modell",
+        "beschreibung": "Ein kreatives Maker-Projekt, das das Konzept von SpinLaunch (einem kinetischen Raketenstartsystem) nachbaut und demonstriert, wie Objekte durch zentrifugale Kräfte beschleunigt werden.",
+        "tags": ["diy", "engineering", "spinlaunch", "maker", "physics", "model-building"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/2ORDEDgYfsc"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "OneWheel mit Kettenantrieb",
+        "beschreibung": "Ein experimentelles Umbauprojekt, bei dem ein OneWheel mit Ketten ausgestattet wird, um dessen Geländegängigkeit und Traktion auf unkonventionellen Oberflächen zu testen.",
+        "tags": ["diy", "onewheel", "modification", "experiment", "offroad", "maker"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/VicrABEfr3U"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "Schlauchloses Rad mit zwei internen Motoren",
+        "beschreibung": "Vorstellung eines innovativen Rad-Designs, das schlauchlos ist und zwei Motoren direkt im Inneren integriert hat, was neue Möglichkeiten für Fahrzeugantriebe eröffnet.",
+        "tags": ["motor-technology", "innovation", "hub-motor", "engineering", "prototype"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/i5fHTRAW_RI"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Onewheel aus Hoverboard",
+        "beschreibung": "Ein Upcycling-Projekt, das detailliert zeigt, wie man aus den Komponenten eines alten Hoverboards ein funktionierendes, selbstbalancierendes Onewheel-Board baut.",
+        "tags": ["diy", "onewheel", "hoverboard-hack", "upcycling", "3d-printing", "bldc"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/SdHUSAQd6hc"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "ANT BMS - Installation und Setup Guide",
+        "beschreibung": "Eine detaillierte Anleitung zur Installation und Konfiguration eines ANT Battery Management Systems (BMS), um selbstgebaute Akkupacks vor Überladung, Tiefentladung und Kurzschlüssen zu schützen.",
+        "tags": ["bms", "battery", "electronics", "diy", "safety", "tutorial", "power-management"],
+        "links": [
+            {"text": "▶️ YouTube Anleitung", "url": "https://youtu.be/FkKuJ0GE6jU"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "DIY Akkupack in Munitionskiste",
+        "beschreibung": "Das finale Video eines Projekts zum Bau einer robusten, tragbaren Stromversorgung, bei dem ein großer Akkupack sicher in einer ehemaligen Munitionskiste verbaut wird.",
+        "tags": ["diy", "battery-pack", "power-station", "electronics", "portable-power"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/vaoy2NGE9OI"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "3D-gedruckte Roboter-Aktuatoren",
+        "beschreibung": "Ein Video, das die Herausforderungen und Lösungsansätze bei der Entwicklung von leistungsstarken und zuverlässigen Roboter-Aktuatoren aus dem 3D-Drucker untersucht.",
+        "tags": ["3d-printing", "actuator", "robotics", "engineering", "design", "diy"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/02vmEU2-5d4"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "600W 3D-gedruckter Halbach-Array BLDC Motor",
+        "beschreibung": "Ein Projekt zum Bau eines leistungsstarken, 600 Watt starken bürstenlosen Gleichstrommotors, bei dem ein Halbach-Array für eine hohe Effizienz sorgt und viele Teile 3D-gedruckt sind.",
+        "tags": ["diy", "3d-printing", "bldc-motor", "halbach-array", "electronics", "high-power"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/NFvMC3l3fGY"},
+            {"text": "🌐 Instructables Anleitung", "url": "https://www.instructables.com/600-Watt-3d-printed-Halbach-Array-Brushless-DC-Ele/"},
+            {"text": "🌐 DesignSpark Artikel", "url": "https://www.rs-online.com/designspark/building-and-testing-a-3d-printed-brushless-motor-until-it-explodes"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Vollständig 3D-gedruckter Quadcopter (inkl. Motoren)",
+        "beschreibung": "Teil 1 eines ambitionierten Projekts, einen kompletten Quadcopter, einschließlich der bürstenlosen Motoren, mit einem 3D-Drucker herzustellen.",
+        "tags": ["3d-printing", "drone", "diy", "quadcopter", "experimental", "motor-design"],
+        "links": [
+            {"text": "▶️ YouTube Teil 1", "url": "https://youtu.be/kHNNhM8vhOE"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY CNC-Fräsen Projekte",
+        "beschreibung": "Eine Sammlung von Projekten zum Bau von DIY-CNC-Fräsen, von sehr günstigen Modellen unter 100$ bis hin zu 3D-gedruckten Maschinen, die Metall bearbeiten können.",
+        "tags": ["diy", "cnc", "3d-printing", "milling", "budget-project", "metal-cutting"],
+        "links": [
+            {"text": "▶️ CNC Mill for under $100", "url": "https://youtu.be/R29G3hUiZnU"},
+            {"text": "▶️ Ich habe eine bessere CNC-Fräse gedruckt", "url": "https://youtu.be/L8t82OQXefM"},
+            {"text": "▶️ DIY 3D PRINTED CNC BUILT FROM SCRATCH CUTS METAL", "url": "https://youtu.be/ctyLjOHg7Ag"},
+            {"text": "▶️ 3D PRINTED CNC CUTS METAL (from scratch)", "url": "https://youtu.be/_atw3e0nIrg"},
+            {"text": "▶️ TINY 3D PRINTED CNC CUTS METAL (from scratch)", "url": "https://youtu.be/dkvED8p8bt0"},
+            {"text": "▶️ 3D Printed DIY Dremel CNC Mills Aluminium", "url": "https://youtu.be/Fs9dosQYtGU"},
+            {"text": "🌐 Tiny CNC Pläne", "url": "https://ivanmiranda.com/products/tiny-3d-printed-cnc"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Walking Star Wars Droid (GEDroid)",
+        "beschreibung": "Ein DIY-Projekt zum Bau eines zweibeinigen, laufenden Droiden, inspiriert von Star Wars. Das Projekt ist Open Source und nutzt 3D-gedruckte Teile.",
+        "tags": ["diy", "3d-printing", "star-wars", "droid", "legged-robot", "robotics", "open-source"],
+        "links": [
+            {"text": "▶️ YouTube Prototyp", "url": "https://youtu.be/XHjnWm7hGH8"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/XRobots/GEDroid"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Bau eines BD-X Droiden aus Galaxy's Edge",
+        "beschreibung": "Eine zweiteilige Videoserie, die den Nachbau des BD-X Droiden aus dem Star Wars Themenpark 'Galaxy's Edge' von Grund auf zeigt.",
+        "tags": ["diy", "star-wars", "droid", "3d-printing", "replica", "maker", "model-building"],
+        "links": [
+            {"text": "▶️ Teil 1", "url": "https://youtu.be/vjklF0qBMgE"},
+            {"text": "▶️ Teil 2", "url": "https://youtu.be/jDCvWYfEsno"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY funktionierender Greifhaken (Grappling Hook)",
+        "beschreibung": "Zwei verschiedene Projekte, die sich dem Bau eines echten, funktionierenden Greifhakens widmen, inspiriert von Videospielen wie 'Just Cause'.",
+        "tags": ["diy", "maker", "engineering", "gadget", "grappling-hook", "invention"],
+        "links": [
+            {"text": "▶️ DIY Just Cause Grappling Hook!", "url": "https://youtu.be/GmtvxAkPJXo"},
+            {"text": "▶️ Building a real, working grappling gun – Pt.1", "url": "https://youtu.be/iRHfiwoZ-zI"}
+        ]
+    },
+    {
+        "kategorie": "Grundlagen & Theorie",
+        "thema": "Den richtigen Motor für ein Robotik-Projekt auswählen",
+        "beschreibung": "Ein ausführlicher Blog-Artikel, der in 10 Schritten erklärt, welche Kriterien bei der Auswahl des richtigen Motors für ein Robotik-Projekt zu beachten sind.",
+        "tags": ["motors", "motor-selection", "robotics", "tutorial", "guide", "fundamentals", "theory"],
+        "links": [
+            {"text": "🌐 Medium Artikel", "url": "https://medium.com/husarion-blog/10-steps-to-choosing-the-right-motors-for-your-robotic-project-bf5c4b997407"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "3D-Printed Flexure Micro-Manipulator",
+        "beschreibung": "Ein Open-Source-Projekt für einen 3D-gedruckten Mikromanipulator, der auf nachgiebigen Gelenken (Flexures) basiert und hochpräzise Bewegungen im Mikrometerbereich ermöglicht.",
+        "tags": ["open-source", "3d-printing", "micromanipulator", "flexure", "precision-engineering", "research"],
+        "links": [
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/0x23/MicroManipulator?tab=readme-ov-file"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Transformer Roboter (Auto zu Roboter)",
+        "beschreibung": "Eine umfassende, sechsteilige Videoserie, die den gesamten Prozess des Baus eines sich transformierenden Roboters dokumentiert – von der Mechanik über die Elektronik bis zum fertigen Prototyp.",
+        "tags": ["diy", "robotics", "transformer", "3d-printing", "electronics", "arduino", "open-source"],
+        "links": [
+            {"text": "▶️ Teil 1: Mechanik", "url": "https://youtu.be/D-YAmQjFRiE"},
+            {"text": "▶️ Teil 2: Mechanik", "url": "https://youtu.be/dxNueO8H8hA"},
+            {"text": "▶️ Teil 3: Mechanik", "url": "https://youtu.be/5sVWBsoT4cU"},
+            {"text": "▶️ Teil 4: Elektronik & Code", "url": "https://youtu.be/NYkjw2SnHWY"},
+            {"text": "▶️ Teil 5: Verkabelung & Test", "url": "https://youtu.be/Ipu9VGzeaLE"},
+            {"text": "▶️ Teil 6: Recap & Ausblick", "url": "https://youtu.be/0xyLrF7mTng"},
+            {"text": "🌐 GitHub Dateien", "url": "https://github.com/Mike2404-maker/Transformer-own-files/tree/main"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Newt Droid - Bau der Basis",
+        "beschreibung": "Der erste Teil eines Bauprojekts für einen 'Newt Droid', der den Weg vom 3D-Druck zur fertigen mechanischen Basis und dem Antriebssystem zeigt.",
+        "tags": ["diy", "droid", "3d-printing", "robotics", "mechanics", "wip"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/d7U6j_CsEtg"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Hexapod Roboter (Projekt-Serie)",
+        "beschreibung": "Eine Serie von Videos, die den gesamten Lebenszyklus eines DIY Hexapod-Projekts abdeckt: vom CAD-Redesign in Fusion 360, über den Bau, das Kabelmanagement, die komplette Neuprogrammierung bis hin zum Hinzufügen neuer Fähigkeiten wie einer 'Slam Attack'.",
+        "tags": ["diy", "hexapod", "robotics", "3d-printing", "fusion360", "arduino", "programming", "wire-management"],
+        "links": [
+            {"text": "▶️ Redesign in Fusion 360", "url": "https://youtu.be/XqKLsj2rEy8"},
+            {"text": "▶️ Bau eines Miniatur-Hexapods", "url": "https://youtu.be/tCCE2Khx35U"},
+            {"text": "▶️ Bau von Grund auf", "url": "https://youtu.be/u-U2VmCW-e8"},
+            {"text": "▶️ Kabelmanagement", "url": "https://youtu.be/jDzY07lk5ZM"},
+            {"text": "▶️ Code neuschreiben", "url": "https://youtu.be/DKsyJYkdZ_o"},
+            {"text": "▶️ 'Slam Attack' beibringen", "url": "https://youtu.be/w3q_4_-ZHJ4"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY ESP32 Mini Wetterstation",
+        "beschreibung": "Ein Tutorial zum Bau einer kompakten Wetterstation mit einem ESP32, einem RTC-Modul für die genaue Zeit und einem OLED-Display zur Anzeige von Echtzeit-Temperatur- und Luftfeuchtigkeitsdaten.",
+        "tags": ["diy", "esp32", "iot", "weather-station", "electronics", "sensor", "oled"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/queapQj_agM"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "3D Printed CNC Router (Projekt-Serie)",
+        "beschreibung": "Eine zweiteilige Serie, die den Zusammenbau der Mechanik und die Einrichtung der Elektronik einer komplett 3D-gedruckten CNC-Fräse detailliert zeigt.",
+        "tags": ["diy", "cnc-router", "3d-printing", "electronics", "assembly", "maker"],
+        "links": [
+            {"text": "▶️ Teil 1: Assembly", "url": "https://youtu.be/GlJae67H9mo"},
+            {"text": "▶️ Teil 2: Electronics", "url": "https://youtu.be/l93nA2cq8AY"},
+            {"text": "🌐 Printables 3D-Modell", "url": "https://www.printables.com/model/399505-3d-printed-cnc-router?lang=de"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "Open5x: Open Source 5-Achsen 3D-Drucker",
+        "beschreibung": "Ein Forschungsprojekt, das einen zugänglichen, quelloffenen 5-Achsen-3D-Drucker entwickelt hat. Die Videos zeigen die Hardware-Montage und die spezielle Software für das konforme Slicing.",
+        "tags": ["open-source", "3d-printing", "5-axis", "research", "slicing", "advanced-manufacturing"],
+        "links": [
+            {"text": "▶️ Hardware Assembly", "url": "https://youtu.be/C3vKHuxUmjc"},
+            {"text": "▶️ Conformal Slicing Demo", "url": "https://youtu.be/x9rG15qrDIE"},
+            {"text": "🌐 arXiv Paper", "url": "https://arxiv.org/abs/2202.11426"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/FreddieHong19/Open5x"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY 6-Achsen Roboterarm (6DOF)",
+        "beschreibung": "Zwei verschiedene, aber umfassende Projekte, die den gesamten Bauprozess eines 6-Achsen-Roboterarms von Grund auf zeigen, unter Verwendung von 3D-Druck, Arduino und ESP8266.",
+        "tags": ["diy", "robot-arm", "3d-printing", "6-dof", "robotics", "arduino", "esp8266", "open-source"],
+        "links": [
+            {"text": "▶️ We Built a 3D-Printed 6DOF Robot Arm From Scratch", "url": "https://youtu.be/vQxvbbsWGwE"},
+            {"text": "▶️ Complete 6-DOF Robotic Arm Build Process", "url": "https://youtu.be/g_gaGNtP-L8"},
+            {"text": "🌐 GitHub (mustafa-vhfn)", "url": "https://github.com/mustafa-vhfn/6-DOF-Robotic-Arm"},
+            {"text": "🌐 Blog Post (mustafavhfn)", "url": "https://www.mustafavhfn.com/blog/i-built-a-diy-6-dof-robotic-arm-with-arduino-and-esp8266/"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Rotierender Display-Ständer",
+        "beschreibung": "Ein einfaches und praktisches DIY-Projekt zum Bau eines motorisierten, rotierenden Präsentationsständers mithilfe von 3D-Druck und einfacher Elektronik.",
+        "tags": ["diy", "3d-printing", "simple-project", "electronics", "display-stand"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/_40eit8j0OA"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "IndyMill - Open Source DIY CNC Maschine (Serie)",
+        "beschreibung": "Eine umfassende Videoserie, die den Bau der 'IndyMill' dokumentiert, einer robusten Open-Source DIY CNC-Maschine. Die Serie deckt alles ab, von den Teilen, der Montage, Elektronik, Upgrades bis hin zum Schweißen des Tisches und dem Fräsen von Aluminium.",
+        "tags": ["diy", "cnc", "open-source", "milling", "electronics", "grbl", "welding", "maker"],
+        "links": [
+            {"text": "▶️ Playlist", "url": "https://www.youtube.com/watch?v=rHl9UwlDZbE&list=PLktKi_COpyPRd8JZfjhskWSvsFN3Cb1v8&index=1"},
+            {"text": "▶️ #1 Teile", "url": "https://youtu.be/rHl9UwlDZbE"},
+            {"text": "▶️ #2 Montage", "url": "https://youtu.be/YcuXGD3jFV5ap3n7"},
+            {"text": "▶️ #3 Aluminium fräsen", "url": "https://youtu.be/nsJg3jCN2j0"},
+            {"text": "▶️ GRBL Controller (IndyShield)", "url": "https://youtu.be/Qr6HrrcY3_E"},
+            {"text": "▶️ #3 Elektronik", "url": "https://youtu.be/6M8flHuN3BE"},
+            {"text": "▶️ #3.5 Tisch schweißen & Motortest", "url": "https://youtu.be/VSE4KyWP8eM"},
+            {"text": "▶️ #4 Finaler Test", "url": "https://youtu.be/5jFCecZdbGs"},
+            {"text": "▶️ Teleskop-Abdeckungen", "url": "https://youtu.be/iX00YX6wYsE"},
+            {"text": "▶️ Endschalter, Z-Probe & LEDs", "url": "https://youtu.be/LZri0vlNrRs"},
+            {"text": "▶️ Beste Upgrades", "url": "https://youtu.be/VLe03TqoPkM"},
+            {"text": "▶️ DIY Z-Probe", "url": "https://youtu.be/l9o6ZUjb3k0"},
+            {"text": "🌐 Projektseite", "url": "https://indystry.cc/indymill-cnc-machine/"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY CNC Maschine mit begrenzten Werkzeugen",
+        "beschreibung": "Ein Projekt, das zeigt, wie man eine funktionierende CNC-Maschine mit einfachen und begrenzten Werkzeugen bauen kann. Das Projekt ist Open Source.",
+        "tags": ["diy", "cnc", "maker", "limited-tools", "open-source", "woodworking"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/covhU4L5N5g"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/BenMakesEverything/Ben_CNC_v1"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "DIY CNC Elektronik und Controller Guide",
+        "beschreibung": "Eine Sammlung von Anleitungen zur Elektronik von DIY-CNC-Maschinen, einschließlich der Verwendung von FluidNC-Firmware, der Konvertierung von Mach3-Controllern und allgemeinen Tipps.",
+        "tags": ["diy", "cnc", "electronics", "controller", "fluidnc", "mach3", "tutorial"],
+        "links": [
+            {"text": "▶️ DIY CNC Electronics Guide", "url": "https://youtu.be/BEcd6sc677c"},
+            {"text": "▶️ 6x CNC Controller for FluidNC", "url": "https://youtu.be/xz2Cwnoey2U"},
+            {"text": "▶️ Convert a Mach3 CNC controller to FluidNC", "url": "https://youtu.be/Lts2pNXEjys"},
+            {"text": "▶️ DIY CNC: Your Questions Answered", "url": "https://youtu.be/nlWXileUSbU"},
+            {"text": "🌐 UGS Platform", "url": "https://winder.github.io/ugs_website/"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY 5-Achsen CNC-Fräse",
+        "beschreibung": "Ein ambitioniertes Projekt zum Bau einer eigenen 5-Achsen-CNC-Fräse. Das Video zeigt den Aufbau und die Funktion der Maschine.",
+        "tags": ["diy", "cnc", "5-axis", "milling", "advanced", "maker"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/5hp0zFIXyCg"},
+            {"text": "🌐 3D-Modell (kostenpflichtig)", "url": "https://awesome-solution-workshop.teachable.com/p/3d-model-of-the-5-axis-cnc-spo"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY 3D-gedruckter Hexapod (Sir-Kuhnhero)",
+        "beschreibung": "Eine zweiteilige Serie, die den Bau eines 3D-gedruckten Hexapoden von Grund auf zeigt, vom Design der Beine und des Körpers bis zu den ersten erfolgreichen Schritten. Das Projekt ist Open Source.",
+        "tags": ["diy", "hexapod", "3d-printing", "robotics", "open-source", "electronics"],
+        "links": [
+            {"text": "▶️ Teil 1: Bein", "url": "https://youtu.be/Ta3ILBvA57U"},
+            {"text": "▶️ Teil 2: Körper und erste Schritte", "url": "https://youtu.be/FBk1Pa01zQ4"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/Sir-Kuhnhero/Hexapod/tree/main"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "PolyDye: Open Source Vollfarb-3D-Druck",
+        "beschreibung": "Vorstellung von PolyDye, einem Open-Source-Projekt, das einen Tintenstrahldrucker integriert, um 3D-Drucke während des Druckprozesses vollfarbig einzufärben.",
+        "tags": ["open-source", "3d-printing", "full-color", "diy", "innovation", "inkjet"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/J1wz8S9rTI8"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "BoxTurtle: Open Source Multi-Color 3D-Druck (AMS)",
+        "beschreibung": "Ein Open-Source-Projekt für ein automatisches Materialsystem (AMS), das es ermöglicht, mit einem einzigen Extruder mehrfarbige 3D-Drucke zu erstellen.",
+        "tags": ["open-source", "3d-printing", "multi-color", "ams", "diy", "filament-changer"],
+        "links": [
+            {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/Akvasjkd3VU"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/ArmoredTurtle/BoxTurtle"},
+            {"text": "🌐 Dokumentation", "url": "https://www.armoredturtle.xyz/docs/index.html"}
+        ]
+    },
+    {
+        "kategorie": "ROS & Softwareentwicklung",
+        "thema": "Orca Slicer - Open Source Slicer für 3D-Drucker",
+        "beschreibung": "Ein Video, das die Vorteile des Wechsels zum Open-Source Orca Slicer für Bambu Lab 3D-Drucker (und andere) erklärt.",
+        "tags": ["3d-printing", "software", "slicer", "orcaslicer", "open-source", "bambu-lab"],
+        "links": [
+            {"text": "▶️ YouTube Erklärung", "url": "https://youtu.be/PMtkIGf8xOs"},
+            {"text": "🌐 GitHub: OrcaSlicer", "url": "https://github.com/SoftFever/OrcaSlicer"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "Open Source 3D-Drucker aus alten Teilen",
+        "beschreibung": "Vorstellung eines Open-Source-3D-Drucker-Projekts, das so konzipiert ist, dass es aus alten, wiederverwendeten Teilen (z.B. aus alten Druckern) gebaut werden kann.",
+        "tags": ["open-source", "3d-printing", "diy", "upcycling", "recycling"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/8YMWnR723B4"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY CNC Plotter (Serie & Software)",
+        "beschreibung": "Ressourcen zum Bau eines CNC-Plotters, einschließlich einer Playlist für den mechanischen Aufbau, Anleitungen zur Verkabelung von Schrittmotortreibern mit einem Raspberry Pi und Software-Informationen zu LinuxCNC.",
+        "tags": ["diy", "cnc-plotter", "raspberry-pi", "linuxcnc", "stepper-motor", "electronics"],
+        "links": [
+            {"text": "▶️ Playlist: CNC Plotter Caseira", "url": "https://www.youtube.com/watch?v=gWaKqtmEUJk&list=PLCsXbDkF-Tab-Hz2Ku3P5Dg-MJgaonkYE"},
+            {"text": "▶️ Raspberry Pi CNC Wiring", "url": "https://youtu.be/VspIVDIFXDc"},
+            {"text": "▶️ LinuxCNC-RIO Frontend", "url": "https://youtu.be/ddp5xxWB0zA"},
+            {"text": "🌐 SBC-CNC Webseite", "url": "https://www.sbc-cnc.com/"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "Schrittmotoren: Ansteuerung & Treiber",
+        "beschreibung": "Eine Sammlung von umfassenden Anleitungen zur Funktionsweise und Ansteuerung von Schrittmotoren mit Arduino, Raspberry Pi und dem DRV8825-Treiber.",
+        "tags": ["stepper-motor", "arduino", "raspberry-pi", "drv8825", "tutorial", "electronics", "motor-control"],
+        "links": [
+            {"text": "▶️ Stepper Motors and Arduino - The Ultimate Guide", "url": "https://youtu.be/7spK_BkMJys"},
+            {"text": "▶️ DRV8825 Stepper Motor Driver – Complete Guide", "url": "https://youtu.be/J-8_txDnS3w"},
+            {"text": "▶️ Raspberry Pi Stepper Motor Tutorial", "url": "https://youtu.be/LUbhPKBL_IU"},
+            {"text": "🌐 Rototron Tutorial", "url": "https://www.rototron.info/raspberry-pi-stepper-motor-tutorial/"}
+        ]
+    },
+    {
+        "kategorie": "KI, Computer Vision & Machine Learning",
+        "thema": "Animatronic Watcher - KI Vision & Design",
+        "beschreibung": "Ein Projekt, das KI-gestützte Computer Vision mit animatronischem Design kombiniert, um ein reaktives, 'beobachtendes' Augen-Animatronic zu erschaffen.",
+        "tags": ["ai", "computer-vision", "animatronics", "diy", "robot-eyes", "mechatronics"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/nam-GKPh5O4"},
+            {"text": "🌐 Projekt-Dokumentation (Notion)", "url": "https://www.notion.so/nilheim-mechatronics/Micro-Animatronic-Watcher-28e24779b64d8070b0f9df3e717d537f"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "RUKA: Open Source Humanoide Roboterhand",
+        "beschreibung": "Vorstellung von RUKA, einer fortschrittlichen, geschickten humanoiden Roboterhand, die für Lernalgorithmen optimiert ist. Das Projekt ist vollständig Open Source.",
+        "tags": ["open-source", "robot-hand", "humanoid", "research", "ai", "robotics", "manipulation"],
+        "links": [
+            {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/RXzUEl60vWg"},
+            {"text": "🌐 Projektseite", "url": "https://ruka-hand.github.io/"},
+            {"text": "🌐 Bauanleitung", "url": "https://ruka.gitbook.io/instructions"},
+            {"text": "🌐 arXiv Paper", "url": "https://arxiv.org/abs/2504.13165"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "OpenExo: Open Source motorisiertes Exoskelett",
+        "beschreibung": "Ein Open-Source-Forschungsprojekt für ein motorisiertes Exoskelett zur Unterstützung und Untersuchung menschlicher Bewegungen. Die Hardware und Software sind für die Forschungsgemeinschaft frei zugänglich.",
+        "tags": ["open-source", "exoskeleton", "robotics", "research", "biomechanics", "assistive-technology"],
+        "links": [
+            {"text": "▶️ YouTube Trailer", "url": "https://youtu.be/EJrUkC757W8"},
+            {"text": "🌐 Science Robotics Paper", "url": "https://www.science.org/doi/10.1126/scirobotics.adt1591"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/naubiomech/OpenExo"},
+            {"text": "🌐 Projekt-Wiki", "url": "https://wiki.theopenexo.org/"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Treppensteigender Rover (Raspberry Pi & Arduino)",
+        "beschreibung": "Ein Open-Source-Projekt zum Bau eines Rovers, der Treppen steigen kann. Der Rover wird mit einem Raspberry Pi und Arduino gesteuert und die Teile sind 3D-druckbar.",
+        "tags": ["diy", "rover", "raspberry-pi", "arduino", "3d-printing", "stair-climbing", "open-source"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/IoCaTgmUSvc"},
+            {"text": "🌐 Printables 3D-Modell", "url": "https://www.printables.com/model/194299-stair-climbing-rover"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/lukasdeem/Rover-Project"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "LTE RC-Car mit unbegrenzter Reichweite",
+        "beschreibung": "Ein Tutorial, das zeigt, wie man ein ferngesteuertes Auto baut, das über das LTE-Mobilfunknetz gesteuert wird. Dies ermöglicht eine quasi unbegrenzte Reichweite und Video-Streaming in Echtzeit.",
+        "tags": ["diy", "rc-car", "raspberry-pi", "lte", "remote-control", "iot", "webrtc"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/yeqj-nWPKeI"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/Pexeus/LTE-Car"},
+            {"text": "🌐 pigpio Library", "url": "https://abyz.me.uk/rpi/pigpio/"},
+            {"text": "🌐 Broadway H.264 Decoder", "url": "https://github.com/mbebenita/Broadway"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "DIY Raspberry Pi Drohne (Projekt-Serie)",
+        "beschreibung": "Eine Videoserie, die die Entwicklung einer autonomen Drohne auf Basis eines Raspberry Pi dokumentiert. Behandelt werden Themen wie Hardware, Stereo-Tiefenwahrnehmung mit OpenCV und Objekterkennung mit YOLOv4.",
+        "tags": ["diy", "drone", "raspberry-pi", "autonomous", "computer-vision", "opencv", "yolo", "slam"],
+        "links": [
+            {"text": "▶️ Hardware Review", "url": "https://youtu.be/MBLD8sjiYiU"},
+            {"text": "▶️ The Story So Far", "url": "https://youtu.be/ZCOlT_sz6Gs"},
+            {"text": "▶️ Pt. 2: Stereo Depth Mapping", "url": "https://youtu.be/_fH4SPhKpPM"},
+            {"text": "▶️ Pt. 3: YOLOv4 Object Detection", "url": "https://youtu.be/amOZDuO_KOA"}
+        ]
+    },
+    {
+        "kategorie": "KI, Computer Vision & Machine Learning",
+        "thema": "ORB-SLAM2: Open-Source SLAM System",
+        "beschreibung": "Vorstellung von ORB-SLAM2, einem vielseitigen und quelloffenen System für SLAM (Simultaneous Localization and Mapping), das mit Monokular-, Stereo- und RGB-D-Kameras in Echtzeit funktioniert.",
+        "tags": ["slam", "computer-vision", "open-source", "robotics", "navigation", "real-time"],
+        "links": [
+            {"text": "▶️ YouTube Demo", "url": "https://youtu.be/ufvPS5wJAx0"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/raulmur/ORB_SLAM2"},
+            {"text": "🌐 arXiv Paper", "url": "https://arxiv.org/pdf/1610.06475"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "Low-Cost Open Source Motion Capture für Drohnen",
+        "beschreibung": "Ein kostengünstiges Open-Source-System zur Bewegungserfassung (Motion Capture), das speziell für die präzise Steuerung autonomer Drohnen in Innenräumen entwickelt wurde und Personenerkennung ermöglicht.",
+        "tags": ["open-source", "motion-capture", "drone", "autonomous", "computer-vision", "low-cost"],
+        "links": [
+            {"text": "▶️ YouTube Demo", "url": "https://youtu.be/0ql20JKrscQ"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/jyjblrd/Low-Cost-Mocap"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "MTF-01 Optical Flow & Lidar Sensor für INAV",
+        "beschreibung": "Tutorials zur Einrichtung des MTF-01 Sensors (Optical Flow & Lidar) mit der INAV-Flugsteuerungssoftware, um Drohnen ein stabiles Schweben und Fliegen in Innenräumen ohne GPS zu ermöglichen.",
+        "tags": ["drone", "optic-flow", "lidar", "inav", "indoor-navigation", "sensor", "position-hold"],
+        "links": [
+            {"text": "▶️ Setup für INAV6", "url": "https://youtu.be/bEKm-PGRnks"},
+            {"text": "▶️ Setup für INAV8", "url": "https://youtu.be/678a498513E"},
+            {"text": "🌐 Sensor Produktseite", "url": "https://micoair.com/optical_range_sensor_mtf-01/"}
+        ]
+    },
+    {
+        "kategorie": "Hardware, Elektronik & Motoren",
+        "thema": "Speedybee F405 WING App Flugcontroller",
+        "beschreibung": "Ein Review und Überblick über den Speedybee F405 WING Flugcontroller, der speziell für Starrflügler (Wings) entwickelt wurde und per App konfiguriert werden kann.",
+        "tags": ["drone", "flight-controller", "speedybee", "fixed-wing", "inav", "ardupilot"],
+        "links": [
+            {"text": "▶️ YouTube Review", "url": "https://youtu.be/nMyyh_GZEA0"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Veterbot - 3D-gedrucktes Robotermodell",
+        "beschreibung": "Ein 3D-druckbares Modell für einen kleinen, futuristischen Roboter namens 'Veterbot'.",
+        "tags": ["3d-printing", "robot-model", "thingiverse", "hobby"],
+        "links": [
+            {"text": "🌐 Thingiverse Modell", "url": "https://www.thingiverse.com/thing:43511"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "Metabot (ehemals Spidey) - Parametrische Roboterplattform",
+        "beschreibung": "Metabot ist eine Open-Source und parametrische Robotik-Plattform. Die Teile können individuell angepasst und 3D-gedruckt werden, um verschiedene Arten von Laufrobotern zu erstellen.",
+        "tags": ["open-source", "robotics-platform", "3d-printing", "parametric-design", "legged-robot", "hexapod"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://www.youtube.com/watch?v=7McQQ-uikZw"},
+            {"text": "🌐 Webseite", "url": "http://metabot.cc"},
+            {"text": "🌐 Thingiverse", "url": "https://www.thingiverse.com/thing:365830"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "3D-druckbare Bioloid Roboter-Brackets",
+        "beschreibung": "Eine Sammlung von 3D-druckbaren Verbindungselementen (Brackets), die mit dem Bioloid-Robotiksystem kompatibel sind und den Bau eigener Roboterstrukturen ermöglichen.",
+        "tags": ["3d-printing", "bioloid", "robotis", "diy", "robot-parts"],
+        "links": [
+            {"text": "🌐 Thingiverse", "url": "https://www.thingiverse.com/thing:5192"}
+        ]
+    },
+    {
+        "kategorie": "NVIDIA Isaac Sim & Omniverse",
+        "thema": "How to Build a Mobile Robot in Isaac Sim",
+        "beschreibung": "Ein Tutorial, das in Zusammenarbeit mit einem Gast-Experten (Pascalis) zeigt, wie man einen mobilen Roboter von Grund auf in der NVIDIA Isaac Sim Simulationsumgebung aufbaut und konfiguriert.",
+        "tags": ["isaac-sim", "simulation", "robotics", "nvidia", "tutorial", "mobile-robot", "ros"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/xKfJ6T8NKEc"}
+        ]
+    },
+    {
+        "kategorie": "NVIDIA Isaac Sim & Omniverse",
+        "thema": "Isaac Lab Installation und Einführung in RL",
+        "beschreibung": "Eine Anleitung zur Installation von NVIDIA Isaac Lab auf Windows 10 mithilfe von MiniConda. Das Video gibt zudem eine Einführung in den Markov-Entscheidungsprozess (MDP), ein Grundkonzept des Reinforcement Learning.",
+        "tags": ["isaac-lab", "installation", "windows", "reinforcement-learning", "tutorial", "mdp"],
+        "links": [
+            {"text": "▶️ YouTube Anleitung", "url": "https://youtu.be/_PmI0XT2dck"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "BDX Droid (Open Duck Mini) auf Jetson Orin Nano",
+        "beschreibung": "Ein Open-Source-Droidenprojekt (eine Variante des BD-1 von Star Wars), das auf einem leistungsstarken NVIDIA Jetson Orin Nano Super läuft und für KI-Anwendungen ausgelegt ist.",
+        "tags": ["open-source", "droid", "jetson-orin", "ai", "robotics", "star-wars", "diy"],
+        "links": [
+            {"text": "▶️ YouTube Demo", "url": "https://youtu.be/5-WnzBsH1KU"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/apirrone/Open_Duck_Mini"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "DIY MIT Mini Cheetah mit Jetson Orin Nano",
+        "beschreibung": "Ein ambitioniertes DIY-Projekt zum Nachbau des berühmten vierbeinigen Roboters 'Mini Cheetah' vom MIT. Das Projekt ist Open Source und nutzt einen Jetson Orin Nano für die Steuerung.",
+        "tags": ["diy", "quadruped", "mini-cheetah", "jetson-orin", "open-source", "robotics", "legged-robot"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/ShPVNOde2Bg"},
+            {"text": "🌐 GitHub Navbot Projekte", "url": "https://github.com/fuwei007"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "MIT Cheetah-inspiriertes Roboterbein",
+        "beschreibung": "Ein Video, das den Zusammenbau und erste Tests eines einzelnen Roboterbeins zeigt, dessen Design vom MIT Cheetah inspiriert ist.",
+        "tags": ["diy", "robot-leg", "quadruped", "mini-cheetah", "robotics", "mechanics"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/91PnfcbGk78"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "Open Source Lernroboter (Navbot Serie)",
+        "beschreibung": "Eine Serie von kostengünstigen, quelloffenen Lernrobotern (Quadruped, CNC-Bot, zweirädriger Laufroboter) auf Basis des ESP32, die für den Einstieg in Robotik und Programmierung konzipiert sind.",
+        "tags": ["open-source", "educational-robot", "esp32", "diy", "quadruped", "robotics", "low-cost"],
+        "links": [
+            {"text": "▶️ ES02: Dual-Wheel Legged Bot", "url": "https://youtu.be/hujr_VRSyrw"},
+            {"text": "▶️ EN01: CNC Build mit Emoji Screen", "url": "https://youtu.be/4MHGIFpVfR4"},
+            {"text": "▶️ EG01: Low-Cost Quadruped", "url": "https://youtu.be/rA-ouqPSDgA"},
+            {"text": "🌐 GitHub (EN01)", "url": "https://github.com/fuwei007/Navbot-EN01"},
+            {"text": "🌐 GitHub (EG01)", "url": "https://github.com/fuwei007/Navbot-EG01"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Zusammenbau einer 3D-gedruckten CNC",
+        "beschreibung": "Ein Zeitraffer-Video, das den Zusammenbau einer CNC-Maschine zeigt, deren Rahmen und Hauptkomponenten 3D-gedruckt wurden.",
+        "tags": ["diy", "cnc", "3d-printing", "assembly", "timelapse", "maker"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/kapdZrwvnbg"}
+        ]
+    },
+    {
+        "kategorie": "DIY Projekte & 3D-Druck",
+        "thema": "Design eines Roboterarms in 35 Stunden",
+        "beschreibung": "Ein Zeitraffer, der den intensiven Designprozess eines Roboterarms über einen Zeitraum von 35 Stunden in einer CAD-Software zeigt.",
+        "tags": ["robot-arm", "cad", "design-process", "fusion360", "timelapse", "engineering"],
+        "links": [
+            {"text": "▶️ YouTube Video", "url": "https://youtu.be/a0y4vA3NdcA"}
+        ]
+    },
+    {
+        "kategorie": "Mechanik & Inspiration",
+        "thema": "Herstellung eines Soft Robotic Grippers",
+        "beschreibung": "Ein Tutorial, das den Prozess der Herstellung eines weichen, nachgiebigen Roboter-Greifers aus Silikon zeigt. Diese Greifer können empfindliche oder unregelmäßig geformte Objekte sicher handhaben.",
+        "tags": ["diy", "soft-robotics", "robot-gripper", "silicone-casting", "engineering", "tutorial"],
+        "links": [
+            {"text": "▶️ YouTube Tutorial", "url": "https://youtu.be/lmvocUm7TSU"}
+        ]
+    },
+    {
+        "kategorie": "Open Source Hardware & Forschung",
+        "thema": "HyperDog: Open-Source Quadruped auf ROS2",
+        "beschreibung": "Vorstellung von HyperDog, einer vollständig quelloffenen Plattform für vierbeinige Roboter, die auf ROS2 und micro-ROS basiert und für Forschung und Entwicklung konzipiert ist.",
+        "tags": ["open-source", "quadruped", "ros2", "micro-ros", "research", "robotics", "legged-robot"],
+        "links": [
+            {"text": "▶️ YouTube Präsentation", "url": "https://youtu.be/mFgaS3f5-pw"},
+            {"text": "🌐 arXiv Paper", "url": "https://arxiv.org/abs/2209.09171"},
+            {"text": "🌐 GitHub Projekt", "url": "https://github.com/NDHANA94/hyperdog_ros2"}
+        ]
+    },
+    {
+        "kategorie": "Grundlagen & Theorie",
+        "thema": "MPC für dynamische zweibeinige Roboter",
+        "beschreibung": "Eine wissenschaftliche Präsentation (CDC 2021) über den Einsatz von Model Predictive Control (MPC) auf Basis von Kräften und Momenten, um hochdynamische Bewegungen bei zweibeinigen Robotern zu realisieren.",
+        "tags": ["control-theory", "bipedal", "humanoid", "mpc", "research", "advanced", "robotics"],
+        "links": [
+            {"text": "▶️ YouTube Präsentation", "url": "https://youtu.be/XI00wa4TGHY"}
+        ]
+    },
+    {
+        "kategorie": "KI, Computer Vision & Machine Learning",
+        "thema": "Humanoid-Gym: Open Source Sim2Real RL Framework",
+        "beschreibung": "Vorstellung von Humanoid-Gym, einem neuen Open-Source-Framework für Sim-to-Real Reinforcement Learning, das speziell für die Entwicklung und das Training von humanoiden Robotern entwickelt wurde.",
+        "tags": ["open-source", "humanoid", "reinforcement-learning", "simulation", "sim2real", "ai", "robotics"],
+        "links": [
+            {"text": "▶️ YouTube Ankündigung", "url": "https://youtu.be/xj6MtLfO248"}
+        ]
     },
     {
       "kategorie": "DIY Projekte & 3D-Druck",
