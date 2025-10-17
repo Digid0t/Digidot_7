@@ -1483,8 +1483,8 @@
     {
         "kategorie": "DIY Projekte & 3D-Druck",
         "thema": "DIY Transformer Roboter (Auto zu Roboter)",
-        "beschreibung": "Eine umfassende, sechsteilige Videoserie, die den gesamten Prozess des Baus eines sich transformierenden Roboters dokumentiert – von der Mechanik über die Elektronik bis zum fertigen Prototyp.",
-        "tags": ["diy", "robotics", "transformer", "3d-printing", "electronics", "arduino", "open-source"],
+        "beschreibung": "Eine umfassende, sechsteilige Videoserie, auf dem  deutschen Robotik Kanal https://www.youtube.com/@MikerobotiX ,die den gesamten Prozess des Baus eines sich transformierenden Roboters dokumentiert – von der Mechanik über die Elektronik bis zum fertigen Prototyp.",
+        "tags": ["diy", "robotics", "transformer", "3d-printing", "electronics", "arduino", "Deutsch", "open-source"],
         "links": [
             {"text": "▶️ Teil 1: Mechanik", "url": "https://youtu.be/D-YAmQjFRiE"},
             {"text": "▶️ Teil 2: Mechanik", "url": "https://youtu.be/dxNueO8H8hA"},
