@@ -1483,8 +1483,8 @@
     {
         "kategorie": "DIY Projekte & 3D-Druck",
         "thema": "DIY Transformer Roboter (Auto zu Roboter)",
-        "beschreibung": "Eine umfassende, sechsteilige Videoserie, auf dem  deutschen Robotik Kanal https://www.youtube.com/@MikerobotiX ,die den gesamten Prozess des Baus eines sich transformierenden Roboter, Von RC Car zu einer Drohne dokumentiert – von der Mechanik über die Elektronik bis zum fertigen Prototyp.",
-        "tags": ["diy", "robotics", "transformer", "3d-printing", "electronics", "arduino", "deutsch", "drohne", "rc-car", "open-source"],
+        "beschreibung": "Eine umfassende, sechsteilige Videoserie, auf dem  deutschen Robotik Kanal https://www.youtube.com/@MikerobotiX ,die den gesamten Prozess des Baus eines sich transformierenden Roboters dokumentiert – von der Mechanik über die Elektronik bis zum fertigen Prototyp.",
+        "tags": ["diy", "robotics", "transformer", "3d-printing", "electronics", "arduino", "Deutsch", "open-source"],
         "links": [
             {"text": "▶️ Teil 1: Mechanik", "url": "https://youtu.be/D-YAmQjFRiE"},
             {"text": "▶️ Teil 2: Mechanik", "url": "https://youtu.be/dxNueO8H8hA"},
@@ -1967,6 +1967,529 @@
     },
     {
       "kategorie": "Showcase & Inspiration",
+      "thema": "Bio-inspirierte Drohne (Ornithopter) - Aerodynamik & Effizienz",
+      "beschreibung": "Eine Untersuchung der aerodynamischen Vorteile von Drohnen, die ihre Flügel schlagen (Ornithopter). Das Video diskutiert, ob diese Methode effizienter ist und verweist auf eine wissenschaftliche Studie über die Reduzierung des Luftwiderstands durch den Schwanz bei Vögeln.",
+      "tags": ["drone", "bio-inspired", "ornithopter", "biomechanics", "research", "aerodynamics"],
+      "links": [
+        {"text": "▶️ Are Drones That Flap Their Wings Better?", "url": "https://youtu.be/sCpTIY6gJVE"},
+        {"text": "🌐 Biologists.com Artikel", "url": "https://journals.biologists.com/jeb/article/223/3/jeb214809/223686/High-aerodynamic-lift-from-the-tail-reduces-drag"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Theorie des Vogelflugs mit David Lentink",
+      "beschreibung": "Ein Vortrag von David Lentink, der die 'Magie' und die komplexen physikalischen Prinzipien des Vogelflugs erklärt. Dieses Wissen ist fundamental für die Entwicklung von fortschrittlichen, bio-inspirierten Flugrobotern und Ornithoptern.",
+      "tags": ["biomechanics", "aerodynamics", "ornithopter", "theory", "research", "bird-flight", "fundamentals"],
+      "links": [
+        {"text": "▶️ The Magic of Bird Flight", "url": "https://youtu.be/pl1hGNmbg2Q"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Windrad zur Stromerzeugung",
+      "beschreibung": "Ein Tutorial von Conrad TechnikHelden, das schrittweise zeigt, wie man ein eigenes kleines Windrad bauen kann, um damit elektrische Energie zu erzeugen. Ein praktisches Projekt zum Thema erneuerbare Energien.",
+      "tags": ["diy", "wind-turbine", "renewable-energy", "electronics", "maker", "generator"],
+      "links": [
+        {"text": "▶️ Windrad selbst bauen", "url": "https://youtu.be/LeCv5KEk3Mg"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Permanentmagnet-Synchronmotor (PMSM) - Der Motor der Zukunft?",
+      "beschreibung": "Ein Video, das die Funktionsweise, Vorteile und die wachsende Bedeutung von Permanentmagnet-Synchronmotoren (PMSM) für die Zukunft der Elektromobilität und andere hocheffiziente elektrische Antriebe erklärt.",
+      "tags": ["pmsm", "motor-technology", "electronics", "fundamentals", "electric-vehicle", "bldc"],
+      "links": [
+        {"text": "▶️ The Most Important Motor for our Electrical Future?!", "url": "https://youtu.be/cmRGhoF_ZEM"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Durchbruch bei Motoren? Die elektrostatische Maschine",
+      "beschreibung": "Vorstellung eines unkonventionellen Motorkonzepts, das auf elektrostatischer Anziehung anstelle von Elektromagnetismus basiert. Ein Einblick in alternative physikalische Prinzipien für Antriebe.",
+      "tags": ["motor-technology", "electrostatics", "fundamentals", "theory", "innovation", "research"],
+      "links": [
+        {"text": "▶️ Breakthrough MOTOR Revealed!", "url": "https://youtu.be/F2gaPSiOkaw"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Mechanisches E-Bike ohne Elektronik",
+      "beschreibung": "Ein faszinierendes Projekt eines E-Bikes, das eine Tretunterstützung rein mechanisch durch ein cleveres Schwungrad- und Getriebesystem realisiert, ganz ohne Elektromotor oder Akku.",
+      "tags": ["mechanical-systems", "ebike", "diy", "innovation", "flywheel", "energy-storage"],
+      "links": [
+        {"text": "▶️ Mechanisches E-Bike", "url": "https://youtu.be/aUPWfZS_uAM"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Experimente zur alternativen Stromerzeugung",
+      "beschreibung": "Zwei experimentelle Projekte, die zeigen, wie man aus einem Baum oder direkt aus der Atmosphäre geringe Mengen elektrischer Energie gewinnen kann, basierend auf elektrochemischen und physikalischen Prinzipien.",
+      "tags": ["diy", "experiment", "bio-energy", "battery", "electronics", "science"],
+      "links": [
+        {"text": "▶️ I Made a Tree Generate Electricity", "url": "https://youtu.be/BSxK5VagSb8"},
+        {"text": "▶️ I Built an Atmosphere Powered Battery", "url": "https://youtu.be/1D9LUaYYnrE"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Anschlüsse eines 3-Phasen-Motors identifizieren",
+      "beschreibung": "Eine einfache, schrittweise Anleitung, wie man mit einem herkömmlichen Multimeter (VOM) die sechs Anschlussdrähte eines 3-Phasen-Motors korrekt identifiziert und für den Anschluss vorbereitet.",
+      "tags": ["motor-control", "electronics", "tutorial", "troubleshooting", "3-phase-motor", "fundamentals"],
+      "links": [
+        {"text": "▶️ Identify 6 Wires of a 3-Phase Motor", "url": "https://youtu.be/iUkxbomGxfI"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Schwerkraft-Batterie (Gravity Battery)",
+      "beschreibung": "Ein Projekt zum Bau einer Schwerkraft-Batterie zur mechanischen Speicherung von Energie. Das Video dokumentiert den Bauprozess und die überraschenden Ergebnisse des Experiments.",
+      "tags": ["diy", "gravity-battery", "energy-storage", "renewable-energy", "maker", "mechanical-engineering"],
+      "links": [
+        {"text": "▶️ DIY Gravity Battery: Unexpected Results!", "url": "https://youtu.be/MVuVJC8lGck"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen elektronischer Bauteile: Widerstände & Kondensatoren",
+      "beschreibung": "Ressourcen, die die grundlegende Funktionsweise von Widerständen und Kondensatoren erklären. Beinhaltet eine Playlist zu Kondensatortypen, Lade-/Entladevorgängen und eine detaillierte Analyse von Elektrolytkondensatoren.",
+      "tags": ["electronics", "fundamentals", "resistor", "capacitor", "beginner", "theory"],
+      "links": [
+        {"text": "▶️ Die Funktionsweise von Widerständen", "url": "https://youtu.be/DYcLFHgVCn0"},
+        {"text": "🌐 Playlist: How Capacitors Work", "url": "https://www.youtube.com/watch?v=AVoI6pPY_HA&list=PL0UhJ-tSmCPCYKl5bI12nqR55ylL4uS-J"},
+        {"text": "▶️ Electrolytic Capacitors: Overview & Teardown", "url": "https://youtu.be/MAP-VA1m5A4"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen von 3-Phasen-Motoren und deren Steuerung",
+      "beschreibung": "Eine Sammlung von Erklärvideos zu 3-Phasen-Motoren: Funktionsweise von Stern-Dreieck-Anlassern, Induktions- und Synchronmotoren sowie die Grundlagen von Frequenzumrichtern (VFDs) zur Drehzahlregelung.",
+      "tags": ["motor-control", "3-phase-motor", "star-delta", "induction-motor", "synchronous-motor", "vfd", "fundamentals"],
+      "links": [
+        {"text": "▶️ Understanding STAR-DELTA Starter", "url": "https://youtu.be/km8MSWm39Z0"},
+        {"text": "▶️ Star Delta Starter Explained", "url": "https://youtu.be/h89TTwlNnpY"},
+        {"text": "▶️ How does an Induction Motor work?", "url": "https://youtu.be/AQqyGNOP_3o"},
+        {"text": "▶️ What is a SYNCHRONOUS MOTOR?", "url": "https://youtu.be/Tk3lNBSAgEg"},
+        {"text": "▶️ Variable Frequency Drives Explained", "url": "https://youtu.be/yEPe7RDtkgo"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen der Klimatechnik (HVAC) und Kältekreislauf",
+      "beschreibung": "Eine Sammlung von Videos, die grundlegende Konzepte der Heizungs-, Lüftungs- und Klimatechnik (HLK) erklären. Beinhaltet eine Playlist zu HLK-Steuerungen, die Funktionsweise von Kälteanlagen und den Kältekreislauf.",
+      "tags": ["hvac", "refrigeration", "control-theory", "fundamentals", "mechanical-engineering", "animation"],
+      "links": [
+        {"text": "🌐 Playlist: Basic HVAC Controls", "url": "https://www.youtube.com/watch?v=fUta3n-L7Co&list=PLFXQBJlBdA0Egcv_iwSe_7Sur__1Yn9Ob"},
+        {"text": "▶️ Chiller Plant Working Principle", "url": "https://youtu.be/yEzCvjQ2sNY"},
+        {"text": "▶️ Refrigeration Cycle (Vapor Compression Cycle)", "url": "https://youtu.be/8paWhATWxgU"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen der Pumpentechnik und Hydraulik",
+      "beschreibung": "Videos, die erklären, wie man eine Monteurhilfe (Manifold Gauge Set) für Kälteanlagen benutzt und wie man Pumpenkennlinien von Kreiselpumpen liest und zur Auslegung (Drehzahl, Förderstrom, Druck) verwendet.",
+      "tags": ["pump-curve", "hvac", "mechanical-engineering", "fluid-dynamics", "fundamentals", "tutorial"],
+      "links": [
+        {"text": "▶️ Manifold Gauge Set Explained", "url": "https://youtu.be/dhKflpu662I"},
+        {"text": "▶️ Pump Curve for Engineers", "url": "https://youtu.be/7Bz61cFL36U"},
+        {"text": "▶️ How to Read a Centrifugal Pump Curve", "url": "https://youtu.be/d3jUERm8wkU"},
+        {"text": "▶️ Centrifugal Pump Sizing Calculation", "url": "https://youtu.be/aWfep4qgw1E"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Open Source mechanische Wasserpumpen",
+      "beschreibung": "Vorstellung von zwei Open-Source-Hardware-Projekten: ein hydraulischer Widder, der Wasser ohne externe Energie pumpt, und eine Windmühlenpumpe. Die Baupläne sind frei verfügbar.",
+      "tags": ["open-source", "diy", "water-pump", "hydraulic-ram", "wind-power", "sustainable-technology"],
+      "links": [
+        {"text": "▶️ Hidraulic Ram Water Pump", "url": "https://youtu.be/3ZQB3YYEcGU"},
+        {"text": "🌐 OHO Wiki: Hidraulic Ram", "url": "https://en.oho.wiki/wiki/Hidraulic_Ram_For_Pumping_Water"},
+        {"text": "▶️ Wind Mill Pump", "url": "https://youtu.be/DfHtDeaLkGg"},
+        {"text": "🌐 OHO Wiki: Wind Mill Pump", "url": "https://en.oho.wiki/wiki/Wind_Mill_Pump"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY automatische Gartenbewässerung",
+      "beschreibung": "Ein Tutorial von Conrad TechnikHelden, das den Bau eines automatisierten Bewässerungssystems für den Garten zeigt, ideal für IoT- und Smart-Home-Einsteiger.",
+      "tags": ["diy", "iot", "home-automation", "gardening", "electronics", "smart-garden"],
+      "links": [
+        {"text": "▶️ DIY Gartenbewässerung", "url": "https://youtu.be/dOI6UmpKp68"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Generatoren aus Upcycling und 3D-Druck",
+      "beschreibung": "Projekte zum Bau von Stromgeneratoren: Umbau eines Waschmaschinenmotors zu einer Windturbine, Bau eines einfachen Generators und Vorstellung eines 3D-gedruckten Generators zur Veranschaulichung der Funktionsweise.",
+      "tags": ["diy", "generator", "upcycling", "3d-printing", "wind-turbine", "renewable-energy"],
+      "links": [
+        {"text": "▶️ Waschmaschinenmotor zu Windturbine", "url": "https://youtu.be/zLCFAXdqWIs"},
+        {"text": "▶️ How to Build a Generator", "url": "https://youtu.be/5nxR-Y2E_lA"},
+        {"text": "▶️ 3D printed generator", "url": "https://youtu.be/hPnHBAiMHJQ"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Fortgeschrittener 3D-Druck: 5-Achsen, Selbst-Druck und Metall",
+      "beschreibung": "Projekte, die die Grenzen des 3D-Drucks erweitern: Upgrades für einen 5-Achsen-Drucker mit Klipper, ein Drucker, der auf sich selbst drucken kann, und ein DIY-Metall-3D-Drucker für Zuhause.",
+      "tags": ["3d-printing", "5-axis", "diy", "klipper", "advanced", "experimental", "metal-printing"],
+      "links": [
+        {"text": "▶️ 5-Axis 3D Printer Upgrades", "url": "https://youtu.be/gBKsBhFbQNk"},
+        {"text": "▶️ it can 3D-Print onto itself?!", "url": "https://youtu.be/Ek_7tBOCcAI"},
+        {"text": "▶️ i made a METAL 3D-Printer at home!", "url": "https://youtu.be/W1d36wbx_yg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Recycling von Fehldrucken mit DIY Filament-Extruder",
+      "beschreibung": "Vorstellung des Artme3D Desktop Filament-Extruders, mit dem fehlgeschlagene 3D-Drucke geschreddert und zu neuem, druckbarem Filament recycelt werden können, um Abfall zu reduzieren.",
+      "tags": ["3d-printing", "recycling", "filament-extruder", "diy", "sustainability", "circular-economy"],
+      "links": [
+        {"text": "▶️ Recycling Failed 3D Prints", "url": "https://youtu.be/BT04glGDjB4"},
+        {"text": "🌐 Artme3D Produktseite", "url": "https://www.artme-3d.de/produkte/desktop-filament-extruder-mk3s/"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Mechanische Verbindungen in 3D-Drucken",
+      "beschreibung": "Zwei Tutorials, die wichtige Techniken für die Konstruktion mit 3D-Druckteilen zeigen: die Verwendung von Gewindeeinsätzen (Heat-Set Inserts) für stabile Schraubverbindungen und die korrekte Integration von Kugellagern und Wellen.",
+      "tags": ["3d-printing", "tutorial", "mechanical-design", "tips-and-tricks", "heat-set-inserts", "bearings"],
+      "links": [
+        {"text": "▶️ A better way to add threads to your 3D prints", "url": "https://youtu.be/HgEEtk85rAY"},
+        {"text": "▶️ Tutorial on Using Bearings in 3D Prints", "url": "https://youtu.be/TsC96mXMejA"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Tooltrace.ai - KI-generierte Gridfinity-Einsätze",
+      "beschreibung": "Vorstellung von Tooltrace.ai, einem innovativen, KI-gestützten Werkzeug, das aus einem Foto eines Werkzeugs automatisch ein passgenaues 3D-Modell für einen Gridfinity-Einsatz generiert und so die Werkstattorganisation revolutioniert.",
+      "tags": ["ai", "3d-printing", "gridfinity", "tool-organization", "software", "computer-vision", "automation"],
+      "links": [
+        {"text": "▶️ This FREE AI Tool Auto-Generates Gridfinity Bins!", "url": "https://youtu.be/e3EhJJlWwws"},
+        {"text": "▶️ Tooltrace.ai mega Tool (Deutsch)", "url": "https://youtu.be/VcObekAdpmQ"},
+        {"text": "🌐 Tooltrace.ai Webseite", "url": "https://www.tooltrace.ai/"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Großformatiger 3D-Druck: Go-Kart und Kajak",
+      "beschreibung": "Zwei beeindruckende Projekte, die zeigen, was mit großformatigem 3D-Druck möglich ist: der Bau des Chassis für ein riesiges Go-Kart und der Druck eines voll funktionsfähigen Kajaks in weniger als 24 Stunden.",
+      "tags": ["diy", "3d-printing", "go-kart", "kayak", "large-scale-printing", "maker"],
+      "links": [
+        {"text": "▶️ I Invented A New Type of Skateboard", "url": "https://youtu.be/x_ldiNJFeF4"},
+        {"text": "▶️ GIANT 3D PRINTED GO KART BUILD", "url": "https://youtu.be/ifXeN_9IYmY"},
+        {"text": "▶️ I 3D Printed a Kayak in Less Than 24 hours", "url": "https://youtu.be/9DpMkYDCq9Y"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Spritzguss mit 3D-gedruckten Formen",
+      "beschreibung": "Zwei Videos, die den Prozess des Spritzgießens von Kunststoffteilen unter Verwendung von 3D-gedruckten Formen (sowohl FDM als auch SLA) demonstrieren. Diese Technik eignet sich auch zur Wiederverwertung von Plastikabfällen.",
+      "tags": ["3d-printing", "injection-molding", "diy", "recycling", "manufacturing", "fdm", "sla"],
+      "links": [
+        {"text": "▶️ Injection Molding with 3D Printed Molds", "url": "https://youtu.be/rcjVDgeu5yY"},
+        {"text": "▶️ How to 3D Print Injection Molds to Recycle Plastic!", "url": "https://youtu.be/bg94elNMicU"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "3D-Drucke mit Kohlefaser verstärken",
+      "beschreibung": "Ein neuartiger Ansatz, um die Festigkeit und Steifigkeit von FDM-3D-Druckteilen drastisch zu erhöhen, indem Kohlefaser-Rovings während des Druckvorgangs gezielt in das Bauteil eingebettet werden.",
+      "tags": ["3d-printing", "carbon-fiber", "reinforcement", "diy", "high-strength", "material-science"],
+      "links": [
+        {"text": "▶️ Reinforce 3D Print with Carbon Fiber", "url": "https://youtu.be/tCiVXGl3Q9A"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Offizielle NVIDIA YouTube-Kanäle",
+      "beschreibung": "Links zu den offiziellen YouTube-Kanälen von NVIDIA Omniverse und NVIDIA Developer. Diese Kanäle sind primäre Quellen für Tutorials, Demos, Ankündigungen und Einblicke in Technologien wie Isaac Sim, KI, und mehr.",
+      "tags": ["nvidia", "omniverse", "isaac-sim", "ai", "developer-tools", "learning-resource"],
+      "links": [
+        {"text": "🌐 NVIDIA Omniverse Kanal", "url": "https://www.youtube.com/@NVIDIAOmniverse"},
+        {"text": "🌐 NVIDIA Developer Kanal", "url": "https://www.youtube.com/@NVIDIADeveloper"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Entwickler-Guides für KI-Agenten mit NVIDIA",
+      "beschreibung": "Zwei Entwickler-Tutorials von NVIDIA, die zeigen, wie man agentenbasierte KI-Systeme erstellt: eines mit den optimierten Qwen3-Next-Modellen und NVIDIA NIM, das andere mit NVIDIA Nemotron für RAG-Anwendungen.",
+      "tags": ["ai", "llm", "ai-agent", "nvidia", "rag", "qwen", "nemotron", "tutorial"],
+      "links": [
+        {"text": "▶️ Build an AI Agent with Qwen3-Next", "url": "https://youtu.be/5yzSgKu8hiI"},
+        {"text": "▶️ Build a RAG Agent with NVIDIA Nemotron", "url": "https://youtu.be/Mw9_ZK3tnrQ"},
+        {"text": "🌐 GitHub: RAG Agent Workshop", "url": "https://github.com/brevdev/workshop-build-an-agent"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Ressourcen für NVIDIA DeepStream und Jetson",
+      "beschreibung": "Eine Sammlung von Ressourcen für die Entwicklung mit NVIDIA Jetson und DeepStream, einschließlich eines Kanals mit DeepStream-Projekten und Tutorials zur Beschleunigung von Vision AI Pipelines.",
+      "tags": ["nvidia", "deepstream", "jetson", "computer-vision", "ai", "video-analytics", "tutorial"],
+      "links": [
+        {"text": "▶️ Deepstream NN-Kanal", "url": "https://youtu.be/AzMXXQXYO4E"},
+        {"text": "▶️ Build Vision AI Pipelines Faster", "url": "https://youtu.be/yj11L8rFC30"},
+        {"text": "🌐 GitHub: niconielsen32", "url": "https://github.com/niconielsen32"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "NVIDIA Jetson: Hardware, Benchmarks und Anwendungsbeispiele",
+      "beschreibung": "Eine Sammlung von Videos rund um die NVIDIA Jetson Plattform: Vorstellung des Jetson Orin Nano Super für Edge AI, Programmiertipps, YOLO-Geschwindigkeitstests auf verschiedenen Jetson-Boards und Demos für Robotik-Anwendungen.",
+      "tags": ["nvidia", "jetson-orin", "edge-ai", "computer-vision", "yolo", "benchmark", "vslam", "robotics"],
+      "links": [
+        {"text": "▶️ Jetson Orin Nano Super: Driveway Monitor", "url": "https://youtu.be/QHBr8hekCzg"},
+        {"text": "▶️ Coding with Nvidia Jetson is not what you think", "url": "https://youtu.be/k5_vWU0Y5y4"},
+        {"text": "▶️ Yolo Speed Test On Jetson", "url": "https://youtu.be/MnaohuzEuhA"},
+        {"text": "▶️ Compact AI brain for your robot", "url": "https://youtu.be/fc_tMsCZh_4"},
+        {"text": "▶️ VSLAM for Robotic Applications", "url": "https://youtu.be/mNTi1osPSIA"},
+        {"text": "🌐 GitHub: jetsonhacks", "url": "https://github.com/jetsonhacks"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Lern-Playlist: KI und YOLO auf dem Jetson Nano",
+      "beschreibung": "Eine umfassende Playlist für Einsteiger, die den kompletten Weg zur KI auf dem Jetson Nano abdeckt: von der Einrichtung (auch headless), über die Installation von OpenCV und Kameras bis hin zur Ausführung verschiedener YOLO-Versionen (v5, v7, v8, v9) für die Objekterkennung.",
+      "tags": ["jetson-nano", "ai", "tutorial", "beginner", "opencv", "yolo", "object-detection", "playlist"],
+      "links": [
+        {"text": "🌐 Playlist: Learn AI on Jetson Nano", "url": "https://www.youtube.com/watch?v=DVfmw3Ftu3I&list=PLv8Cp2NvcY8AkXRldCAYCvFxRldCAYCvFxRUs0h5JJF"},
+        {"text": "▶️ L-1: Getting Started", "url": "https://youtu.be/DVfmw3Ftu3I"},
+        {"text": "▶️ L-2: Headless Setup", "url": "https://youtu.be/7-WMvmWVxJQ"},
+        {"text": "▶️ L-3: Install OpenCV & Camera", "url": "https://youtu.be/P-EZr0zy53g"},
+        {"text": "▶️ L-4: Use OpenCV with Cameras", "url": "https://youtu.be/o-gOseYQN2I"},
+        {"text": "▶️ L-5: YOLOv5 on Jetson Nano", "url": "https://youtu.be/ZXbOV83EXdQ"},
+        {"text": "▶️ YOLOv8 on Jetson Nano Using DeepStream", "url": "https://youtu.be/--JFI4lcJbQ"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "SLAM und Navigation mit ROS auf Kleinrobotern",
+      "beschreibung": "Projekte, die zeigen, wie SLAM (Simultaneous Localization and Mapping) und Navigation mit ROS auf verschiedenen Hardware-Plattformen wie Raspberry Pi und Arduino implementiert werden. Beinhaltet eine KI-Demo und einen Einsatz mit dem Roboterhund Bittle.",
+      "tags": ["ros", "slam", "navigation", "raspberry-pi", "arduino", "lidar", "deep-learning", "mobile-robot"],
+      "links": [
+        {"text": "▶️ Robot AI Demo - NVidia Deep Learning, ROS Navigation", "url": "https://youtu.be/U0--ZJfmUEM"},
+        {"text": "▶️ Visual and LIDAR based SLAM with ROS using Bittle", "url": "https://youtu.be/uXpQUIF_Jyk"},
+        {"text": "▶️ Arduino self-driving robot bring-up, mapping and navigation", "url": "https://youtu.be/L_XbkA4pwRc"},
+        {"text": "▶️ Step by Step Arduino LiDAR Robot Bringup", "url": "https://youtu.be/tKfVU1n5TjA"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "SLAM-Grundlagen: LiDAR-Sensor in Python simulieren",
+      "beschreibung": "Ein Tutorial aus einer SLAM-Serie, das von Grund auf erklärt, wie man die Funktionsweise eines LiDAR-Sensors mit Python simuliert. Dies ist ein wichtiger Schritt, um SLAM-Algorithmen zu verstehen und zu entwickeln.",
+      "tags": ["slam", "lidar", "python", "simulation", "tutorial", "robotics", "fundamentals"],
+      "links": [
+        {"text": "▶️ simulating a LIDAR sensor from scratch with python", "url": "https://youtu.be/JbUNsYPJK1U"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "DIY Selbstfahrendes Auto mit Lidar und Machine Learning",
+      "beschreibung": "Ein DIY-Projekt zum Bau eines autonomen Fahrzeugs, das einen LiDAR-Sensor zur Umwelterfassung, einen Raspberry Pi zur Datenverarbeitung und Machine-Learning-Algorithmen zur Steuerung verwendet.",
+      "tags": ["self-driving", "lidar", "raspberry-pi", "machine-learning", "diy", "mobile-robot", "ai"],
+      "links": [
+        {"text": "▶️ Self-driving car with Lidar, RaspberryPi and Machine Learning", "url": "https://youtu.be/uuslVHPjWS8"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Objekterkennung und -zählung mit ESP32-CAM & OpenCV",
+      "beschreibung": "Eine Sammlung von Projekten, die eine ESP32-Kamera in Verbindung mit OpenCV für Computer-Vision-Aufgaben nutzen: ein KI-Roboter für Objekterkennung und Spurverfolgung sowie ein System zum automatischen Zählen von Objekten in Echtzeit.",
+      "tags": ["esp32-cam", "ai", "object-detection", "object-counting", "opencv", "computer-vision", "diy"],
+      "links": [
+        {"text": "▶️ ESP32-CAM: Simple AI Robot", "url": "https://youtu.be/4C2c0xs6eFg"},
+        {"text": "▶️ DIY Automatic Object Counting System", "url": "https://youtu.be/9fER61M3yFo"},
+        {"text": "▶️ Most Easy Way To Object Detection & Object Counting", "url": "https://youtu.be/LDCqZ48traM"},
+        {"text": "▶️ Object Counting in High Speed Conveyor", "url": "https://youtu.be/ntVk5gKXVKc"},
+        {"text": "🌐 Hackster.io: ESP32-CAM AI Robot", "url": "https://www.hackster.io/longpth/esp32-cam-ai-robot-50173c"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Visuelle Navigation für Lagerroboter mit Isaac Sim & ROS",
+      "beschreibung": "Eine Demonstration, wie NVIDIA Isaac Sim und Isaac ROS verwendet werden, um die visuelle Navigation von autonomen mobilen Robotern (AMR) in einer komplexen Lagerhaus-Umgebung zu simulieren und zu validieren.",
+      "tags": ["isaac-sim", "isaac-ros", "amr", "navigation", "simulation", "warehouse-automation", "digital-twin"],
+      "links": [
+        {"text": "▶️ AI Warehouse: AMR Visual Navigation", "url": "https://youtu.be/afNVwoX_zd0"},
+        {"text": "▶️ NVIDIA Isaac ROS Introduction", "url": "https://youtu.be/V_JVNkAoDzI"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "LeRobot: Vereinfachter Einstieg in die KI-Robotik",
+      "beschreibung": "Eine Vorstellung des LeRobot-Frameworks von Hugging Face, das darauf abzielt, den Einstieg in die KI-Robotik durch die Bereitstellung von vortrainierten Modellen, standardisierten Datensätzen und vereinfachten Schnittstellen für reale Roboter zu erleichtern.",
+      "tags": ["lerobot", "huggingface", "ai", "robotics", "machine-learning", "open-source", "framework"],
+      "links": [
+        {"text": "▶️ LeRobot – Lowering the entry barrier to AI for robotics", "url": "https://youtu.be/L0uxfZMlkag"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Einstieg in Micro-ROS mit ESP32 für ROS2",
+      "beschreibung": "Tutorials für Anfänger, die zeigen, wie man Micro-ROS auf einem ESP32-Mikrocontroller einrichtet, um kleine, kostengünstige Roboter in ein ROS2-Netzwerk zu integrieren. Beinhaltet ein Projekt für einen Zeichenroboter.",
+      "tags": ["micro-ros", "ros2", "esp32", "platformio", "robotics", "iot", "tutorial", "beginner"],
+      "links": [
+        {"text": "▶️ Micro-Ros robot using PlatformIO for esp32", "url": "https://youtu.be/Nf7HP9y6Ovo"},
+        {"text": "▶️ Build Your Darwing Robot with ESP32", "url": "https://youtu.be/4JVdT523gfw"},
+        {"text": "▶️ ESP32 vs Raspberry Pi for ROS2 development", "url": "https://youtu.be/oSj4kdlD6uQ"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Platinenherstellung (PCB) für Zuhause",
+      "beschreibung": "Eine Sammlung von Methoden zur Herstellung eigener Leiterplatten: Fräsen auf einem 3D-Drucker, die klassische Toner-Transfer-Methode mit einem Laserdrucker und hochpräzises Gravieren mit einem Faserlaser.",
+      "tags": ["diy", "pcb", "electronics", "3d-printing", "laser-engraving", "toner-transfer", "etching"],
+      "links": [
+        {"text": "▶️ Making PCBs on a 3D Printer", "url": "https://youtu.be/lX7dRaOLtZk"},
+        {"text": "▶️ Making Circuit Boards Using a Laser Printer", "url": "https://youtu.be/8tg0u7rf7Xg"},
+        {"text": "▶️ Homemade PCBs with Fiber Laser", "url": "https://youtu.be/PoYcjyghDx4"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Laserschneider und -gravierer (Projekte)",
+      "beschreibung": "Eine Sammlung von Projekten und Anleitungen zum Bau eigener Laserschneider und -gravierer. Beinhaltet den Bau eines CO2-Lasers von Grund auf, einen tragbaren Gravierer und einen sehr einfachen Aufbau mit minimalen Teilen.",
+      "tags": ["diy", "laser-cutter", "laser-engraver", "co2-laser", "maker", "fabrication", "grbl"],
+      "links": [
+        {"text": "▶️ DIY CO2 Laser Cutter. Building From Scratch", "url": "https://youtu.be/hOB2iFJxcw8"},
+        {"text": "▶️ DIY Rotary Attachment for my DIY Laser Cutter", "url": "https://youtu.be/xb0fiNJaVyw"},
+        {"text": "▶️ DIY CO2 Laser Cutter Build with Open Source GRBL ESP32", "url": "https://youtu.be/hKLUTKVeXzE"},
+        {"text": "▶️ 40W homemade laser cutter", "url": "https://youtu.be/5z3pLr353Yk"},
+        {"text": "▶️ Building a DIY portable Laser Engraver", "url": "https://youtu.be/x1F7WYnSHGM"},
+        {"text": "▶️ Simplest CNC Machine / DIY Laser Engraver", "url": "https://youtu.be/td4DWtMY7SQ"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Einführung in OpenUSD für physikalische KI",
+      "beschreibung": "Ein Video von NVIDIA, das erklärt, was OpenUSD (Universal Scene Description) ist und warum es eine grundlegende Technologie für die Simulation von physikalischer KI, die Erstellung von digitalen Zwillingen und das Metaverse ist.",
+      "tags": ["openusd", "nvidia", "simulation", "digital-twin", "ai", "fundamentals", "3d-standard"],
+      "links": [
+        {"text": "▶️ Introduction to OpenUSD for Physical AI", "url": "https://youtu.be/6FMUIzHF8-0"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY CNC-Plasmaschneider (Plasma V & Modifikationen)",
+      "beschreibung": "Ressourcen zum Bau und zur Verbesserung von DIY-CNC-Plasmaschneidern. Beinhaltet das Open-Source-Projekt 'Plasma V' auf GRBL-ESP32-Basis und Videos zu Modifikationen für mehr Stabilität und Präzision.",
+      "tags": ["diy", "cnc", "plasma-cutter", "open-source", "grbl", "esp32", "metal-fabrication", "welding"],
+      "links": [
+        {"text": "▶️ Plasma V: DIY CNC Plasma Cutter", "url": "https://youtu.be/erONL2Bogno"},
+        {"text": "▶️ Best DIY CNC Plasma Cutter Just Got Better", "url": "https://youtu.be/r7D8B89QRuE"},
+        {"text": "▶️ Part 1: JD Garage Plasma Table Modifications", "url": "https://youtu.be/f58pMe-aJbQ"},
+        {"text": "▶️ Part 2: JD Garage Plasma Modifications", "url": "https://youtu.be/cwvwykM9NAo"},
+        {"text": "🌐 GitHub: Plasma-V", "url": "https://github.com/kpatel122/Plasma-v"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "GRBL & CNC-Steuerung Tutorials (Deutsch)",
+      "beschreibung": "Eine Sammlung deutschsprachiger Tutorials zur CNC-Steuerung. Beinhaltet eine Playlist zu den Grundlagen von GRBL, die Erstellung von G-Code-Dateien, den Umbau einer CNC 3018 und die Einrichtung der Elektronik.",
+      "tags": ["grbl", "cnc", "tutorial", "g-code", "cnc-3018", "electronics", "german"],
+      "links": [
+        {"text": "🌐 Playlist: GRBL Controller Basics Tutorial", "url": "https://www.youtube.com/watch?v=tv4kRc9xm8Q&list=PLVo5veMLZ7lWsZjr3lGpABFabfAFyWsGi"},
+        {"text": "▶️ G-Code Dateien erstellen", "url": "https://youtu.be/ovZBYhSapv4"},
+        {"text": "▶️ CNC 3018: Umbau & Upgrade", "url": "https://youtu.be/J4oDD1X6T_U"},
+        {"text": "▶️ GRBL Controller und Elektronik nach Umbau", "url": "https://youtu.be/geTqZ7TMAIM"},
+        {"text": "▶️ GRBL End-Schalter anschließen", "url": "https://youtu.be/2fL7D5cGcrQ"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Lernressourcen für Fusion 360 & CAD/CAM",
+      "beschreibung": "Eine umfassende Sammlung von Tutorials für Fusion 360: Einsteigerkurse für CNC-Fräsen, parametrisches Design, spezielle Werkzeuge wie das 'Rib Tool', Tipps & Tricks, automatisches Design und die Verwendung von ChatGPT zur Skripterstellung.",
+      "tags": ["fusion360", "cad", "cam", "cnc", "tutorial", "parametric-design", "generative-design", "chatgpt"],
+      "links": [
+        {"text": "🌐 Playlist: CNC Fräsen lernen", "url": "https://www.youtube.com/watch?v=paHYDx8PE5g&list=PL_NuDXzAgoGkAQGH5BXYSrKwrBolJmEV"},
+        {"text": "▶️ Fusion 360 for Woodworkers", "url": "https://youtu.be/kHgy2e5M7kw"},
+        {"text": "▶️ Lernen Sie das Fusion 360 Rib Tool kennen", "url": "https://youtu.be/s-t-MGgta1E"},
+        {"text": "▶️ So einfach alles miteinander Verbinden", "url": "https://youtu.be/QcaBcmXL9NM"},
+        {"text": "▶️ 3 Tricks die jeder kennen muss!", "url": "https://youtu.be/ipckUN5qxsk"},
+        {"text": "▶️ Nie wieder konstruieren! Fusion 360 Automatisch Design", "url": "https://youtu.be/PAHOdgCi0OY"},
+        {"text": "🌐 Playlist: Designed by chat gpt fusion 360", "url": "https://www.youtube.com/playlist?list=PLpwXZREsev3dDXj86IbV__aLf16001i2S"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Grundlagen des PCB-Designs für Anfänger",
+      "beschreibung": "Eine Playlist, die Anfängern schrittweise den gesamten Prozess des Leiterplattendesigns von Grund auf beibringt, von der Idee bis zur fertigen Platine.",
+      "tags": ["pcb-design", "electronics", "tutorial", "beginner", "kicad", "eagle", "cad"],
+      "links": [
+        {"text": "🌐 Playlist: PCB Jourey", "url": "https://www.youtube.com/watch?v=eEv-ettu8u4&list=PLpwXZREsev3c25uxdMFyVGZxbgk33_mYW"},
+        {"text": "▶️ From ZERO To PCB In 20 Minutes", "url": "https://youtu.be/eEv-ettu8u4"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Design eines Roboterhund-Beins in Fusion 360",
+      "beschreibung": "Eine zweiteilige Serie, die den detaillierten CAD-Designprozess eines komplexen Roboterbeins für einen vierbeinigen Roboter in Fusion 360 zeigt.",
+      "tags": ["fusion360", "cad", "robot-leg", "quadruped", "design-process", "robotics", "3d-printing"],
+      "links": [
+        {"text": "▶️ Fusion 360 - New Dog Robot Leg Design - Part 1", "url": "https://youtu.be/qycjil_2O2I"},
+        {"text": "▶️ Fusion 360 - Robot Leg Design - Part 2", "url": "https://youtu.be/Ly3BFS97ZCw"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Ansteuerung vieler Servos mit PCA9685 und Arduino",
+      "beschreibung": "Ein einsteigerfreundliches Tutorial, das schrittweise erklärt, wie man den PCA9685 16-Kanal-PWM-Servomotortreiber mit einem Arduino verwendet. Dies ermöglicht die präzise Steuerung von bis zu 16 Servos über den I2C-Bus.",
+      "tags": ["pca9685", "servo-control", "arduino", "tutorial", "beginner", "electronics", "i2c"],
+      "links": [
+        {"text": "▶️ Using PCA9685 With Arduino", "url": "https://youtu.be/i2Po3mwIRV0"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Sim-to-Real für Radroboter mit Isaac Lab",
+      "beschreibung": "Vorstellung von WheeledLab, einem Open-Source-Projekt, das zeigt, wie man mit NVIDIA Isaac Lab Radroboter in der Simulation trainiert und die erlernten Steuerungsstrategien erfolgreich auf reale Hardware überträgt (Sim2Real).",
+      "tags": ["isaac-lab", "simulation", "sim2real", "wheeled-robot", "robotics", "open-source", "reinforcement-learning"],
+      "links": [
+        {"text": "▶️ From Simulation to Reality", "url": "https://youtu.be/Y4b-cz2xB1w"},
+        {"text": "🌐 GitHub: WheeledLab", "url": "https://github.com/UWRobotLearning/WheeledLab"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Alternativen zu teurer Hardware: Simulation mit AirSim & VirtualRobots",
+      "beschreibung": "Ein Video, das argumentiert, dass leistungsstarke, kostenlose Simulatoren wie Microsoft AirSim oder VirtualRobots oft eine bessere Alternative zum Kauf teurer Roboterhardware sind, um Robotik zu lernen und Algorithmen zu entwickeln.",
+      "tags": ["simulation", "airsim", "robotics", "learning", "software", "cost-effective", "virtual-reality"],
+      "links": [
+        {"text": "▶️ STOP Buying Expensive Robots! [DO THIS INSTEAD]", "url": "https://youtu.be/uKVjRoPgOOI"},
+        {"text": "🌐 Microsoft AirSim", "url": "https://github.com/microsoft/AirSim"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Einstieg in IoT-Hacking und Hardware Reversing",
+      "beschreibung": "Eine Sammlung von Ressourcen für Anfänger im Bereich IoT-Sicherheit. Beinhaltet eine Playlist zu IoT-Hacking, die Top 5 Werkzeuge und eine Anleitung zum Finden von UART-Schnittstellen, um eine Root-Shell zu erhalten.",
+      "tags": ["iot", "hacking", "security", "hardware-reversing", "uart", "tutorial", "beginner"],
+      "links": [
+        {"text": "▶️ Top 5 Tools for IoT Hacking Beginners", "url": "https://youtu.be/4FgS2vljopU"},
+        {"text": "▶️ Hacker's Guide to UART Root Shells", "url": "https://youtu.be/01mw0oTHwxg"},
+        {"text": "🌐 Playlist: IoT hacking", "url": "https://www.youtube.com/watch?v=zjafMP7EgEA&list=PLfi5XR5jA2Hofpdf0i9docq9ZkP1ihenL"},
+        {"text": "▶️ Intro to Hardware Reversing: Finding a UART", "url": "https://youtu.be/ZmZuRst0oGE"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Einfache Taster-Abfrage für ESP32 mit Bibliothek",
+      "beschreibung": "Ein Tipp für die ESP32-Programmierung, der eine Bibliothek vorstellt, die das komplexe Handling von Tastern (z.B. Entprellen, kurzes/langes Drücken, Mehrfachklicks) vollständig abstrahiert und den Code erheblich vereinfacht.",
+      "tags": ["esp32", "programming", "library", "tips-and-tricks", "electronics", "button-handling"],
+      "links": [
+        {"text": "▶️ ESP32 code tips - Stop coding buttons FOREVER", "url": "https://youtu.be/V8Csi90xp4s"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY LoRa Fernsteuerung mit 10km Reichweite",
+      "beschreibung": "Ein Open-Source-Projekt zum Bau einer extrem günstigen (ca. 10$) und weitreichenden (bis zu 10km) Fernsteuerung (Sender & Empfänger) auf Basis der LoRa-Funktechnologie. Ideal für Drohnen und RC-Projekte.",
+      "tags": ["diy", "lora", "rc-controller", "long-range", "electronics", "open-source", "radio-communication"],
+      "links": [
+        {"text": "▶️ DIY LoRa RC Controller", "url": "https://youtu.be/mCVtn_sfCrs"},
+        {"text": "🌐 GitHub Projekt", "url": "https://github.com/Boyyt357/DIY-LoRa-Long-Range-RC-Control-System-TX-RX-"}
+      ]
+    },
+    {
+      "kategorie": "Showcase & Inspiration",
       "thema": "Kreative & unkonventionelle Fluggeräte",
       "beschreibung": "Eine Sammlung von inspirierenden und ungewöhnlichen Flugobjekten. Von einer Drohne, die als Papierflugzeug getarnt ist, über einen fliegenden Regenschirm bis hin zu einer beeindruckenden Drohnen-Lichtshow und einem riesigen DIY-Build.",
       "tags": ["inspiration", "showcase", "drone", "creative", "lightshow", "unusual"],
@@ -2035,6 +2558,3 @@
     "changes": "Drohnen-Ressourcen detailliert kategorisiert, 'Showcase & Inspiration' als eigene Kategorie hinzugefügt, 'Sonstiges' aufgelöst"
   }
 }
-
-
-
