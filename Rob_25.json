@@ -3018,6 +3018,136 @@
       ]
     },
     {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Unorthodoxe Bein-Aktuatoren",
+      "beschreibung": "Ein Video, das unkonventionelle und innovative Aktor-Designs für Roboterbeine vorstellt. Es dient als Inspirationsquelle für alternative mechanische Lösungen jenseits von Standard-Rotationseinheiten.",
+      "tags": ["actuator", "legged-robot", "mechanical-design", "innovation", "research", "robotics", "inspiration"],
+      "links": [
+        {"text": "▶️ Unorthodox leg actuators", "url": "https://youtu.be/Y3h0vZ2PYl8"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Mikrocontroller-Vergleich: ESP32 & STM32 gegen ATtiny",
+      "beschreibung": "Ein deutschsprachiges Video, das die leistungsstarken 32-Bit-Mikrocontroller ESP32 und STM32 mit dem klassischen 8-Bit ATtiny vergleicht und diskutiert, wann welcher Controller die richtige Wahl für ein Projekt ist.",
+      "tags": ["esp32", "stm32", "attiny", "microcontroller", "comparison", "electronics", "german", "performance"],
+      "links": [
+        {"text": "▶️ ESP32 und STM32 gegen ATtiny -- Unfair?", "url": "https://youtu.be/qhzjG2kk3m8"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Offline Sprachsteuerung für Mikrocontroller (DFRobot SEN0539-EN)",
+      "beschreibung": "Vorstellung eines DFRobot-Spracherkennungsmoduls (SEN0539-EN), das eine Offline-Sprachsteuerung für jeden Mikrocontroller über I2C oder UART ermöglicht, ohne dass eine Internetverbindung erforderlich ist.",
+      "tags": ["voice-control", "offline-ai", "dfrobot", "i2c", "uart", "sensor", "microcontroller", "german"],
+      "links": [
+        {"text": "▶️ Offline (!) Sprachsteuerung für jeden Mikrocontroller", "url": "https://youtu.be/KLbk8A-rQKY"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "AVR Dx Serie - Günstige Mikrocontroller mit starken Features",
+      "beschreibung": "Ein Review der neuen AVR Dx Mikrocontroller-Serie, die trotz ihres sehr niedrigen Preises (ca. 2 EUR) eine beeindruckende Ausstattung und Leistung für Maker-Projekte bietet.",
+      "tags": ["avr", "microcontroller", "review", "electronics", "low-cost", "maker", "german"],
+      "links": [
+        {"text": "▶️ AVR Dx nur 2 EUR?? Was kann er?", "url": "https://youtu.be/MRilTf8FvsI"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "SPI und I²C Bus erklärt (Deutsch)",
+      "beschreibung": "Zwei deutschsprachige Tutorials, die die Kommunikationsprotokolle SPI und I²C Bus einfach erklären. Die Videos zeigen praktische Beispiele mit Arduino, ESP32 und ATtiny, z.B. die Ansteuerung eines RGB-OLED-Displays.",
+      "tags": ["spi", "i2c", "arduino", "esp32", "attiny", "tutorial", "electronics", "german", "fundamentals"],
+      "links": [
+        {"text": "▶️ Wie geht SPI am Arduino, ESP32, ATtiny", "url": "https://youtu.be/QOSFZ5ASstw"},
+        {"text": "▶️ I²C Bus erklärt und geht OLED am ATtiny?", "url": "https://youtu.be/WAqKTj5oG4U"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Seeed Studio XIAO mit Renesas RA4M1: Erste Schritte",
+      "beschreibung": "Ein Video, das die XIAO-Variante mit dem Renesas RA4M1 Mikrocontroller vorstellt. Es zeigt die ersten Tests und die Einrichtung der Entwicklungsumgebung für dieses spezielle Board.",
+      "tags": ["xiao", "renesas", "microcontroller", "review", "electronics", "getting-started", "german"],
+      "links": [
+        {"text": "▶️ XIAO Variante mit RA4M1: Erste Tests und Einrichtung", "url": "https://youtu.be/lnydt1OTPak"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 vs STM32 vs NRF52 vs RP2040: Welcher ist der Beste für dein Produkt?",
+      "beschreibung": "Ein detaillierter Vergleich der vier populären Mikrocontroller (ESP32, STM32, NRF52, RP2040) im Hinblick auf ihre Eignung für die kommerzielle Produktentwicklung. Bewertet werden Kriterien wie Leistung, Stromverbrauch, Konnektivität und Kosten.",
+      "tags": ["esp32", "stm32", "nrf52", "rp2040", "microcontroller", "comparison", "product-design", "iot", "electronics"],
+      "links": [
+        {"text": "▶️ ESP32 vs STM32 vs NRF52 vs RP2040 - Which is Best?", "url": "https://youtu.be/EGqLTQIbsOg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "15 der besten STM32-Projekte zum Ausprobieren in 2025",
+      "beschreibung": "Eine kuratierte Liste mit 15 inspirierenden und innovativen Projektideen, die man mit einem STM32-Mikrocontroller umsetzen kann, um die Fähigkeiten des Chips zu erlernen und zu nutzen.",
+      "tags": ["stm32", "diy", "project-ideas", "electronics", "microcontroller", "inspiration"],
+      "links": [
+        {"text": "▶️ 15 Best STM32 Projects to try in 2025!", "url": "https://youtu.be/2-_Wgspjkdw"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY ESP32 CAN-Bus Simulator für Fahrzeuganzeigen",
+      "beschreibung": "Ein praktisches DIY-Projekt, das zeigt, wie man mit einem ESP32 einen CAN-Bus-Simulator baut, um beispielsweise Tachos oder andere Fahrzeuganzeigen ohne ein echtes Auto testen und ansteuern zu können.",
+      "tags": ["diy", "esp32", "can-bus", "simulator", "electronics", "automotive", "instrument-cluster"],
+      "links": [
+        {"text": "▶️ I Built a Simple ESP32 CANBus Simulator for Gauges", "url": "https://youtu.be/JVK7S-STUNc"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "IoT AC-Energiezähler mit PZEM-004T und ESP32",
+      "beschreibung": "Eine Sammlung von Tutorials, die zeigen, wie man mit dem PZEM-004T Energiezähler und einem ESP32 einen IoT-fähigen Wechselstrom-Energiezähler baut. Die Projekte umfassen ein Echtzeit-Web-Dashboard und das Auslesen mehrerer Sensoren.",
+      "tags": ["diy", "iot", "esp32", "pzem-004t", "energy-monitor", "home-automation", "modbus", "web-dashboard"],
+      "links": [
+        {"text": "▶️ Bauen Sie einen IoT-Wechselstrom-Energiezähler", "url": "https://youtu.be/0igolzx-FS4"},
+        {"text": "▶️ PZEM 004T New Version 4.0 Energy Monitor", "url": "https://youtu.be/WeodpeCLRXA"},
+        {"text": "▶️ How to retrieve multiple PZEM-004T readings", "url": "https://youtu.be/Ay9-9z8by40"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 Zigbee Test mit Arduino Core (Deutsch)",
+      "beschreibung": "Ein deutschsprachiges Tutorial, das erklärt, wie man die Zigbee-Funktionalität auf kompatiblen ESP32-Boards (z.B. ESP32-C6/H2) innerhalb der Arduino-Entwicklungsumgebung einrichtet und testet.",
+      "tags": ["esp32", "zigbee", "iot", "arduino", "tutorial", "german", "smart-home", "communication-protocol"],
+      "links": [
+        {"text": "▶️ ESP32 Zigbee Test: So geht's mit Arduino Core", "url": "https://youtu.be/7IsB1KtqX9U"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Warum Rust die Zukunft für die Embedded-Entwicklung ist",
+      "beschreibung": "Ein Video, das die Vorteile der Programmiersprache Rust für die Embedded-Entwicklung argumentiert, insbesondere in Bezug auf Speichersicherheit und Performance, und diskutiert, ob Rust das Potenzial hat, C++ in diesem Bereich abzulösen.",
+      "tags": ["rust", "embedded-systems", "programming", "cpp-comparison", "future-of-tech", "memory-safety", "german"],
+      "links": [
+        {"text": "▶️ Warum 🦀 Rust die Zukunft für Embedded-Entwicklung ist", "url": "https://youtu.be/BOcpZ3QgPL8"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Deutschsprachige Tech-YouTuber: pixeledi & BitBastelei",
+      "beschreibung": "Links zu zwei prominenten deutschen Tech-YouTubern. 'pixeledi' spezialisiert sich auf Mikrocontroller und Tutorials, während 'BitBastelei' über ein Jahrzehnt an geballtem Wissen zu Hardware, Elektronik und Maker-Projekten aller Art bietet.",
+      "tags": ["learning-resource", "youtube-channel", "microcontroller", "electronics", "diy", "maker", "german"],
+      "links": [
+        {"text": "🌐 pixeledi Tech Hub", "url": "https://www.youtube.com/@pixeledi"},
+        {"text": "🌐 BitBastelei", "url": "https://www.youtube.com/@adlerweb"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "PCF8575 - I2C Port Expander für mehr GPIOs",
+      "beschreibung": "Ein Tutorial von BitBastelei, das den PCF8575 (und PCF8574) I2C Port Expander vorstellt. Dieser Chip ermöglicht es, die Anzahl der verfügbaren GPIO-Pins eines Mikrocontrollers wie dem ESP32 einfach und kostengünstig zu erweitern.",
+      "tags": ["i2c", "port-expander", "pcf8575", "esp32", "gpio", "electronics", "tutorial", "german"],
+      "links": [
+        {"text": "▶️ BitBastelei #653 - I2C Port Expander", "url": "https://youtu.be/A5JMsnB1L8U"}
+      ]
+    },
+    {
       "kategorie": "ROS & Softwareentwicklung",
       "thema": "Alternativen zu teurer Hardware: Simulation mit AirSim & VirtualRobots",
       "beschreibung": "Ein Video, das argumentiert, dass leistungsstarke, kostenlose Simulatoren wie Microsoft AirSim oder VirtualRobots oft eine bessere Alternative zum Kauf teurer Roboterhardware sind, um Robotik zu lernen und Algorithmen zu entwickeln.",
