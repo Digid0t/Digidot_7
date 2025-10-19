@@ -2381,6 +2381,576 @@
       ]
     },
     {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "220 Mechanische Grundlagen (Animationen)",
+      "beschreibung": "Ein Video, das 220 grundlegende mechanische Prinzipien und Mechanismen visuell durch 3D-Animationen darstellt. Ideal zum schnellen Verstehen von mechanischen Bewegungsabläufen und als Inspirationsquelle.",
+      "tags": ["mechanical-systems", "fundamentals", "animation", "inspiration", "engineering", "beginner", "reference"],
+      "links": [
+        {"text": "▶️ YouTube Video", "url": "https://youtu.be/YZEFMlRzZww"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "500 mechanische Mechanismen (Animationen)",
+      "beschreibung": "Eine umfangreiche Sammlung von 500 Animationen, die häufig verwendete mechanische Mechanismen aus dem Maschinenbau und dem Alltag anschaulich darstellen.",
+      "tags": ["mechanical-systems", "animation", "inspiration", "engineering", "reference", "design"],
+      "links": [
+        {"text": "▶️ YouTube Video", "url": "https://youtu.be/0WArehmc7FY"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Mechanismus - Visuelle ASMR Playlist",
+      "beschreibung": "Eine Playlist mit ästhetischen und befriedigenden Visualisierungen von komplexen mechanischen Baugruppen und Bewegungen, oft als 'visuelles ASMR' bezeichnet. Dient zur Inspiration und zum besseren Verständnis.",
+      "tags": ["mechanical-systems", "visualization", "inspiration", "asmr", "animation", "satisfying"],
+      "links": [
+        {"text": "🌐 Playlist: Visual ASMR", "url": "https://www.youtube.com/watch?v=_9AqA__8qxg&list=PLox5Z2GiiP3F6sWHLj0jNfuzyds-7WMuY"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Hydraulik-Meisterklasse: Komponenten, Funktion und Mythen",
+      "beschreibung": "Ein umfassendes Video, das die wichtigen Komponenten eines Hydrauliksystems, deren Funktionsweise und gängige Mythen und Missverständnisse in der Hydraulik erklärt.",
+      "tags": ["hydraulics", "fundamentals", "mechanical-engineering", "theory", "tutorial", "components"],
+      "links": [
+        {"text": "▶️ YouTube Meisterklasse", "url": "https://youtu.be/Px1wnARs12Q"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlegendes Verständnis des Maschinenbaus",
+      "beschreibung": "Ein Video, das die Kernkonzepte des Maschinenbaus über das reine Formellernen hinaus erklärt und ein tieferes, intuitives Verständnis für die Disziplin vermittelt.",
+      "tags": ["mechanical-engineering", "fundamentals", "theory", "education", "concepts"],
+      "links": [
+        {"text": "▶️ You Don't Really Understand Mechanical Engineering", "url": "https://youtu.be/VWS6CNJtldU"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Konstruktionsfehler bei Blechteilen erkennen",
+      "beschreibung": "Ein lehrreiches Video, das häufige Konstruktionsfehler bei der Gestaltung von Blechteilen (Sheet Metal) aufzeigt und erklärt, wie man sie vermeidet.",
+      "tags": ["mechanical-design", "sheet-metal", "engineering", "design-for-manufacturing", "mistakes"],
+      "links": [
+        {"text": "▶️ Only Real Mechanical Engineers Can Spot These Design Mistakes", "url": "https://youtu.be/xHa52v5xNOU"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Design wie die Natur: Die Macht der Topologieoptimierung",
+      "beschreibung": "Eine Erklärung der Topologieoptimierung, einem computergestützten Designverfahren, das Material nur dort platziert, wo es strukturell notwendig ist. Dies führt zu leichten, organisch aussehenden und hocheffizienten Bauteilen.",
+      "tags": ["topology-optimization", "cad", "generative-design", "engineering", "simulation", "lightweight-design"],
+      "links": [
+        {"text": "▶️ Design Like Nature", "url": "https://youtu.be/IAQHc7o9zKo"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Open Source FreeCAD zu URDF/XACRO Exporter (CROSS & Assembly4)",
+      "beschreibung": "Zwei Open-Source-Projekte für FreeCAD, die den Export von Robotermodellen in das URDF- oder XACRO-Format für das Robot Operating System (ROS) ermöglichen. CROSS ist eine eigene Workbench, der andere Exporter ist für Assembly4.",
+      "tags": ["freecad", "urdf", "ros", "robot-description", "open-source", "cad", "xacro", "simulation"],
+      "links": [
+        {"text": "🌐 GitHub: FreeCAD-Assembly4-to-URDF", "url": "https://github.com/life-efficient/FreeCAD-Assembly4-to-URDF"},
+        {"text": "🌐 GitHub: freecad.cross", "url": "https://github.com/galou/freecad.cross"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "OpenScan - Open Source 3D-Scanner zum Selberbauen",
+      "beschreibung": "Ein vollständig quelloffenes Projekt zum Bau eines eigenen, kostengünstigen 3D-Scanners mittels Photogrammetrie. Die Plattform bietet detaillierte Anleitungen, Software und 3D-druckbare Teile für den Nachbau.",
+      "tags": ["open-source", "3d-scanning", "diy", "photogrammetry", "3d-printing", "maker", "hardware"],
+      "links": [
+        {"text": "🌐 OpenScan Hauptseite", "url": "https://openscan.eu/"},
+        {"text": "🌐 OpenScan Dokumentation", "url": "https://openscan-org.github.io/OpenScan-Doc/"},
+        {"text": "🌐 GitHub Organisation", "url": "https://github.com/OpenScan-org/"},
+        {"text": "🌐 PDF Guide", "url": "https://drive.google.com/file/d/15dHPhmN0gLu5s5aGFLwUulbkThmojQXg/view"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Fractal Robotics: Open Source 5-Achsen 3D-Drucker & Slicer",
+      "beschreibung": "Ein Open-Source-Projekt, das einen multidirektionalen 5-Achsen-FDM-3D-Drucker und einen dazugehörigen Slicer entwickelt hat, um komplexe Geometrien ohne Stützstrukturen drucken zu können.",
+      "tags": ["open-source", "3d-printing", "5-axis", "diy", "slicer", "advanced-manufacturing", "innovation"],
+      "links": [
+        {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/2_BY-7XOgWg"},
+        {"text": "🌐 GitHub: Fractal-Cortex (Slicer)", "url": "https://github.com/fractalrobotics/Fractal-Cortex"},
+        {"text": "🌐 GitHub: Fractal-5-Pro (Drucker)", "url": "https://github.com/fractalrobotics/Fractal-5-Pro"},
+        {"text": "🌐 Projekt Webseite", "url": "https://fractalrobotics.com/"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Einführung und Tutorials für FreeCAD (CAD-Software)",
+      "beschreibung": "Eine Sammlung von Einführungs-Tutorials für die kostenlose und quelloffene CAD-Software FreeCAD. Beinhaltet Kurse für absolute Anfänger, Fortgeschrittene und spezielle Anwendungsfälle wie 3D-Druck und Gewindemodellierung.",
+      "tags": ["freecad", "cad", "tutorial", "beginner", "3d-modeling", "3d-printing", "part-design", "german"],
+      "links": [
+        {"text": "▶️ Was I unfair to FreeCAD?", "url": "https://youtu.be/p8Pk1ayx6LQ"},
+        {"text": "▶️ Introduction to FreeCAD Part 1 | DigiKey", "url": "https://youtu.be/8VPYTTnqmfs"},
+        {"text": "▶️ FreeCAD Made Easy – Part 1: Getting Started", "url": "https://youtu.be/hTiZdyE1yDY"},
+        {"text": "▶️ FreeCAD 1.0 - Das ERSTE Tutorial für Einsteiger (Deutsch)", "url": "https://youtu.be/7XWbBHv80EU"},
+        {"text": "▶️ FreeCAD Beginner Course | 90 degrees Elbow Pipe", "url": "https://youtu.be/yoZjfC6LtEQ"},
+        {"text": "▶️ FreeCAD 1.0 - 3D-Druck Teil für Fortgeschrittene (Deutsch)", "url": "https://youtu.be/rlnMStQyLMI"},
+        {"text": "▶️ FreeCAD 1.0 - Basic Part Design Tutorial (Deutsch)", "url": "https://youtu.be/q9F5Usz2f54"},
+        {"text": "▶️ FreeCAD 1.0RC2 | First 3D Model", "url": "https://youtu.be/lilkWYjUucY"},
+        {"text": "▶️ FreeCAD 1.0 - Helix zum Gewindeschneiden (Deutsch)", "url": "https://youtu.be/nvvx-1rPUKI"},
+        {"text": "▶️ FreeCAD Tutorial #6 | EASY way to Model a KNURLED Surface", "url": "https://youtu.be/UFnFFVXltN0"},
+        {"text": "🌐 Playlist: FreeCAD Tips & Tricks Beginner", "url": "https://www.youtube.com/watch?v=W3BRhcL-3zM&list=PLWuyJLVUNtc20zwcKjtjD7iZTF0CznjDW"},
+        {"text": "🌐 Playlist: FreeCAD Tutorial (MangJelly)", "url": "https://www.youtube.com/watch?v=Klz3jgBP71Q&list=PLUrr_kHPp4vimEl_M7ADh7cwd2B3Jr7mo"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "LiDAR-Sensoren mit ROS & Raspberry Pi",
+      "beschreibung": "Eine Sammlung von Tutorials, die zeigen, wie man verschiedene LiDAR-Sensoren (LD06, TfMini, RPLidar) mit einem Raspberry Pi und ROS (Robot Operating System) für SLAM-Anwendungen und 3D-Scans einrichtet und verwendet.",
+      "tags": ["lidar", "ros", "ros2", "raspberry-pi", "slam", "sensor", "tutorial", "3d-scanning"],
+      "links": [
+        {"text": "▶️ Install and Run Lidar on Raspberry Pi and ROS", "url": "https://youtu.be/WVyJjxAyGJc"},
+        {"text": "▶️ How to use the Lidar LD06 ROS2", "url": "https://youtu.be/OJWAsV6-0GE"},
+        {"text": "▶️ 3D LIDAR Scanner (new version)", "url": "https://youtu.be/h7Ba44bJV5k"},
+        {"text": "▶️ DIY Laser Scanner with TfMini and Raspberry Pi", "url": "https://youtu.be/NqkvlIHe4Yg"},
+        {"text": "▶️ RPLidar and Hector SLAM for Beginners", "url": "https://youtu.be/Qrtz0a7HaQ4"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "OpenTOFLidar - Open Source DIY TOF LIDAR",
+      "beschreibung": "Vorstellung des OpenTOFLidar, einem quelloffenen DIY-Projekt für einen Time-of-Flight (TOF) LiDAR-Sensor, der eine kostengünstige Alternative zu kommerziellen Sensoren darstellt.",
+      "tags": ["open-source", "lidar", "tof", "diy", "sensor", "robotics", "hardware"],
+      "links": [
+        {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/lTPH_Xa9yCk"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Time of Flight (ToF) Kamera für Raspberry Pi",
+      "beschreibung": "Ein Video, das eine Time-of-Flight (ToF) Kamera vorstellt, die mit dem Raspberry Pi kompatibel ist und 3D-Tiefeninformationen in Echtzeit für Robotik- und Computer-Vision-Anwendungen liefern kann.",
+      "tags": ["tof", "camera", "raspberry-pi", "3d-vision", "depth-sensing", "sensor"],
+      "links": [
+        {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/pu9bSo-b11A"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Grundlagen und Tutorials zur I2C-Kommunikation mit ESP32 & MicroPython",
+      "beschreibung": "Eine Sammlung von Tutorials zur I2C-Kommunikation: eine einfache Erklärung des Protokolls, die Verwendung eines I2C-Multiplexers mit ESP32, Implementierung mit ESP-IDF und die Ansteuerung von Sensoren (MPU6050) und Displays (SSD1306) mit MicroPython.",
+      "tags": ["i2c", "esp32", "micropython", "electronics", "tutorial", "sensor", "oled", "fundamentals"],
+      "links": [
+        {"text": "▶️ Wie funktioniert I2C, einfach erklärt!", "url": "https://youtu.be/3wlITceWQBw"},
+        {"text": "▶️ ESP32 + 4 OLEDs! Unlock I2C Multiplexing Power!", "url": "https://youtu.be/t3-bqQJt-RU"},
+        {"text": "▶️ ESP32 with ESP-IDF#5 | ESP32 as I2C Master", "url": "https://youtu.be/Snp6iTu1R7E"},
+        {"text": "▶️ Programming a NodeMCU with MicroPython: I2C Bus Part 1 (MPU6050)", "url": "https://youtu.be/2ufkfd-oFrY"},
+        {"text": "▶️ Programming a NodeMCU with MicroPython: I2C Bus Part 2 (SSD1306)", "url": "https://youtu.be/UbYYXtI-0P0"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 & MicroPython: Fortgeschrittene Themen",
+      "beschreibung": "Tutorials zu fortgeschrittenen Themen für ESP32 und MicroPython: Implementierung von Over-the-Air (OTA) Updates mit PlatformIO, MQTT-Kommunikation mit einem Raspberry Pi und die Nutzung von RTC (Real-Time Clock) und Deep Sleep zur Energieeinsparung.",
+      "tags": ["esp32", "micropython", "ota", "mqtt", "deep-sleep", "rtc", "iot", "advanced"],
+      "links": [
+        {"text": "▶️ Over-the-Air-Update (OTA) mit ESP32C3 XIAO", "url": "https://youtu.be/oKqVCktSa8w"},
+        {"text": "▶️ ESP32 MicroPython MQTT Tutorial", "url": "https://youtu.be/_vcQTyLU1WY"},
+        {"text": "▶️ Programming a NodeMCU with MicroPython: RTC and Deep Sleep", "url": "https://youtu.be/dYNSdnbPy18"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 und Drahtloskommunikation (BLE, ESP-NOW, nRF24L01)",
+      "beschreibung": "Ressourcen zur drahtlosen Kommunikation mit dem ESP32: Einrichtung einer Bluetooth LE (BLE) UART-Emulation, ein Reichweitentest mit den günstigen nRF24L01-Modulen und eine Erklärung von ESP-NOW als selbstkonfigurierendes Kommunikationsprotokoll.",
+      "tags": ["esp32", "bluetooth-le", "esp-now", "nrf24l01", "wireless", "iot", "radio-communication"],
+      "links": [
+        {"text": "▶️ Bluetooth LE (BLE) UART-Emulation mit ESP32-C3", "url": "https://youtu.be/5e_ivqrAZMI"},
+        {"text": "▶️ How Far Can $1 nRF24L01 Modules Really Go?", "url": "https://youtu.be/jX0Cj-cNkR8"},
+        {"text": "▶️ What if your REMOTE CONTROL link could BUILD ITSELF? (ESP-NOW)", "url": "https://youtu.be/SKXQtMi2hB0"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Echtzeitbetriebssystem (RTOS) mit ESP32 und Arduino",
+      "beschreibung": "Ein Tutorial, das die Grundlagen des Real-Time Operating Systems (FreeRTOS), das im ESP32 integriert ist, erklärt und zeigt, wie man es innerhalb der Arduino-Umgebung für echtes Multitasking nutzen kann.",
+      "tags": ["esp32", "freertos", "rtos", "multitasking", "arduino", "programming", "advanced"],
+      "links": [
+        {"text": "▶️ Using the ESP32's Real Time Operating System (RTOS)", "url": "https://youtu.be/f_hQNc3Glck"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "DIY I2C-Scanner und benutzerdefinierte LCDs/Membranen",
+      "beschreibung": "Zwei nützliche DIY-Projekte für Elektroniker: der Bau eines einfachen I2C-Scanners zur Identifizierung von Geräten am Bus und eine Anleitung zum Design eigener, benutzerdefinierter LCD-Anzeigen und Schalter-Membranen.",
+      "tags": ["diy", "electronics", "i2c-scanner", "lcd-design", "custom-hardware", "maker"],
+      "links": [
+        {"text": "▶️ DIY i2c Scanner!", "url": "https://youtu.be/NPpPVw-4qi8"},
+        {"text": "▶️ So entwerfen Sie Ihr eigenes benutzerdefiniertes LCD", "url": "https://youtu.be/aP2y_kJBwmo"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "PCB-Design für ESP32-S3 mit Chip-Antenne",
+      "beschreibung": "Ein Tutorial, das in 15 Minuten zeigt, wie man eine eigene Leiterplatte (PCB) für einen ESP32-S3 mit einer integrierten Chip-Antenne entwirft. Inklusive Links zu Open-Source-RF-Tools für KiCAD.",
+      "tags": ["pcb-design", "esp32-s3", "kicad", "rf-design", "antenna", "electronics", "diy"],
+      "links": [
+        {"text": "▶️ ESP32-S3 + Chip Antenna PCB - Design your own", "url": "https://youtu.be/xK14eVJCoqU"},
+        {"text": "🌐 GitHub: s3p Projekt", "url": "https://github.com/hxelec/s3p"},
+        {"text": "🌐 GitHub: RF-tools-KiCAD", "url": "https://github.com/easyw/RF-tools-KiCAD"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 Motorsteuerung: LEDC vs. MCPWM",
+      "beschreibung": "Ein detaillierter Test und Vergleich der beiden PWM-Peripherien des ESP32 – LEDC und MCPWM – zur Ansteuerung von Motoren. Das Video zeigt die Leistungsunterschiede und wann welche Peripherie am besten geeignet ist.",
+      "tags": ["esp32", "motor-control", "pwm", "ledc", "mcpwm", "bldc", "electronics", "benchmark"],
+      "links": [
+        {"text": "▶️ I tested LEDC vs MCPWM", "url": "https://youtu.be/E-kmOhjopsQ"},
+        {"text": "🌐 GitHub: HelpfulDocs", "url": "https://github.com/littlemanbuilds/HelpfulDocs/tree/main/Files/MCPWM_Test"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "3D-gedruckte Zykloidgetriebe (Cycloidal Drives)",
+      "beschreibung": "Eine Sammlung von DIY-Projekten, die zeigen, wie man Zykloidgetriebe für Roboteranwendungen wie Knie- oder Ellenbogengelenke mit einem 3D-Drucker herstellen kann. Inklusive Tipps zur Verbesserung der Präzision.",
+      "tags": ["diy", "3d-printing", "cycloidal-drive", "robot-joint", "actuator", "high-torque", "gearbox"],
+      "links": [
+        {"text": "▶️ Simple Cycloidal Robot Knee", "url": "https://youtu.be/XWp5dkeHgTY"},
+        {"text": "▶️ Open Source Cycloidal Actuator with NEMA17", "url": "https://youtu.be/dFjm13KgL7s"},
+        {"text": "▶️ 3D Printed Cycloidal Elbow Joint", "url": "https://youtu.be/JFbAbNC4-Os"},
+        {"text": "▶️ How to improve the precision of the actuator?", "url": "https://youtu.be/pqaR711Pw6o"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Fortgeschrittene Antriebe und Getriebe für die Robotik",
+      "beschreibung": "Eine Sammlung von Vorträgen über High-Performance-Antriebe in der Robotik: ODrive-Motorcontroller, Kugelgewindetriebe in humanoiden Robotern und ein hochgradig rücktreibbares Getriebe (Bilateral Drive Gear).",
+      "tags": ["actuator", "motor-control", "odrive", "ball-screw", "gearbox", "robotics", "research", "advanced"],
+      "links": [
+        {"text": "▶️ Electronics and software for high performance motor drives: ODrive", "url": "https://youtu.be/Ym3srZ0MRIA"},
+        {"text": "▶️ Versatile human centered robots with ball screw electric actuators", "url": "https://youtu.be/uP-7xgmvSG4"},
+        {"text": "▶️ Bilateral Drive Gear : a Highly Backdrivable Reduction Gearbox", "url": "https://youtu.be/3zbuwhy-OPo"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Antriebsdesign: Motoren mit hohem Drehmoment vs. Getriebe mit hoher Übersetzung",
+      "beschreibung": "Zwei Videos, die eine detaillierte Analyse und einen Skalierungsvergleich zwischen zwei grundlegenden Antriebskonzepten in der Robotik durchführen: der direkte Einsatz von Motoren mit hohem Drehmoment versus die Verwendung von Motoren mit hoher Drehzahl und nachgeschalteten Getrieben.",
+      "tags": ["motor-selection", "gearbox", "actuator-design", "robotics", "theory", "engineering", "trade-off"],
+      "links": [
+        {"text": "▶️ High-torque motors vs. high-ratio gearboxes", "url": "https://youtu.be/HLIcopc4pUI"},
+        {"text": "▶️ High-ratio gearboxes vs. high-torque motors: scaling analysis", "url": "https://youtu.be/iurSEt7jjDA"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "3D-gedrucktes RC-Car und Design-Prozess",
+      "beschreibung": "Ein innovatives 3D-gedrucktes RC-Car-Projekt, das die Grenzen des Materials auslotet, sowie ein Video, das den Design- und 3D-Planungsprozess für solche komplexen Modelle zeigt.",
+      "tags": ["3d-printing", "rc-car", "diy", "design-process", "cad", "maker"],
+      "links": [
+        {"text": "▶️ This 3D-Printed RC Car Might Redefine What’s Possible", "url": "https://youtu.be/pdKnIPH3JQs"},
+        {"text": "▶️ Design & 3D Planning |#1", "url": "https://youtu.be/iKNxFx5hSFo"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen von Zahnrädern für Maker",
+      "beschreibung": "Ein umfassendes Tutorial, das alles erklärt, was Maker und Konstrukteure von Kampfrobotern über Zahnräder wissen müssen: Typen, Terminologie, Übersetzungsverhältnisse und Designüberlegungen.",
+      "tags": ["gears", "fundamentals", "mechanical-design", "tutorial", "maker", "combat-robotics"],
+      "links": [
+        {"text": "▶️ Everything You Need to Know About Gears", "url": "https://youtu.be/nGv_YI3oUSM"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Eingebettete Kommunikationsprotokolle erklärt",
+      "beschreibung": "Eine Sammlung von Erklärvideos zu den wichtigsten seriellen Kommunikationsprotokollen in der Embedded-Welt: UART, SPI (inkl. Modi und Daisy Chaining), CAN und RS-485. Ein Video vergleicht die Protokolle direkt miteinander.",
+      "tags": ["uart", "spi", "can-bus", "rs485", "electronics", "fundamentals", "tutorial", "embedded-systems"],
+      "links": [
+        {"text": "▶️ UART Communication Protocol Explained Simply", "url": "https://youtu.be/FcVSOiusSuk"},
+        {"text": "▶️ SPI communication Data Transmission | Daisy chain", "url": "https://youtu.be/sHmixFJhr3M"},
+        {"text": "▶️ Basics of SPI communication | Different modes", "url": "https://youtu.be/xogsRnnhK44"},
+        {"text": "▶️ CAN Protocol Explained", "url": "https://youtu.be/WikQ5n1QXQs"},
+        {"text": "▶️ Serial communication protocols - what are the differences?", "url": "https://youtu.be/Z-O6PkvYXXs"},
+        {"text": "▶️ UART To RS-485 Interface", "url": "https://youtu.be/Oq019vxRj54"},
+        {"text": "🌐 Playlist: Embedded Protocols", "url": "https://www.youtube.com/watch?v=Z-O6PkvYXXs&list=PLJ0HErIq5D2z5u9WcYoG6TSeWDGkwu7Pn"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "SocketCAN und CAN-Bus-Analyse mit Linux",
+      "beschreibung": "Tutorials zur Verwendung von SocketCAN in Linux für die CAN-Bus-Kommunikation. Beinhaltet die Einrichtung von can-utils, die Nutzung einer virtuellen CAN-Schnittstelle (VCAN) und ein Praxisbeispiel mit J1939, MCP2515 und einem Raspberry Pi Pico.",
+      "tags": ["can-bus", "socketcan", "linux", "raspberry-pi-pico", "j1939", "tutorial", "networking"],
+      "links": [
+        {"text": "▶️ Getting started with SocketCAN (can-utils)", "url": "https://youtu.be/my-mBFQCIZ0"},
+        {"text": "▶️ CAN-utils over VCAN | Virtual CAN Interface Tutorial", "url": "https://youtu.be/icEx1Q_U7J0"},
+        {"text": "▶️ Mastering CAN Bus Data Handling", "url": "https://youtu.be/fzIrKrFPv2Q"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Strommessung mit Mikrocontrollern",
+      "beschreibung": "Ein Test von 7 verschiedenen Stromsensoren (u.a. ACS712) und deren Verwendung mit Mikrocontrollern wie Arduino und ESP32 zur Messung von elektrischem Strom.",
+      "tags": ["current-sensor", "esp32", "arduino", "electronics", "sensor", "tutorial", "acs712"],
+      "links": [
+        {"text": "▶️ 7 Sensors tested: Measuring Current with Microcontrollers", "url": "https://youtu.be/cG8moaufmQs"},
+        {"text": "▶️ So verwenden Sie einen Stromsensor mit ESP32 und Blynk", "url": "https://youtu.be/6mGqnvW-adc"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP-NOW: Einfache und schnelle ESP32-Kommunikation",
+      "beschreibung": "Ein Tutorial, das ESP-NOW erklärt, ein verbindungsloses, schnelles Kommunikationsprotokoll von Espressif, das ideal für die direkte Kommunikation zwischen ESP32-Boards ohne einen Wi-Fi-Router ist.",
+      "tags": ["esp32", "esp-now", "wireless", "iot", "tutorial", "communication-protocol"],
+      "links": [
+        {"text": "▶️ ESP-NOW, Setup, Coding, and Real-World Example", "url": "https://youtu.be/hB1pmuN63zc"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "WOKWI - ESP32 Online-Simulator",
+      "beschreibung": "Eine Playlist, die Wokwi vorstellt, einen leistungsstarken Online-Simulator für ESP32, Arduino und andere Mikrocontroller. Er ermöglicht das Testen von Code und Hardware-Setups direkt im Browser.",
+      "tags": ["esp32", "simulation", "wokwi", "arduino", "online-tools", "iot", "prototyping"],
+      "links": [
+        {"text": "🌐 Playlist: WOKWI- ESP32 simulator", "url": "https://www.youtube.com/watch?v=6NSp_4VC5Qk&list=PLpaRDLHwFLO6YrJh9icsfQUu8ppcss7Lf"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Sensoren mit ESP32: GPS und Spannungsmessung",
+      "beschreibung": "Zwei Tutorials, die zeigen, wie man einen GPS-Empfänger (NEO-6M) und einen AC-Spannungssensor (ZMPT101B) mit einem ESP32 verbindet und ausliest, um Standortdaten zu verfolgen oder Netzspannungen zu überwachen.",
+      "tags": ["esp32", "sensor", "gps", "voltage-sensor", "iot", "tutorial", "electronics"],
+      "links": [
+        {"text": "▶️ How to use NEO-6M GPS module with ESP32", "url": "https://youtu.be/5C9AV0YlzBE"},
+        {"text": "▶️ ZMPT101B Voltage Sensor with ESP32", "url": "https://youtu.be/TUC63ltcWOo"},
+        {"text": "▶️ Interfacing AC Voltage Sensor with ESP32", "url": "https://youtu.be/20r-32As-xo"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Umfangreiche Sammlung von ESP32 & IoT Artikeln (TheoryCircuit)",
+      "beschreibung": "Eine große Sammlung von Artikeln und Tutorials von theorycircuit.com zu verschiedenen Themen rund um ESP32, ESP8266, IoT und Elektronik. Beinhaltet WLAN-Extender, Sensoren, E-Mail-Versand, VS-Code-Programmierung, MicroPython und vieles mehr.",
+      "tags": ["esp32", "iot", "tutorial", "micropython", "article", "learning-resource", "electronics", "sensor"],
+      "links": [
+        {"text": "🌐 Let’s Build a Wi-fi Extender using ESP32", "url": "https://theorycircuit.com/esp32-projects/lets-build-a-wi-fi-extender-using-esp32/"},
+        {"text": "🌐 Interfacing BMP280 with ESP32", "url": "https://theorycircuit.com/esp32-projects/interfacing-bmp280-with-esp32-using-arduino-ide/"},
+        {"text": "🌐 Simple way to Send Email using ESP32", "url": "https://theorycircuit.com/esp32-projects/simple-way-to-send-email-using-esp32/"},
+        {"text": "🌐 Programming ESP32 with VS Code", "url": "https://theorycircuit.com/esp32-projects/programming-esp32-with-vs-code/"},
+        {"text": "🌐 Simple ESP32 WhatsApp Interface", "url": "https://theorycircuit.com/iot/simple-esp32-whatsapp-interface/"},
+        {"text": "🌐 Best WiFi Module for IoT Project", "url": "https://theorycircuit.com/iot/best-wifi-module-for-iot-project/"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Isaac Sim in unter 30 Minuten",
+      "beschreibung": "Ein kompaktes Tutorial, das eine schnelle und effiziente Einführung in die NVIDIA Isaac Sim Simulationsumgebung gibt und die grundlegenden Funktionen in weniger als einer halben Stunde vorstellt.",
+      "tags": ["isaac-sim", "nvidia", "simulation", "robotics", "tutorial", "beginner", "quickstart"],
+      "links": [
+        {"text": "▶️ Isaac Sim in under half an hour", "url": "https://youtu.be/SjVqOqEXXrY"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Grundlagen der Leistungselektronik (MIT)",
+      "beschreibung": "Eine Playlist mit Vorlesungen vom MIT, die eine tiefgehende, akademische Einführung in die Grundlagen der Leistungselektronik (Power Electronics) bietet. Ideal für ein fundiertes Verständnis.",
+      "tags": ["power-electronics", "fundamentals", "mit", "lecture", "electronics", "theory", "advanced"],
+      "links": [
+        {"text": "🌐 Playlist: Power Electronics", "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62UTc77mJoubhDELSC8lfR0"},
+        {"text": "▶️ Lecture 1: Introduction to Power Electronics", "url": "https://youtu.be/f7oXhDatwtY"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 mit SD-Karten für Datenlogging und Video-Streaming",
+      "beschreibung": "Zwei Tutorials, die zeigen, wie man ein SD-Kartenmodul mit einem ESP32 verwendet: eines für das grundlegende Datenlogging und ein fortgeschritteneres, das Videodaten von einer SD-Karte streamt.",
+      "tags": ["esp32", "sd-card", "data-logging", "video-streaming", "electronics", "tutorial"],
+      "links": [
+        {"text": "▶️ SD Card Module with Arduino & ESP32", "url": "https://youtu.be/fPvW-dtB6i0"},
+        {"text": "▶️ Streaming Video From an SD Card on the ESP32", "url": "https://youtu.be/dWgjsJtlbpA"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "TinyML und KI auf ESP32 und Mikrocontrollern",
+      "beschreibung": "Eine Sammlung von Ressourcen zu TinyML (Machine Learning auf Mikrocontrollern). Beinhaltet einen Kurs mit dem Wio Terminal, die Implementierung einer 'elektronischen Nase', einen LLM-Roboter mit ESP32-S3 und sprachgesteuerte KI ohne Cloud-Anbindung.",
+      "tags": ["tinyml", "esp32", "ai", "machine-learning", "edge-ai", "wio-terminal", "llm", "voice-control"],
+      "links": [
+        {"text": "▶️ ESP32-S3-Zero: Kleine Größe, große Leistung", "url": "https://youtu.be/p1PegGIhx-M"},
+        {"text": "▶️ ESP-Demo: Large Language Model Robot with ESP32-S3", "url": "https://youtu.be/meZDJf8QTdM"},
+        {"text": "▶️ Adding AI to your ESP32 is Easier than You Think", "url": "https://youtu.be/ILh38j0GNU"},
+        {"text": "▶️ ESP32 Voice Control with AI (No Cloud Needed!)", "url": "https://youtu.be/gJumlH3rfMo"},
+        {"text": "🌐 Playlist: TinyML Course with Wio Terminal & Edge", "url": "https://www.youtube.com/playlist?list=PL5efXgSvwk9UCtJ6JKTyWAccSVfTXSlA3"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Matter und Wi-Fi HaLow mit ESP32",
+      "beschreibung": "Ressourcen zu neuen IoT-Standards: eine Playlist zum Smart-Home-Standard 'Matter' und die Vorstellung des LILYGO T-Halo, dem ersten ESP32-Entwicklungsboard für Wi-Fi HaLow (IEEE 802.11ah), das für große Reichweiten und niedrigen Stromverbrauch optimiert ist.",
+      "tags": ["iot", "matter", "esp32", "wifi-halow", "smart-home", "communication-protocol"],
+      "links": [
+        {"text": "🌐 Playlist: Matter", "url": "https://www.youtube.com/playlist?list=PLOzvoM7_KnrdHvpvq_EQaxHMdSwRBCvtx"},
+        {"text": "▶️ Use ESP32-H2 to Build Smart-Connected Devices", "url": "https://youtu.be/bS9Ch7k_GK0"},
+        {"text": "▶️ LILYGO T-Halow - The first ESP32 Development Board for WiFi HaLow", "url": "https://youtu.be/qvCdK5XX17Q"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Software Defined Radio (SDR) mit Raspberry Pi Pico",
+      "beschreibung": "Zwei Projekte, die zeigen, wie man mit einem Raspberry Pi Pico und minimaler Hardware in die Welt des Software Defined Radio einsteigt: der Bau eines einfachen Kurzwellenempfängers und eines Amateurfunk-Senders.",
+      "tags": ["sdr", "raspberry-pi-pico", "diy", "radio-communication", "ham-radio", "electronics"],
+      "links": [
+        {"text": "▶️ Super Simple Breadboard-SDR Receiver", "url": "https://youtu.be/HCDi5qV1cmU"},
+        {"text": "▶️ Software Defined Radio with Pi-Pico", "url": "https://youtu.be/lS1PhMIYLjA"},
+        {"text": "▶️ Build a Ham Transmitter with a Raspberry Pi Pico", "url": "https://youtu.be/PbhmQfPkNL0"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Sensoren mit ESP32 (Deutsch)",
+      "beschreibung": "Eine Sammlung deutschsprachiger Tutorials zur Verwendung verschiedener Sensoren mit dem ESP32: Laser-Modul, Gyroskop (MPU6050), Ultraschallsensor (HC-SR04), Luftqualitätssensor (ENS160), Lautstärkesensor und DHT11 (Temperatur/Feuchtigkeit).",
+      "tags": ["esp32", "sensor", "tutorial", "german", "mpu6050", "hc-sr04", "dht11", "electronics"],
+      "links": [
+        {"text": "▶️ Laser-Modul (KY-008) + ESP32 Tutorial", "url": "https://youtu.be/uuRNfvj5Sz8"},
+        {"text": "▶️ Gyroskop MPU6050 GY-521 + ESP32 Tutorial", "url": "https://youtu.be/0zZtugm6LR4"},
+        {"text": "▶️ Ultraschallsensor HC-SR04 + ESP32 Tutorial", "url": "https://youtu.be/jyzU2ggfGZU"},
+        {"text": "▶️ ENS160 Luftqualität + ESP32 Tutorial", "url": "https://youtu.be/lWS8-0A2HGo"},
+        {"text": "▶️ Lautstärken-Sensor (FC-04) + ESP32 Tutorial", "url": "https://youtu.be/VWGMPGj8cjA"},
+        {"text": "▶️ Laserempfänger + ESP32 Tutorial", "url": "https://youtu.be/-v6Zgxx2qiQ"},
+        {"text": "▶️ DHT11 (Temperatur & Luftfeuchtigkeit) + ESP32 Tutorial", "url": "https://youtu.be/9q--Y5QTLI8"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "ESP32-Programmierung mit TinyGo und Embedded Rust",
+      "beschreibung": "Zwei Tutorials, die alternative Programmiersprachen für den ESP32 vorstellen: die Einrichtung und erste Schritte mit TinyGo (Go für Mikrocontroller) und eine Erklärung des Setups für die Entwicklung mit Embedded Rust.",
+      "tags": ["esp32", "tinygo", "embedded-rust", "programming", "toolchain", "alternative-languages"],
+      "links": [
+        {"text": "▶️ ESP32 mit TinyGo programmieren", "url": "https://youtu.be/7mOG_d9QSm8"},
+        {"text": "▶️ ESP32 embedded Rust setup explained", "url": "https://youtu.be/dxgufYRcNDg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY ESP32 Projekte: Pflanzenbewässerung & Datenlogging",
+      "beschreibung": "Eine Sammlung von nützlichen DIY-Projekten mit dem ESP32: ein automatisches Pflanzenbewässerungssystem mit Webserver (auch ohne Wasserhahn), ein WiFi-Datenlogger, der Daten in Google Sheets speichert, und das Senden von Kamerabildern an Google Drive.",
+      "tags": ["diy", "esp32", "iot", "plant-watering", "data-logging", "google-sheets", "esp32-cam", "home-automation"],
+      "links": [
+        {"text": "▶️ So erstellen Sie ein Pflanzenbewässerungssystem", "url": "https://youtu.be/EX7sC-ksH4o"},
+        {"text": "▶️ Building a 200€ product with 30€! ESP32 automatic watering", "url": "https://youtu.be/uRrnA6kK3FU"},
+        {"text": "▶️ ESP32 WiFi Data Logging Tutorial", "url": "https://youtu.be/2ezinTJsV7M"},
+        {"text": "▶️ ESP32 CAM Send Captured Image to Google Drive", "url": "https://youtu.be/1Lu8FwC2CWQ"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32-CAM: Bilder auf SD-Karte speichern und auf TFT anzeigen",
+      "beschreibung": "Zwei Tutorials für die ESP32-Kamera: eines zeigt, wie man aufgenommene Bilder direkt auf einer SD-Karte speichert, das andere kombiniert die Kamera mit einem TFT-Display und einem 3D-Druck-Gehäuse zu einer 'SelfieCam'.",
+      "tags": ["esp32-cam", "tft-display", "sd-card", "3d-printing", "diy", "camera", "tutorial"],
+      "links": [
+        {"text": "▶️ ESP32 CAM How to Save Images to SD Card", "url": "https://youtu.be/TYApFAKzrJM"},
+        {"text": "▶️ ESP32-CAM + TFT Screen + 3D Print - SelfieCam", "url": "https://youtu.be/j8lVFmjAARA"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "FreeRTOS mit ESP32 für Multitasking (Deutsch)",
+      "beschreibung": "Zwei deutschsprachige Videos, die die Nutzung von FreeRTOS auf dem ESP32 erklären: eine allgemeine Einführung in das Multitasking mit Tasks und ein fortgeschrittenes Beispiel, wie man Tasks gezielt auf die beiden CPU-Kerne eines ESP32-S3 verteilt.",
+      "tags": ["freertos", "esp32", "rtos", "multitasking", "tutorial", "german", "advanced", "cpu-cores"],
+      "links": [
+        {"text": "▶️ Echtzeit mit FreeRTOS: Multitasking für den ESP32 & Arduino", "url": "https://youtu.be/2AzcHwSEQ"},
+        {"text": "▶️ FreeRTOS & ESP32-S3: Tasks auf beide CPU-Kernen verteilen", "url": "https://youtu.be/2AzcHwRW5Dg"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "3D Gaussian Splatting für realistische KI-Simulationen",
+      "beschreibung": "Ein Video von NVIDIA, das die Verwendung von 3D Gaussian Splatting erklärt, einer Technik zur Erzeugung hochrealistischer 3D-Szenen in Echtzeit, die für die Simulation von physikalischer KI und das Training von Robotern entscheidend ist.",
+      "tags": ["3d-gaussian-splatting", "nvidia", "isaac-sim", "simulation", "ai", "rendering", "photorealism"],
+      "links": [
+        {"text": "▶️ 3D Gaussian Splatting for Realistic Physical AI Simulations", "url": "https://youtu.be/zLIOZ7g4kfA"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Mesh-Netzwerke und Hardware (Meshtastic, MeshCore)",
+      "beschreibung": "Präsentationen von der MESHCON 2025, die die Grundlagen von Mesh-Netzwerken, das MeshCore-Projekt und neue Hardware wie das Heltec V4-Board für dezentrale Kommunikation vorstellen.",
+      "tags": ["mesh-network", "meshtastic", "iot", "communication", "lora", "heltec", "decentralized"],
+      "links": [
+        {"text": "▶️ Explaining the Mesh! - MESHCON 2025 Opening Remarks", "url": "https://youtu.be/KHqCQCfvoMo"},
+        {"text": "▶️ MeshCore Presentation by Liam Cottle", "url": "https://youtu.be/OwmkVkZQTf4"},
+        {"text": "▶️ WHAT YOU NEED TO KNOW ABOUT THE NEW HELTEC V4", "url": "https://youtu.be/xKG9sLa41zs"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "IoT-Konnektivität: LTE und Multi-Sensor-Anwendungen",
+      "beschreibung": "Ressourcen für IoT-Projekte: Vorstellung eines IoT-Boards mit integriertem LTE für Konnektivität ohne Wi-Fi und Tutorials zum Bau von Multi-Sensor-Modulen mit ESP32 für die Integration in Home Assistant.",
+      "tags": ["iot", "lte", "esp32", "home-assistant", "multi-sensor", "wled", "diy"],
+      "links": [
+        {"text": "▶️ No Wi-Fi? No Problem! Meet Walter, the IoT Board with LTE", "url": "https://youtu.be/lEUl2JQBkwo"},
+        {"text": "▶️ PLUG n' PLAY Motion Sensor & Push Button for WLED!!", "url": "https://youtu.be/d5NAn4qPXnA"},
+        {"text": "▶️ Build Your Own Multi Sensor with ESP32 and Home Assistant", "url": "https://youtu.be/9w1ZnHWAHw4"},
+        {"text": "▶️ Tutorial - Multi-sensor setups for ESP32 & Home Assistant", "url": "https://youtu.be/M3YetBHXsaU"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "ESP32-CAM Projekte: Bewegungserkennung und Telegram-Benachrichtigung",
+      "beschreibung": "Zwei DIY-Sicherheitsprojekte mit der ESP32-Kamera: eine 'Hundekamera', die bei Bewegung durch einen PIR-Sensor Bilder auf einen FTP-Server hochlädt, und ein System, das bei Bewegungserkennung sofort eine Bildbenachrichtigung an einen Telegram-Bot sendet.",
+      "tags": ["esp32-cam", "diy", "security-camera", "pir-sensor", "ftp", "telegram", "iot", "motion-detection"],
+      "links": [
+        {"text": "▶️ Dog Camera | ESP32CAM with PIR sensor and FTP", "url": "https://youtu.be/Xqssep32oWI"},
+        {"text": "▶️ ESP-32 CAM - Motion triggered image alerts to telegram bot", "url": "https://youtu.be/bR18h1Ca8hY"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "IoT Projekte mit ESP32: Telegram-Bot, Pumpensteuerung und Bewässerung",
+      "beschreibung": "Eine Sammlung von IoT-Projekten: Steuerung eines Telegram-Bots mit dem ESP32, eine IoT-Plattform zur Steuerung einer Wasserpumpe und ein smartes Bewässerungssystem, das über Alexa gesteuert werden kann.",
+      "tags": ["esp32", "iot", "telegram-bot", "pump-control", "smart-irrigation", "alexa", "diy"],
+      "links": [
+        {"text": "▶️ SERIE ESP32 #20: Telegram - Esp32 Bot Control", "url": "https://youtu.be/SOZPS_O7A0U"},
+        {"text": "▶️ Proyecto Esp32: Plataforma IoT - Control de Bomba de agua", "url": "https://youtu.be/KyWWnQ7lODs"},
+        {"text": "▶️ Make IoT-based Plant Watering system using ESP32 Alexa", "url": "https://youtu.be/MmbmNIKxfEI"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Unterbrechungsfreie Stromversorgung (USV) mit LiFePO4",
+      "beschreibung": "Eine vierteilige Serie, die den kompletten Bau einer eigenen USV (UPS) dokumentiert. Verwendet werden sichere LiFePO4-Akkus und ein Daly BMS. Die USV liefert stabile 12V und 5V Ausgänge.",
+      "tags": ["diy", "ups", "lifepo4", "bms", "power-supply", "electronics", "battery-backup"],
+      "links": [
+        {"text": "▶️ LiFePO4 battery + Daly BMS - part 1/4", "url": "https://youtu.be/YS_wykX88Ps"},
+        {"text": "▶️ UPS build 12V & 5V - part 2/4", "url": "https://youtu.be/9KGemqeXewU"},
+        {"text": "▶️ DIY UPS - with LiFePO4 battery (part 3/4)", "url": "https://youtu.be/v7DSn3IWi6s"},
+        {"text": "▶️ Build your own UPS (part 4/4)", "url": "https://youtu.be/-1WnoKo4kkE"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "DIY Lithium-Akku-Management",
+      "beschreibung": "Zwei Projekte zum Thema Lithium-Akkus: der Bau eines Gesundheitsmonitors mit dem BQ27441-Chip und Arduino zur präzisen Überwachung des Ladezustands und ein einfaches DIY-Ladegerät für Lithium-Akkus.",
+      "tags": ["diy", "lithium-battery", "bms", "battery-monitor", "charger", "arduino", "electronics"],
+      "links": [
+        {"text": "▶️ Build This DIY Lithium Battery Health Monitor!", "url": "https://youtu.be/RCJagutQ1Ck"},
+        {"text": "▶️ DIY Lithium Battery Charger", "url": "https://youtu.be/DGW7c2nd7zh"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "TRMNL: The Open Source Smart Display",
+      "beschreibung": "Vorstellung von TRMNL, einem quelloffenen, modularen Smart Display, das jeder selbst bauen kann. Es dient als anpassbare Schnittstelle für IoT-Daten, Benachrichtigungen und mehr.",
+      "tags": ["open-source", "smart-display", "diy", "iot", "hardware", "electronics"],
+      "links": [
+        {"text": "▶️ YouTube Vorstellung", "url": "https://youtu.be/BHzBk0e_KBc"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "FreeCAD für den 3D-Druck: Projekte und Vergleiche",
+      "beschreibung": "Ressourcen, die FreeCAD im Kontext des 3D-Drucks beleuchten: ein praktisches Projekt für einen robusten Wandhaken, ein Vergleich mit Fusion 360 und eine Argumentation, warum FreeCAD oft die bessere Wahl für den 3D-Druck ist.",
+      "tags": ["freecad", "3d-printing", "cad", "tutorial", "fusion360-comparison", "open-source"],
+      "links": [
+        {"text": "▶️ FreeCAD for 3D Printing – Project 01 | Heavy Duty Wall Hook", "url": "https://youtu.be/2ekwGia_7Es"},
+        {"text": "▶️ Fusion is a Waste of Your Time", "url": "https://youtu.be/tZtqvKIVcuk"},
+        {"text": "▶️ FreeCAD is the BEST for 3D Printing - 5 reasons WHY", "url": "https://youtu.be/Z8zmoXBMvyA"}
+      ]
+    },
+    {
       "kategorie": "ROS & Softwareentwicklung",
       "thema": "GRBL & CNC-Steuerung Tutorials (Deutsch)",
       "beschreibung": "Eine Sammlung deutschsprachiger Tutorials zur CNC-Steuerung. Beinhaltet eine Playlist zu den Grundlagen von GRBL, die Erstellung von G-Code-Dateien, den Umbau einer CNC 3018 und die Einrichtung der Elektronik.",
