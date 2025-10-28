@@ -3845,10 +3845,10 @@
     }
   ],
   "meta": {
-    "version": "3.0",
-    "last_updated": "2025-10-17",
-    "total_resources": 300+,
-    "categories": 10+,
+    "version": "2.2",
+    "last_updated": "2025-01-17",
+    "total_resources": 172,
+    "categories": 10,
     "tag_system": "hierarchical-multilevel",
     "language": "de-descriptions-en-tags",
     "description": "Umfassende Robotik-Ressourcen-Datenbank mit systematisch überarbeiteten Tags, detailliert aufgeteilten Drohnen-Projekten und logisch organisierten Kategorien",
