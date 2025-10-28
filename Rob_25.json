@@ -3189,6 +3189,603 @@
       ]
     },
     {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 Chip-Familie erklärt",
+      "beschreibung": "Zwei Videos, die einen umfassenden Überblick über die verschiedenen ESP32-Chips und deren Evolution geben. Sie erklären die Unterschiede zwischen den Varianten (S2, C3, S3, C6 etc.) und deren Eignung für verschiedene IoT-Anwendungen.",
+      "tags": ["esp32", "microcontroller", "iot", "electronics", "fundamentals", "comparison", "soc"],
+      "links": [
+        {"text": "▶️ ESP32 chip(s) Explained in under 500 seconds!", "url": "https://youtu.be/q3vsSNLqJ5g"},
+        {"text": "▶️ ESP32 Explained: The Evolution of loT's Favourite Microcontroller", "url": "https://youtu.be/-8lEquhO4_g"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "ESP32 Deep Sleep Tutorial zur Akku-Schonung",
+      "beschreibung": "Ein praktisches Tutorial, das zeigt, wie man den Deep Sleep Modus des ESP32 nutzt, um den Stromverbrauch drastisch zu senken und die Akkulaufzeit in batteriebetriebenen IoT-Projekten erheblich zu verlängern.",
+      "tags": ["esp32", "deep-sleep", "power-management", "battery-life", "iot", "tutorial", "low-power"],
+      "links": [
+        {"text": "▶️ Save Battery Life on Your ESP32 Deep Sleep Mode Tutorial", "url": "https://youtu.be/OUwTBQAQ1go"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Eigene Zigbee- und Matter-Geräte mit ESP32 bauen",
+      "beschreibung": "Zwei deutschsprachige Tutorials: Das eine zeigt, wie man mit einem ESP32-C6 und der Arduino IDE eigene Zigbee-Komponenten entwickelt. Das andere erklärt, wie man mit dem Espressif Zerocode-Modul Matter-Geräte ohne Programmierung erstellen kann.",
+      "tags": ["diy", "esp32", "zigbee", "matter", "iot", "smart-home", "arduino", "no-code", "german"],
+      "links": [
+        {"text": "▶️ Eigene Zigbee-Komponenten mit ESP32-C6", "url": "https://youtu.be/amfBksmwdLM"},
+        {"text": "▶️ Eigene Matter-Geräte bauen (ohne programmieren)", "url": "https://youtu.be/fSt_LP6sbgg"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Elektronik-Grundlagen: Pin Header, Operationsverstärker & KiCad-Fehler",
+      "beschreibung": "Eine Sammlung von Videos zu Elektronik-Grundlagen: die Komplexität und Wichtigkeit von Stiftleisten (Pin Headers), ein einfaches Tutorial zum Operationsverstärker auf dem AVR DB Mikrocontroller und die 10 häufigsten Probleme in KiCad, die einem den Tag verderben können.",
+      "tags": ["electronics", "fundamentals", "pin-header", "op-amp", "kicad", "tutorial", "troubleshooting", "german"],
+      "links": [
+        {"text": "▶️ Pin Header - Unverzichtbares Bauteil!", "url": "https://youtu.be/RaEK-LMr7ps"},
+        {"text": "▶️ AVR DB Op-Amp Tutorial Easy!", "url": "https://youtu.be/QVNwqbtz6eM"},
+        {"text": "▶️ KiCad:10 Probleme die Dir den Tag verderben", "url": "https://youtu.be/5X4KpgOuC30"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Home Assistant MQTT komplett erklärt",
+      "beschreibung": "Ein deutschsprachiges Tutorial, das zeigt, wie man einen MQTT-Broker in Home Assistant innerhalb von 5 Minuten installiert und konfiguriert, um die Kommunikation zwischen verschiedenen IoT-Geräten und der Smart-Home-Zentrale zu ermöglichen.",
+      "tags": ["home-assistant", "mqtt", "iot", "smart-home", "tutorial", "german", "mosquitto"],
+      "links": [
+        {"text": "▶️ Home Assistant MQTT komplett erklärt", "url": "https://youtu.be/6dakzuffues"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "CAN-Bus Kommunikation im Detail erklärt",
+      "beschreibung": "Eine Serie von Videos, die die Funktionsweise des CAN-Protokolls detailliert erklärt: der Datenfluss, die Struktur eines CAN-Frames und der wichtige Arbitrierungsprozess, der die Nachrichtenpriorisierung ohne Kollisionen sicherstellt.",
+      "tags": ["can-bus", "fundamentals", "communication-protocol", "automotive", "electronics", "arbitration", "can-frame"],
+      "links": [
+        {"text": "▶️ How does CAN data flow?", "url": "https://youtu.be/OHQ0PcuUjeM"},
+        {"text": "▶️ CAN Frame structure Explained", "url": "https://youtu.be/3vs40cm1wYs"},
+        {"text": "▶️ What is arbitration in CAN communication?", "url": "https://youtu.be/mPSYlP3q6yg"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Grundlagen der DC-DC-Wandler und H-Brücken",
+      "beschreibung": "Videos, die die Funktionsweise von Leistungselektronik erklären: die interne Arbeitsweise einer H-Brücke zur DC-Motorsteuerung und detaillierte Erklärungen zu Buck-, Boost- und Buck-Boost-DC-DC-Wandlern, einschließlich des Regelkreises.",
+      "tags": ["h-bridge", "buck-converter", "boost-converter", "power-electronics", "fundamentals", "tutorial", "electronics", "motor-control"],
+      "links": [
+        {"text": "▶️ H-Bridge DC Motor Driver: Exploring the Inner Workings", "url": "https://youtu.be/TXQB49nC3bU"},
+        {"text": "▶️ how to Master the Control Loop of Buck Converter?", "url": "https://youtu.be/2ynNLu8yroI"},
+        {"text": "▶️ So entwerfen Sie Buck-, Boost- und Buck-Boost-DC-DC-Wandler", "url": "https://youtu.be/IyiCHMHE5Qg"},
+        {"text": "▶️ How Buck, Boost & Buck-Boost DC-DC Converters Work", "url": "https://youtu.be/PgTR7226sHU"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Der ultimative Guide zur Motornutzung in der Robotik",
+      "beschreibung": "Ein umfassendes Tutorial, das die verschiedenen Aspekte der Motorverwendung in der Robotik abdeckt, einschließlich der Integration mit Plattformen wie ROS und Raspberry Pi, und die Auswahl des richtigen Motortyps für eine Anwendung.",
+      "tags": ["motors", "robotics", "ros", "raspberry-pi", "tutorial", "motor-selection", "fundamentals"],
+      "links": [
+        {"text": "▶️ The Ultimate Guide to using Motors in Robotics", "url": "https://youtu.be/-PCuDnpgiew"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "3D-gedruckter Roboter-Aktor & DIY ESC Performance Test",
+      "beschreibung": "Ein Video, das einen Leistungstest eines selbstgebauten, 3D-gedruckten Roboter-Aktuators und einer zugehörigen DIY-Motorsteuerung (ESC) zeigt. Ein praktisches Beispiel für High-Performance DIY-Robotik.",
+      "tags": ["diy", "3d-printing", "actuator", "esc", "motor-control", "bldc", "performance-test"],
+      "links": [
+        {"text": "▶️ 3D-Printed Robotic Actuator & DIY ESC Performance Test", "url": "https://youtu.be/75OJa3ANKvQ"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Grundlagen des Batteriemanagementsystems (BMS)",
+      "beschreibung": "Zwei Videos, die erklären, was ein BMS ist und warum es für Akkupacks unerlässlich ist. Es wird die Funktion des BMS-IC (AFE) erläutert und gezeigt, wie man die richtigen Schutz-MOSFETs für ein BMS auswählt.",
+      "tags": ["bms", "battery", "electronics", "fundamentals", "mosfet", "safety", "power-management"],
+      "links": [
+        {"text": "▶️ What is a BMS IC? How Does BMS IC Work?", "url": "https://youtu.be/3geelvocXds"},
+        {"text": "▶️ How to Select & Protect MOSFETS in a BMS?", "url": "https://youtu.be/2_kTPFcNQBc"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "IoT Solarpanel-Überwachungssystem mit ESP8266 & MQTT",
+      "beschreibung": "Ein DIY-Projekt, das zeigt, wie man mit einem ESP8266 und Sensoren ein Solarpanel überwacht. Die gesammelten Daten werden über MQTT an einen Broker gesendet und in einem Dashboard visualisiert.",
+      "tags": ["diy", "iot", "esp8266", "solar-panel", "mqtt", "monitoring", "home-automation"],
+      "links": [
+        {"text": "▶️ loT Solar Panel Monitoring System", "url": "https://youtu.be/O-o3_Hv2gOI"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "BEAR: Rücktreibbarer Roboter-Aktor",
+      "beschreibung": "Vorstellung des 'BEAR' (Backdrivable Robot Actuator), eines leistungsstarken Aktuators, der für Laufroboter, Humanoide oder Roboterarme entwickelt wurde und eine hohe Rücktreibbarkeit aufweist, was für eine sichere und nachgiebige Interaktion wichtig ist.",
+      "tags": ["actuator", "robotics", "backdrivable", "humanoid", "legged-robot", "hardware"],
+      "links": [
+        {"text": "▶️ BEAR: Backdrivable Robot Actuator", "url": "https://youtu.be/qy7pnHjX_aU"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Brain-Computer Interface (BCI) in der Garage",
+      "beschreibung": "Ein faszinierendes DIY-Projekt, das den Prozess des Baus einer Gehirn-Computer-Schnittstelle (BCI) in einer Heimgarage dokumentiert, um Gedanken zur Steuerung von Geräten zu nutzen.",
+      "tags": ["diy", "bci", "neuroscience", "maker", "electronics", "biohacking", "experiment"],
+      "links": [
+        {"text": "▶️ Building a Brain-Computer Interface in My Garage", "url": "https://youtu.be/5YxrpcqkTYA"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Kernkonzepte der professionellen Robotik-Entwicklung (jenseits von ROS)",
+      "beschreibung": "Ein Vortrag, der die grundlegenden Konzepte und Fähigkeiten diskutiert, die für eine Karriere in der professionellen Robotik-Entwicklung unerlässlich sind, und die über die reine Anwendung von Frameworks wie ROS hinausgehen.",
+      "tags": ["robotics", "career", "fundamentals", "software-engineering", "control-theory", "best-practices"],
+      "links": [
+        {"text": "▶️ Beyond ROS: Core Concepts for Professional Robotics Development", "url": "https://youtu.be/V8OV4yUDtxA"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Alles, was man über Regelungstechnik wissen muss",
+      "beschreibung": "Ein umfassendes Video, das die fundamentalen Prinzipien der Regelungstechnik (Control Theory) erklärt, einem Kerngebiet der Robotik und des Maschinenbaus.",
+      "tags": ["control-theory", "fundamentals", "pid", "robotics", "engineering", "tutorial"],
+      "links": [
+        {"text": "▶️ Everything You Need to Know About Control Theory", "url": "https://youtu.be/lBC1nEq0_nk"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Mathematik: Eine Einführung in die Wavelet-Transformation",
+      "beschreibung": "Eine visuelle und intuitive Einführung in die mathematische Methode der Wavelet-Transformation und wie sie beispielsweise zum Zeichnen und zur Signalanalyse verwendet werden kann.",
+      "tags": ["mathematics", "wavelet-transform", "signal-processing", "education", "visualization"],
+      "links": [
+        {"text": "▶️ An introduction to the wavelet transform", "url": "https://youtu.be/c1XL5BeI9_s"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Einstieg in die Robotik: Tutorials für Anfänger",
+      "beschreibung": "Eine Sammlung von Ressourcen für Robotik-Anfänger: eine komplette Tutorial-Playlist, wichtige Tipps für den Start und die erste Vorlesung einer Robotik-Einführung der Princeton University.",
+      "tags": ["robotics", "beginner", "tutorial", "learning-path", "introduction", "fundamentals", "playlist"],
+      "links": [
+        {"text": "🌐 Playlist: Robotik für Anfänger", "url": "https://youtube.com/playlist?list=PL4g1oAdmuCfqmYvURLzVFkMMUI7839biN"},
+        {"text": "▶️ How to get started with Robotics? [MUST KNOW TIPS]", "url": "https://youtu.be/NRj6gzah7JA"},
+        {"text": "▶️ Lecture 1: Princeton: Introduction to Robotics", "url": "https://youtu.be/e4jow5O3JT8"},
+        {"text": "▶️ A Quick Learning Path for Robotics Enthusiasts", "url": "https://youtu.be/H2W1SJX2lnA"}
+      ]
+    },
+    {
+      "kategorie": "Grundlagen & Theorie",
+      "thema": "Deutschsprachige Playlists zu Physik und Elektrotechnik",
+      "beschreibung": "Eine Sammlung deutschsprachiger Lern-Playlists zu fundamentalen Themen: Schaltungstechnik (Dioden), elektrischer Strom, Mechanik, Magnetismus, Wechselstrom, elektromagnetische Wellen, moderne Physik, Kinematik und Thermodynamik.",
+      "tags": ["fundamentals", "physics", "electronics", "mechanics", "german", "education", "playlist", "theory"],
+      "links": [
+        {"text": "🌐 Playlist: Schaltungstechnik - Diode", "url": "https://youtube.com/playlist?list=PLjkreDBz1mhDrDO590zUy3eM1_4EtO5aW"},
+        {"text": "🌐 Playlist: Der elektrische Strom", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2Yz0itz0atA1S9eGGMUvWx6"},
+        {"text": "🌐 Playlist: Mechanik", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2Ykh6cfsGKslk6nOtll8tZn"},
+        {"text": "🌐 Playlist: Magnetismus", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2bSV5nt8FGvlxU1ksUSC6AC"},
+        {"text": "🌐 Playlist: Wechselstrom", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2Y37uiCyBBTzeFXXOZKtyE9"},
+        {"text": "🌐 Playlist: Elektromagnetische Wellen", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2b24c9ikGJzQq2_VXkUeeTT"},
+        {"text": "🌐 Playlist: Moderne Physik", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2Z0hphgksW481KEJpU2Le2c"},
+        {"text": "🌐 Playlist: Klassische Mechanik - Kinematik", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2YiZaBF9xMb82kSpBc3YnxQ"},
+        {"text": "🌐 Playlist: Thermodynamik", "url": "https://youtube.com/playlist?list=PLdTL21qNWp2YKtHlyM7u_AOaQaBcvqdrO"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "BLDC-Motoren und Induktoren erklärt (Animation & Deutsch)",
+      "beschreibung": "Zwei Videos, die komplexe elektrotechnische Komponenten einfach erklären: eine detaillierte 3D-Animation zur Funktionsweise von bürstenlosen DC-Motoren (BLDC) und eine deutschsprachige Erklärung zur Funktion von Induktoren (Spulen).",
+      "tags": ["bldc-motor", "inductor", "electronics", "fundamentals", "animation", "german"],
+      "links": [
+        {"text": "▶️ Detailierte Animation und Erklärung zu BLDC", "url": "https://youtu.be/Hw1q-jbhPzc"},
+        {"text": "▶️ Induktoren Erklärt (Deutsch)", "url": "https://youtu.be/M5lkGIKPfEI"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Verschiedene DIY Roboterprojekte",
+      "beschreibung": "Eine Sammlung diverser DIY-Roboter: ein humanoider Roboter, der Elon Musk Konkurrenz machen soll, ein Strandbeest-Laufroboter mit Arduino und Bluetooth, ein kleiner Roboterarm, der Positionen speichern und abspielen kann, und eine 3D-druckbare Roboter-Greifklaue.",
+      "tags": ["diy", "robotics", "humanoid", "strandbeest", "robot-arm", "3d-printing", "arduino"],
+      "links": [
+        {"text": "▶️ Roboter Fuß stellung mit servos", "url": "https://youtube.com/shorts/y9avnBE9dP4"},
+        {"text": "▶️ I Made a Humanoid Robot So Elon Doesn't Have To", "url": "https://youtu.be/czqxcbXoTck"},
+        {"text": "▶️ Robot Arduino Bluetooth - Strandbeest", "url": "https://youtu.be/7GV7c4Zakis"},
+        {"text": "▶️ MINI-Roboterarm mit Arduino - Positionen speichern/abspielen", "url": "https://youtu.be/cWuJPlkmxCE"},
+        {"text": "▶️ Garra Robótica Print in Place", "url": "https://youtu.be/xXpsLLNZdv4"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Innovative mechanische Konzepte",
+      "beschreibung": "Eine Sammlung von Projekten, die innovative mechanische Konzepte zeigen: ein Einrad, das sich mit zwei Reaktionsrädern stabilisiert, ein interner Zykloiden-Aktor und ein hochpräzises Untersetzungsgetriebe, das auf Seilen basiert.",
+      "tags": ["mechanical-design", "innovation", "unicycle", "reaction-wheel", "cycloidal-drive", "gearbox", "diy"],
+      "links": [
+        {"text": "▶️ Unicycle with two reaction wheels", "url": "https://youtu.be/gByWvAQIvNI"},
+        {"text": "▶️ Built an Internal Cycloidal Robotic Actuator", "url": "https://youtu.be/GakFB8Tdd98"},
+        {"text": "▶️ High Precision Speed Reducer Using Rope", "url": "https://youtu.be/MwIBTbumd1Q"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Isaac Sim 4.5 & 5.0 Installation Guide",
+      "beschreibung": "Ein praktischer Leitfaden, der die besten und erfolgreichsten Methoden zur Installation von NVIDIA Isaac Sim in den Versionen 4.5 und 5.0 zusammenfasst.",
+      "tags": ["isaac-sim", "nvidia", "installation", "tutorial", "simulation", "robotics"],
+      "links": [
+        {"text": "▶️ Isaac Sim 4.5 (and 5.0) Installation: What's Worked Best For Me", "url": "https://youtu.be/LwoDkLR7iIo"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Feldorientierte Regelung (FOC) für BLDC-Motoren",
+      "beschreibung": "Eine Sammlung von Projekten und Tutorials zur Implementierung von FOC (Field-Oriented Control) für eine präzise Steuerung von BLDC-Motoren. Beinhaltet eine Implementierung von Grund auf mit STM32, einen DIY FOC-Motortreiber und einen sensorlosen Ansatz mit SimpleFOC.",
+      "tags": ["foc", "bldc-motor", "motor-control", "stm32", "simplefoc", "diy", "electronics", "advanced"],
+      "links": [
+        {"text": "▶️ Field-Oriented Control (FOC) on STM32 From Scratch", "url": "https://youtu.be/AmS22zwl2EA"},
+        {"text": "▶️ I Built a DIY FOC Motor Driver", "url": "https://youtu.be/e0sQnVmE7DU"},
+        {"text": "▶️ ESP32 dual motor BLDC driver! fully support simpleFOC", "url": "https://youtu.be/IgbAx9IfV7Q"},
+        {"text": "▶️ Sensorless FOC For Precise BLDC Motor Control", "url": "https://youtu.be/WQlTYPqzlNI"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "DIY Batteriemanagementsystem (BMS)",
+      "beschreibung": "Ein Projekt, das die Entwicklung eines eigenen, verbesserten Batteriemanagementsystems (BMS) zeigt, da viele kommerzielle Lösungen als unzureichend empfunden werden.",
+      "tags": ["diy", "bms", "battery", "electronics", "power-management", "safety"],
+      "links": [
+        {"text": "▶️ Most BMSs don't cut it... I Built a BETTER One", "url": "https://youtu.be/UUr-CJudg38"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Innovative Motorkonzepte und Getriebe",
+      "beschreibung": "Eine Sammlung von Videos, die unkonventionelle und hocheffiziente mechanische Designs vorstellen: Axialflussmotoren, verschiedene 3D-gedruckte Planeten- und Winkelgetriebe sowie ein Präzisionsgetriebe ohne Zahnräder.",
+      "tags": ["motor-design", "gearbox", "3d-printing", "planetary-gearbox", "harmonic-drive", "innovation", "diy"],
+      "links": [
+        {"text": "▶️ Why aren't more motors built like this?", "url": "https://youtu.be/pCOjnsGfSAg"},
+        {"text": "▶️ Harmonic Drive 3D Printed", "url": "https://youtu.be/kkSxEHqEnHA"},
+        {"text": "▶️ Massive Torque 3D Printed Planetary Gearbox!", "url": "https://youtu.be/JtEKrBaZDvM"},
+        {"text": "▶️ High Precision Angular Gearbox, 3D Printed and Tested", "url": "https://youtu.be/VXcuryyRGbo"},
+        {"text": "▶️ I made a precision gearbox - with NO GEARS", "url": "https://youtu.be/YFJJkZm796I"},
+        {"text": "🌐 Playlist: All about gears", "url": "https://youtube.com/playlist?list=PL4Yme23PQa9njUgvH2o2HP03-4RtZObzO"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Tipps und Projekte für den 3D-Druck",
+      "beschreibung": "Eine Sammlung nützlicher Ratschläge und kreativer Projekte rund um den 3D-Druck: 12 Jahre Erfahrung in 30 Minuten, Erstellung von Miniatur-3D-Modellen von Wanderungen, Umwandlung von Städten in 3D-Modelle und der Druck von zwei lebensgroßen Windturbinen.",
+      "tags": ["3d-printing", "tips-and-tricks", "diy", "3d-modeling", "large-scale-printing", "terrain-model"],
+      "links": [
+        {"text": "▶️ 12 years of 3D printing advice in 30 minutes", "url": "https://youtu.be/zBz8qvj8MgI"},
+        {"text": "▶️ Create Amazing Miniature Models Of Your Hikes and Biketrips", "url": "https://youtu.be/c_WVyThEix0"},
+        {"text": "▶️ Turn any City into a 3D Model in Seconds - FREE", "url": "https://youtu.be/a0oo_HKDAmA"},
+        {"text": "▶️ I 3D Printed TWO Life-Size WIND TURBINES", "url": "https://youtu.be/nEckd19kpMs"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Innovative DIY-Projekte: Fliegendes LED-Display und Solarauto",
+      "beschreibung": "Zwei einzigartige DIY-Projekte: ein fliegendes LED-Display (Persistence of Vision), das in der Luft Bilder erzeugt, und der Bau eines ferngesteuerten Solarautos.",
+      "tags": ["diy", "pov-display", "led-display", "solar-car", "electronics", "maker", "innovation"],
+      "links": [
+        {"text": "▶️ My Flying LED Display works WAY better than I was expecting", "url": "https://youtu.be/HgyS1SajC6s"},
+        {"text": "▶️ Building Solar Car", "url": "https://youtu.be/r_vgdKqoODA"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY CNC-Maschinen: Heißdrahtschneider, Drehbank und Großformat",
+      "beschreibung": "Eine Sammlung von Projekten zum Bau verschiedener CNC-Maschinen: ein Heißdrahtschneider für Schaumstoff, eine verbesserte, 3D-gedruckte Drehbank und eine Anleitung für eine vollformatige CNC-Fräse für 500€.",
+      "tags": ["diy", "cnc", "hotwire-cutter", "lathe", "3d-printing", "maker", "fabrication"],
+      "links": [
+        {"text": "▶️ Building a CNC Hotwire Cutter", "url": "https://youtu.be/I6zhZPQWuu4"},
+        {"text": "▶️ Printed A Better Lathe", "url": "https://youtu.be/6Js8erWbsDQ"},
+        {"text": "▶️ Full-Size CNC for €500?! Guide to Build Your Own", "url": "https://youtu.be/iIKaBGbAQsc"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Wasserdichter 3D-gedruckter BLDC-Motor",
+      "beschreibung": "Ein Experiment, um herauszufinden, ob ein 3D-gedruckter, bürstenloser Motor so konstruiert werden kann, dass er auch unter Wasser zuverlässig funktioniert.",
+      "tags": ["3d-printing", "bldc-motor", "waterproof", "diy", "experiment", "engineering"],
+      "links": [
+        {"text": "▶️ Waterproof 3D Printed Brushless Motor.. Will it work?", "url": "https://youtu.be/b3Ntj46i91g"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Augensteuerung für schnellere Code-Editoren",
+      "beschreibung": "Ein experimentelles Projekt, das untersucht, wie Eye-Tracking-Technologie eingesetzt werden kann, um die Interaktion mit Code-Editoren zu beschleunigen und die Effizienz beim Programmieren zu steigern.",
+      "tags": ["eye-tracking", "human-computer-interaction", "programming", "software-development", "experiment", "assistive-technology"],
+      "links": [
+        {"text": "▶️ Faster code editors, ep06 - Eye tracking", "url": "https://youtu.be/NK-6XOi54Cg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Die schnellste Drohne der Welt: Design & Aerodynamik",
+      "beschreibung": "Ein Video, das den Designprozess und die aerodynamischen Überlegungen hinter dem Bau der schnellsten Drohne der Welt detailliert beleuchtet.",
+      "tags": ["drone", "high-speed", "aerodynamics", "engineering", "design-process", "world-record"],
+      "links": [
+        {"text": "▶️ World's Fastest Drone | Design & Aerodynamics", "url": "https://youtu.be/-Iu6k9qJQ4I"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Quasi-Direktantriebsmotor (QDD) - Hohes Drehmoment ohne Getriebe",
+      "beschreibung": "Vorstellung eines Motortyps (Quasi-Direct Drive), der so leistungsstark und drehmomentstark ist, dass er in vielen Roboteranwendungen auf ein schweres und komplexes Getriebe verzichten kann.",
+      "tags": ["qdd", "direct-drive", "motor-technology", "robotics", "actuator", "high-torque", "gearless"],
+      "links": [
+        {"text": "▶️ The Motor So Powerful, It Doesn’t Need Gears", "url": "https://youtu.be/bDSGWd0TSBA"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY Platinenherstellung und Bestückung",
+      "beschreibung": "Eine Sammlung von Open-Source- und DIY-Lösungen für den gesamten PCB-Workflow: Lasern eigener Platinen, eine schnelle Pick-and-Place-Maschine (LumenPnP v4) und ein automatischer Lotpasten-Dispenser.",
+      "tags": ["diy", "pcb", "laser-engraving", "pick-and-place", "smd", "open-source", "electronics-fabrication"],
+      "links": [
+        {"text": "▶️ The Last PCB You'll Ever Buy", "url": "https://youtu.be/A_IUIyyqw0M"},
+        {"text": "▶️ LumenPnP v4 is here! (and it's crazy fast)", "url": "https://youtu.be/JlkTcxh-9gA"},
+        {"text": "▶️ The paste dispenser can now automatically paste your PCBs!", "url": "https://youtu.be/_qklxlJc-04"},
+        {"text": "🌐 Opulo Store", "url": "https://www.opulo.io/cart"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "Neuartiges Untersetzungsgetriebe: Der logarithmische Antrieb",
+      "beschreibung": "Vorstellung eines neuartigen, hochpräzisen Untersetzungsgetriebes namens 'Logarithmic Drive', das auf logarithmischen Spiralen basiert und als Open Source verfügbar ist.",
+      "tags": ["gearbox", "reducer", "innovation", "open-source", "mechanical-design", "precision-engineering", "3d-simulation"],
+      "links": [
+        {"text": "▶️ Novel Reducer - The Logarithmic Drive", "url": "https://youtu.be/MuUpLS3ENZ0"},
+        {"text": "🌐 GitHub Projekt", "url": "https://github.com/promakina/logarithmic-drive/tree/main"},
+        {"text": "🌐 Webseite", "url": "https://logarithmictech.com/"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY 10$ Digitaler Video-Sender & Empfänger für FPV",
+      "beschreibung": "Ein DIY-Projekt zum Bau eines extrem kostengünstigen digitalen FPV-Systems (Sender & Empfänger) für Drohnen und RC-Anwendungen, das 60/90 FPS Videoübertragung ermöglicht.",
+      "tags": ["diy", "fpv", "drone", "digital-video", "low-cost", "rc-car", "radio-communication"],
+      "links": [
+        {"text": "▶️ DIY 10$ Digital Video Transmitter & Receiver", "url": "https://youtu.be/i73PIZorhhw"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY privates Off-Grid-Netzwerk mit Meshtastic & ESP32",
+      "beschreibung": "Zwei Anleitungen zum Aufbau eines eigenen, dezentralen und netzunabhängigen Kommunikationsnetzwerks mit LoRa und Meshtastic auf Basis von ESP32-Boards. Ideal für Notfallkommunikation oder abgelegene Gebiete.",
+      "tags": ["diy", "meshtastic", "lora", "esp32", "off-grid", "mesh-network", "solar-power"],
+      "links": [
+        {"text": "▶️ How to Build Your Own Private Off-Grid Network using Lora?", "url": "https://youtu.be/Nb3wIhO6MGg"},
+        {"text": "▶️ The $180 Meshtastic Solar Node Build Guide 2025", "url": "https://youtu.be/1H6_Da1xRVs"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Umbau eines Akkuschraubers zum Robotermotor",
+      "beschreibung": "Ein praktisches Tutorial, das zeigt, wie man einen gewöhnlichen Akkuschrauber zerlegt und dessen leistungsstarken Motor und das Getriebe für den Einsatz in Robotik-Projekten umfunktionieren kann.",
+      "tags": ["diy", "upcycling", "robot-motor", "gearbox", "cordless-drill-hack", "maker"],
+      "links": [
+        {"text": "▶️ Convert a Cordless Drill into a Robot Motor", "url": "https://youtu.be/V8oX0Xu0acY"},
+        {"text": "▶️ Attaching Wheels to Drill Motors!", "url": "https://youtu.be/ixDFyPZFSI0"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Design eines selbstlösenden Zauberwürfels (Teil 1)",
+      "beschreibung": "Der erste Teil eines komplexen Projekts, das den Design- und Konstruktionsprozess eines Roboters zeigt, der einen Zauberwürfel (Rubik's Cube) selbstständig lösen kann.",
+      "tags": ["diy", "rubiks-cube", "robotics", "design-process", "3d-printing", "maker", "wip"],
+      "links": [
+        {"text": "▶️ Designing a Self Solving Rubik's Cube (PART 1)", "url": "https://youtu.be/pwk_pV98Wiw"}
+      ]
+    },
+    {
+      "kategorie": "Open Source Hardware & Forschung",
+      "thema": "Open Source Aktenvernichter für 3D-Druck-Abfälle",
+      "beschreibung": "Vorstellung eines erschwinglichen, quelloffenen Mikro-Schredders, der speziell dafür entwickelt wurde, fehlgeschlagene 3D-Drucke und andere Kunststoffabfälle zu zerkleinern, um sie für das Recycling vorzubereiten.",
+      "tags": ["open-source", "3d-printing", "recycling", "shredder", "sustainability", "diy"],
+      "links": [
+        {"text": "▶️ The Affordable Micro Shredder for 3D Printing Waste", "url": "https://youtu.be/vEFb7B1Xozg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Alten Ventilator mit ESP32 smart machen",
+      "beschreibung": "Ein IoT-Projekt, das zeigt, wie man einen alten, einfachen Ventilator mit einem ESP32 nachrüstet, um ihn 'smart' zu machen, d.h. ihn über WLAN steuerbar und in ein Smart-Home-System integrierbar zu machen.",
+      "tags": ["diy", "esp32", "iot", "smart-home", "upcycling", "home-automation"],
+      "links": [
+        {"text": "▶️ I Made My Old Fan Smart with ESP32", "url": "https://youtu.be/wz0s6kUy5E4"}
+      ]
+    },
+    {
+      "kategorie": "Showcase & Inspiration",
+      "thema": "Weltweit erster modularer Roboter D1 - Er kann sich transformieren!",
+      "beschreibung": "Ein Showcase-Video, das den D1 vorstellt, den weltweit ersten modularen Roboter, der sich in verschiedene Formen transformieren kann, um unterschiedliche Aufgaben zu erledigen.",
+      "tags": ["showcase", "modular-robot", "transformer", "innovation", "robotics", "future-tech"],
+      "links": [
+        {"text": "▶️ World's FIRST Modular Robot D1 Unveiled!", "url": "https://youtu.be/GbL3mjoZtOA"}
+      ]
+    },
+    {
+      "kategorie": "Mechanik & Inspiration",
+      "thema": "3 Jahre Engineering für eine Wasserflasche",
+      "beschreibung": "Ein Video, das den extremen und langwierigen Design- und Prototyping-Prozess hinter der Entwicklung einer scheinbar einfachen Wasserflasche zeigt. Ein Beispiel für durchdachtes Produktdesign.",
+      "tags": ["product-design", "engineering", "prototyping", "design-process", "inspiration"],
+      "links": [
+        {"text": "▶️ Spent 3 Years Engineering my Water Bottle", "url": "https://youtu.be/BsaXAf3SwU0"},
+        {"text": "▶️ After 11 Prototypes, I finally did it", "url": "https://youtu.be/RzFl3H5293M"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Straußen-Roboter als KI-Engineering-Schulprojekt in Isaac Lab",
+      "beschreibung": "Ein Studentenprojekt, das zeigt, wie ein zweibeiniger Straußen-Roboter in NVIDIA Isaac Lab simuliert und trainiert wird. Ein praktisches Beispiel für die Anwendung von KI-Simulation in der Ausbildung.",
+      "tags": ["isaac-lab", "nvidia", "simulation", "legged-robot", "student-project", "ai", "reinforcement-learning"],
+      "links": [
+        {"text": "▶️ submitted an Ostrich Robot as my Al Engineering School Project", "url": "https://youtu.be/NqZw8wzoy9s"}
+      ]
+    },
+    {
+      "kategorie": "NVIDIA Isaac Sim & Omniverse",
+      "thema": "Training eines Roboters von Grund auf in Simulation (URDF zu OpenUSD)",
+      "beschreibung": "Eine Live-Session von NVIDIA, die den gesamten Workflow zeigt, um einen Roboter von einem URDF-Modell in das OpenUSD-Format zu konvertieren und ihn dann von Grund auf in einer Simulationsumgebung zu trainieren.",
+      "tags": ["nvidia", "isaac-sim", "simulation", "urdf", "openusd", "robot-training", "ai", "live-session"],
+      "links": [
+        {"text": "▶️ Training a Robot from Scratch in Simulation", "url": "https://www.youtube.com/live/_HMk7I-vSBQ"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "KI und LLMs: Lokale Modelle, RAG und Automatisierung",
+      "beschreibung": "Eine umfangreiche Sammlung von Ressourcen zu KI-Agenten, RAG (Retrieval-Augmented Generation), der lokalen Ausführung von LLMs wie Llama 3 und der Automatisierung von Workflows mit Tools wie n8n, Flowise und Kestra.",
+      "tags": ["ai", "llm", "rag", "ai-agent", "n8n", "flowise", "kestra", "automation", "langgraph", "llama3", "local-llm"],
+      "links": [
+        {"text": "▶️ Artificial Brain Controlled RC Truck", "url": "https://youtu.be/nL_UZBd93sw"},
+        {"text": "▶️ Artificial Brain Controlled Robot", "url": "https://youtu.be/Yy-74OWABB8"},
+        {"text": "▶️ So führen Sie private und unzensierte LLMs offline aus", "url": "https://youtu.be/eiMSapoeyaU"},
+        {"text": "▶️ RAG AI Agent in n8n mit Supabase in 10 Minuten", "url": "https://youtu.be/03COdSrOk1o"},
+        {"text": "▶️ Hybrid RAG: Mastering Context", "url": "https://youtu.be/Xb_sIwlqZ0k"},
+        {"text": "▶️ GraphRAG with KùzuDB", "url": "https://youtu.be/m61u3mqu1qY"},
+        {"text": "▶️ Das BESTE n8n RAG-System", "url": "https://youtu.be/YGRO2FHOOCU"},
+        {"text": "▶️ Flowise Grundlagen - Alles, was Du wissen musst!", "url": "https://youtu.be/GEYixPDCl1k"},
+        {"text": "▶️ Diese KI macht Agenten einfach... Ist Flowise V3 der n8n-Killer?", "url": "https://youtu.be/3aKh6n0fvUA"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "HomeLab, Automatisierung und DevOps: Kestra, Docker, Ansible, GitLab",
+      "beschreibung": "Eine Serie von Videos über den Aufbau und die Automatisierung eines HomeLabs. Behandelt werden die Open-Source-Plattform Kestra, die Automatisierung von Docker und Ansible-Playbooks sowie die selbstgehostete Bereitstellung von GitLab.",
+      "tags": ["homelab", "automation", "kestra", "docker", "ansible", "gitlab", "devops", "self-hosting"],
+      "links": [
+        {"text": "▶️ My NEW HomeLab automation platform // Kestra", "url": "https://youtu.be/D4cixQ_Ek4Y"},
+        {"text": "▶️ I automated EVERYTHING in my HomeLab // Kestra #2", "url": "https://youtu.be/PJG1-7hMHsE"},
+        {"text": "▶️ Self-hosted Automation for Git, Webhooks, and more // Kestra #3", "url": "https://youtu.be/hpAJjtUjZOE"},
+        {"text": "▶️ Self-hosting GitLab: A complete HomeLab deployment", "url": "https://youtu.be/wLmF8jV5ka"},
+        {"text": "▶️ Automate Ansible Playbooks with Kestra", "url": "https://youtu.be/CPPee31IpLw"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Virtualisierung und Systemadministration: Proxmox, Docker, Linux, Paperless-NGX",
+      "beschreibung": "Eine Sammlung von Einführungen und Kursen zu Virtualisierung mit Proxmox, Containern mit Docker, dem Umstieg auf Linux, der Einrichtung eines papierlosen Büros mit Paperless-NGX und einem deutschen Linux-Grundkurs.",
+      "tags": ["proxmox", "docker", "linux", "paperless-ngx", "virtualization", "self-hosting", "tutorial", "german"],
+      "links": [
+        {"text": "🌐 Playlist: Proxmox Full Course", "url": "https://youtube.com/playlist?list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo"},
+        {"text": "🌐 Playlist: Proxmox - Sempervideo (Deutsch)", "url": "https://youtube.com/playlist?list=PL3-bM7Aq1pUpSTIQiffrCiR29Z-SCS9wd"},
+        {"text": "🌐 Playlist: Docker - Sempervideo (Deutsch)", "url": "https://youtube.com/playlist?list=PL3-bM7Aq1pUrae2-RLbfjct2cQXGBYVhD"},
+        {"text": "▶️ Paperless-NGX: Das papierlose Büro", "url": "https://youtu.be/ycLwmM0UZ4Q"},
+        {"text": "▶️ Win-10-Ende: So einfach gehts zu Linux!", "url": "https://youtu.be/-H8T8CNsJQk"},
+        {"text": "🌐 Playlist: Linux Grundkurs (Deutsch)", "url": "https://youtube.com/playlist?list=PLhvaM7uJr1PCUlTvyLGxZqwn7tZ2YM8xF"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Lokale KI-Modelle und Model Context Protocol (MCP)",
+      "beschreibung": "Ressourcen zur lokalen Ausführung von KI-Modellen wie Qwen3 Coder und zur Nutzung des Model Context Protocol (MCP), einem neuen Standard, der es KI-Modellen ermöglicht, mit Software und Tools zu interagieren.",
+      "tags": ["local-llm", "mcp", "ai-agent", "qwen", "claude-code", "python", "tutorial"],
+      "links": [
+        {"text": "▶️ How to Install and Run Qwen3 Coder Locally", "url": "https://youtu.be/eH6jjARJynY"},
+        {"text": "▶️ Model-Context-Protokoll (MCP) - Die neue Lingua Franca für KI", "url": "https://youtu.be/XPMe53q61XU"},
+        {"text": "▶️ MCP verändert alles | KI bedient eure Software", "url": "https://youtu.be/S_4VUJ-x8hE"},
+        {"text": "▶️ Intro to MCP Servers – Model Context Protocol with Python Course", "url": "https://youtu.be/DosHnyq78xY"},
+        {"text": "▶️ MCP In 26 Minutes (Model Context Protocol)", "url": "https://youtu.be/kOhLoixrJXo"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "LangChain & LangGraph: Frameworks für LLM-Anwendungen",
+      "beschreibung": "Eine Sammlung von Playlists und Videos zu LangChain und dem neueren LangGraph. Behandelt werden die Grundlagen, neue Features, der Vergleich der Frameworks und die Erstellung von KI-Agenten und RAG-Pipelines.",
+      "tags": ["langchain", "langgraph", "llm", "ai-agent", "rag", "python", "tutorial", "playlist"],
+      "links": [
+        {"text": "▶️ LangChain 1.0 Just Took a Huge Leap Forward", "url": "https://youtu.be/KJumd9xR0S8"},
+        {"text": "▶️ LangChain vs LangGraph: A Tale of Two Frameworks", "url": "https://youtu.be/qAF1NjEVHhY"},
+        {"text": "🌐 Playlist: LangGraph (Python)", "url": "https://youtube.com/playlist?list=PLfaIDFEXuae16n2TWUkKq5PgJ0w6Pkwtg"},
+        {"text": "🌐 Playlist: LangGraph Crash Course", "url": "https://youtube.com/playlist?list=PLNIQLFWpQMRXmns-7UarmPIR6DN7bgEzZ"},
+        {"text": "🌐 Playlist: Agentic AI using LangGraph", "url": "https://youtube.com/playlist?list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Claude Code und Agent OS: KI-gestützte Softwareentwicklung",
+      "beschreibung": "Tutorials und Einblicke in die Verwendung von Claude Code für praktische Engineering-Aufgaben und die Vorstellung von Agent OS v2, einem Framework für spezifikationsgetriebene Entwicklung mit beliebigen KI-Tools.",
+      "tags": ["claude-code", "ai-assistant", "software-development", "agent-os", "programming", "tutorial"],
+      "links": [
+        {"text": "▶️ How I use Claude Code for real engineering", "url": "https://youtu.be/kZ-zzHVUrO4"},
+        {"text": "▶️ 800+ hours of Learning Claude Code in 8 minutes", "url": "https://youtu.be/Ffh3OeJ7yxw"},
+        {"text": "▶️ Agent OS v2: Spec-Driven Development", "url": "https://youtu.be/kApsR0l9Jfw"},
+        {"text": "🌐 Playlist: Claude Code Tutorial", "url": "https://youtube.com/playlist?list=PL4cUxeGkcC9g4YJeBqKQ9TRiivY&si=bssVO88-resEhJF_"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Grundlagen der Versionskontrolle: Git & GitHub",
+      "beschreibung": "Eine Sammlung von Crashkursen und Tutorials für Anfänger, die die Grundlagen der Versionskontrolle mit Git und der Kollaborationsplattform GitHub erklären.",
+      "tags": ["git", "github", "version-control", "software-development", "tutorial", "beginner", "crash-course"],
+      "links": [
+        {"text": "▶️ Git Explained in 100 Seconds", "url": "https://youtu.be/hwP7WQkmECE"},
+        {"text": "▶️ Git & GitHub Crash Course 2025", "url": "https://youtu.be/vA5TTz6BXhY"},
+        {"text": "▶️ Git and GitHub - Full Course", "url": "https://youtu.be/rH3zE7VlIMs"},
+        {"text": "▶️ Git Basics in 15 Minutes", "url": "https://youtu.be/99Gv9lRfYk-NdO4e"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Grundlagen von CI/CD und Kubernetes",
+      "beschreibung": "Einführungen in moderne DevOps-Konzepte: ein Tutorial zu Continuous Integration/Continuous Deployment (CI/CD) mit GitHub Actions, eine 5-minütige Erklärung von CI/CD und ein Crashkurs zu den Grundlagen von Kubernetes.",
+      "tags": ["ci-cd", "github-actions", "kubernetes", "devops", "system-design", "tutorial", "fundamentals"],
+      "links": [
+        {"text": "▶️ CI/CD Tutorial using GitHub Actions", "url": "https://youtu.be/YLtlz88zrLg"},
+        {"text": "▶️ CI/CD In 5 Minutes", "url": "https://youtu.be/42UP1fxi2SY"},
+        {"text": "▶️ What I Wish I Knew About Kubernetes", "url": "https://youtu.be/3FsDvRRf4cg"}
+      ]
+    },
+    {
+      "kategorie": "KI, Computer Vision & Machine Learning",
+      "thema": "Raspberry Pi AI Hat Setup und LLM-Performance",
+      "beschreibung": "Ein Video, das die Einrichtung des offiziellen Raspberry Pi AI Hat zeigt und die Leistung bei der Ausführung von lokalen Large Language Models (LLMs) auf dem Gerät testet.",
+      "tags": ["raspberry-pi-5", "ai-hat", "edge-ai", "llm", "hardware", "benchmark", "setup"],
+      "links": [
+        {"text": "▶️ Raspberry Pi Ai Hat Setup & LLM Performance", "url": "https://youtu.be/Sjz3i2437hg"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "DIY All-in-One Sensor-Board",
+      "beschreibung": "Ein Projekt zum Bau eines kompakten All-in-One-Sensor-Boards, das GPS, Bewegungssensoren (IMU), einen Kompass und einen Höhenmesser auf einer einzigen Platine integriert.",
+      "tags": ["diy", "sensor-board", "gps", "imu", "electronics", "maker", "all-in-one"],
+      "links": [
+        {"text": "▶️ I Built an All-in-One Sensor Board!", "url": "https://youtu.be/h3pf6U9573g"}
+      ]
+    },
+    {
+      "kategorie": "Hardware, Elektronik & Motoren",
+      "thema": "Selbstkalibrierender Motor: Messung von R und L durch den Treiber",
+      "beschreibung": "Ein technisches Video, das erklärt, wie ein moderner BLDC-Motortreiber seine eigenen Motorparameter (Widerstand R und Induktivität L) automatisch messen kann (Self-Commissioning), was die Einrichtung und Optimierung erheblich vereinfacht.",
+      "tags": ["bldc-motor", "motor-control", "foc", "autotune", "electronics", "advanced", "self-commissioning"],
+      "links": [
+        {"text": "▶️ Self-Commissioning Motor", "url": "https://youtu.be/Y03_IWMAKjk"}
+      ]
+    },
+    {
+      "kategorie": "ROS & Softwareentwicklung",
+      "thema": "Visual Studio Code und PlatformIO für ESP32",
+      "beschreibung": "Zwei nützliche Tutorials für die ESP32-Entwicklung: eine 7-minütige Einführung in Visual Studio Code und eine Anleitung zur Verwendung des LittleFS-Dateisystems mit PlatformIO, um Daten persistent auf dem ESP32 zu speichern.",
+      "tags": ["vscode", "platformio", "esp32", "littlefs", "tutorial", "programming", "ide"],
+      "links": [
+        {"text": "▶️ Learn Visual Studio Code in 7min", "url": "https://youtu.be/B-s71n0dHUk"},
+        {"text": "▶️ LittleFS Dateisystem mit PlatformIO & ESP32 Core verwenden", "url": "https://youtu.be/YkMTfAYenu4"}
+      ]
+    },
+    {
+      "kategorie": "DIY Projekte & 3D-Druck",
+      "thema": "Einfaches ESP32 OLED-Projekt für Anfänger",
+      "beschreibung": "Ein einsteigerfreundliches Projekt, das man an einem Tag fertigstellen kann und das zeigt, wie man ein OLED-Display mit einem ESP32 ansteuert, um Informationen anzuzeigen.",
+      "tags": ["diy", "esp32", "oled", "beginner-project", "tutorial", "electronics"],
+      "links": [
+        {"text": "▶️ ESP32 OLED Project You Can Finish Today!", "url": "https://youtu.be/wiu2lC0JfTA"}
+      ]
+    },
+    {
       "kategorie": "Showcase & Inspiration",
       "thema": "Kreative & unkonventionelle Fluggeräte",
       "beschreibung": "Eine Sammlung von inspirierenden und ungewöhnlichen Flugobjekten. Von einer Drohne, die als Papierflugzeug getarnt ist, über einen fliegenden Regenschirm bis hin zu einer beeindruckenden Drohnen-Lichtshow und einem riesigen DIY-Build.",
@@ -3248,10 +3845,10 @@
     }
   ],
   "meta": {
-    "version": "2.2",
-    "last_updated": "2025-01-17",
-    "total_resources": 172,
-    "categories": 10,
+    "version": "3.0",
+    "last_updated": "2025-10-17",
+    "total_resources": 300+,
+    "categories": 10+,
     "tag_system": "hierarchical-multilevel",
     "language": "de-descriptions-en-tags",
     "description": "Umfassende Robotik-Ressourcen-Datenbank mit systematisch überarbeiteten Tags, detailliert aufgeteilten Drohnen-Projekten und logisch organisierten Kategorien",
